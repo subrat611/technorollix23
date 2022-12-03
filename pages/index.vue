@@ -1,6 +1,14 @@
 <template>
   <div class="main-wrapper">
     <pre-loader v-show="isLoad"></pre-loader>
+    <div class="main-hero-wrapper">
+      <div class="bg-video">
+        <video autoplay loop muted src="~/assets/videos/hero-bg-2.mp4"></video>
+      </div>
+      <div class="content">
+        <p class="techno-title">TECHNOROLLIX</p>
+      </div>
+    </div>
     <div v-show="!isLoad" class="hero-wrapper">
       <div class="hero-img">
         <div class="darshan-img">
@@ -75,6 +83,30 @@ export default {
 .main-wrapper {
   height: 100%;
   width: 100vw;
+
+  .main-hero-wrapper {
+    height: 100vh;
+    width: 100vw;
+
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .techno-title {
+        font-size: 7rem;
+        color: #fff;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px;
+      }
+    }
+  }
 
   .hero-wrapper {
     width: 100%;
