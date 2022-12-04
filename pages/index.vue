@@ -1,12 +1,18 @@
 <template>
   <div class="main-wrapper">
     <pre-loader v-show="isLoad"></pre-loader>
-    <div class="main-hero-wrapper">
+    <div v-show="!isLoad" class="main-hero-wrapper">
       <div class="bg-video">
-        <video autoplay loop muted src="~/assets/videos/hero-bg-2.mp4"></video>
+        <video
+          autoplay
+          loop
+          muted
+          src="~/assets/videos/hero-bg-2-compress.mp4"
+        ></video>
       </div>
       <div class="content">
         <p class="techno-title">TECHNOROLLIX</p>
+        <p class="techno-sub">2023</p>
       </div>
     </div>
     <div v-show="!isLoad" class="hero-wrapper">
@@ -83,10 +89,19 @@ export default {
 .main-wrapper {
   height: 100%;
   width: 100vw;
+  background: #000;
 
   .main-hero-wrapper {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+    position: relative;
+
+    .bg-video {
+      video {
+        width: 100%;
+        height: 100%;
+      }
+    }
 
     .content {
       position: absolute;
@@ -95,15 +110,29 @@ export default {
       height: 100%;
       width: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
 
       .techno-title {
-        font-size: 7rem;
+        font-size: 6rem;
         color: #fff;
         font-weight: 800;
-        font-family: 'Montserrat', sans-serif;
-        text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px;
+        // font-family: 'Montserrat', sans-serif;
+        font-family: 'origin Tech';
+        letter-spacing: 0.2em;
+        text-shadow: rgba(157, 83, 255, 1) 0px 0px 15px,
+          rgba(157, 83, 255, 1) 0px 0px 15px, rgba(157, 83, 255, 1) 0px 0px 15px;
+      }
+
+      .techno-sub {
+        margin-top: 1rem;
+        text-align: center;
+        color: #fff;
+        font-size: 5rem;
+        font-family: 'origin Tech';
+        text-shadow: rgba(157, 83, 255, 1) 0px 0px 15px,
+          rgba(157, 83, 255, 1) 0px 0px 15px, rgba(157, 83, 255, 1) 0px 0px 15px;
       }
     }
   }
@@ -204,7 +233,8 @@ export default {
         color: #ffffcb;
         z-index: 2;
         // text-shadow: rgba(128, 128, 128, 0.9) 0px 0px 13px;
-        text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px;
+        text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px,
+          rgba(255, 247, 94, 1) 0px 0px 20px;
         &::selection {
           background: none;
         }
@@ -244,9 +274,9 @@ export default {
           }
         }
 
-        span:first-child,
-        svg {
-          text-shadow: rgb(255, 71, 224, 0.8) 0px 0px 15px;
+        span:first-child {
+          text-shadow: rgba(255, 0, 193, 1) 0px 0px 15px,
+            rgba(255, 0, 193, 0.5) 0px 0px 10px;
         }
 
         svg {
