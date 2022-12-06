@@ -89,28 +89,28 @@ export default {
     }
 
     .bg-color {
-        opacity: 0.3;
-        background-image: linear-gradient(
-          109.6deg,
-          rgba(45, 116, 213, 1) 11.2%,
-          rgba(121, 137, 212, 1) 91.2%
-        );
-        background: #ff0084; /* fallback for old browsers */
-        background: -webkit-linear-gradient(
-          to left,
-          #33001b,
-          #ff0084
-        ); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(
-          to left,
-          #33001b,
-          #ff0084
-        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-image: radial-gradient(
-          circle 610px at 5.2% 51.6%,
-          rgba(5, 8, 114, 1) 0%,
-          rgba(7, 3, 53, 1) 97.5%
-        );
+      opacity: 0.3;
+      background-image: linear-gradient(
+        109.6deg,
+        rgba(45, 116, 213, 1) 11.2%,
+        rgba(121, 137, 212, 1) 91.2%
+      );
+      background: #ff0084; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to left,
+        #33001b,
+        #ff0084
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to left,
+        #33001b,
+        #ff0084
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-image: radial-gradient(
+        circle 610px at 5.2% 51.6%,
+        rgba(5, 8, 114, 1) 0%,
+        rgba(7, 3, 53, 1) 97.5%
+      );
     }
 
     .bg-blur {
@@ -183,6 +183,19 @@ export default {
       }
       &:hover span:first-child {
         transform: translateX(-5px);
+      }
+    }
+  }
+}
+
+@media (max-width: '360px') {
+  .junoon-section {
+    .hero-text {
+      .title {
+        font-size: 4.8rem;
+      }
+      .reg-btn {
+        margin-top: 9rem;
       }
     }
   }

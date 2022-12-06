@@ -75,4 +75,17 @@ export default {
     }
   }
 }
+
+@media (max-width: '360px') {
+  .hero-wrapper {
+    .content {
+      .techno-title {
+        font-size: 2.3rem;
+      }
+      .techno-sub {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
 </style>

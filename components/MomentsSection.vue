@@ -1,9 +1,13 @@
 <template>
   <div class="pride-moments">
     <div class="pride-moment-bg">
-      <!-- <img src="~/assets/img/bg-1.jpg" alt="" srcset="" /> -->
-      <video pause muted src="~/assets/videos/3d-bg.mp4"></video>
+      <img src="~/assets/img/bg.png" alt="background" />
       <div class="overlay"></div>
+    </div>
+    <div class="content">
+      <div class="main-text">
+        <span class="title">Our Pride Moments</span>
+      </div>
     </div>
   </div>
 </template>
@@ -24,7 +28,7 @@ export default {
     height: 100%;
     position: relative;
 
-    video {
+    img {
       filter: blur(1.3px);
       position: absolute;
       top: 0;
@@ -32,7 +36,6 @@ export default {
       height: 100%;
       width: 100%;
       object-fit: cover;
-      transform: rotate(180deg);
     }
 
     .overlay {
@@ -47,6 +50,41 @@ export default {
         rgba(110, 44, 107, 1) 91.1%
       );
       opacity: 0.2;
+    }
+  }
+
+  .content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    .main-text {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .title {
+        color: #fff;
+        font-size: 6.2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: '360px') {
+  .pride-moments {
+    .content {
+      .main-text {
+        .title {
+          font-size: 2rem;
+        }
+      }
     }
   }
 }
