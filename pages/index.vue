@@ -2,6 +2,7 @@
   <div class="main-wrapper">
     <pre-loader v-show="isLoad"></pre-loader>
     <div v-show="!isLoad" class="wrapper">
+      <notify-add v-show="isShowNotif" @close-add="closeAdd" />
       <hero-section />
       <moments-section />
       <junoon-section />
@@ -15,6 +16,7 @@ export default {
   data() {
     return {
       isLoad: true,
+      isShowNotif: true,
     }
   },
   mounted() {
@@ -29,6 +31,11 @@ export default {
         sessionStorage.setItem('allowLoader', false)
       }, 0)
     }
+  },
+  methods: {
+    closeAdd() {
+      this.isShowNotif = !this.isShowNotif
+    },
   },
 }
 </script>

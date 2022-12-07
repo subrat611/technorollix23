@@ -19,26 +19,6 @@
       </div>
       <div class="reg-btn">
         <span>Get ticket</span>
-        <svg
-          version="1.0"
-          xmlns="http://www.w3.org/2000/svg"
-          width="32.000000pt"
-          height="32.000000pt"
-          viewBox="0 0 32.000000 32.000000"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          <g
-            transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
-            fill="#c916ab"
-            stroke="none"
-          >
-            <path
-              d="M260 216 c0 -5 7 -18 17 -28 16 -17 11 -18 -125 -18 -88 0 -142 -4
--142 -10 0 -6 54 -10 142 -10 141 0 141 0 123 -20 -30 -33 -11 -32 20 0 l29
-30 -32 33 c-18 17 -32 28 -32 23z"
-            />
-          </g>
-        </svg>
       </div>
     </div>
   </div>
@@ -153,42 +133,40 @@ export default {
     .reg-btn {
       display: flex;
       align-items: center;
-      margin-top: 17rem;
+      margin-top: 15rem;
       cursor: pointer;
 
       span:first-child {
         font-family: 'Poppins', sans-serif;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 1.3rem;
-        color: #c916ab;
         letter-spacing: 0.02em;
         transition: all 100ms ease-in-out;
+
+        padding: 0.6em 1.7rem;
+        background: rgba(255, 125, 252, 0.12);
+        border-radius: 3px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border: 1px solid rgba(255, 125, 252, 0.26);
+        color: #fff;
+        text-shadow: rgba(255, 0, 193, 0.5) 0px 0px 10px,
+          rgba(255, 0, 193, 0.5) 0px 0px 10px;
+
         &::selection {
           background: none;
         }
-      }
 
-      span:first-child {
-        text-shadow: rgba(255, 0, 193, 1) 0px 0px 15px,
-          rgba(255, 0, 193, 0.5) 0px 0px 10px;
-      }
-
-      svg {
-        margin-left: 0.5rem;
-        transition: all 100ms ease-in-out;
-      }
-
-      &:hover svg {
-        transform: translateX(5px);
-      }
-      &:hover span:first-child {
-        transform: translateX(-5px);
+        &:hover {
+          background: rgba(255, 125, 252, 0.22);
+        }
       }
     }
   }
 }
 
-@media (max-width: '360px') {
+@media (max-width: '912px') {
   .junoon-section {
     .hero-text {
       .title {
@@ -196,6 +174,10 @@ export default {
       }
       .reg-btn {
         margin-top: 9rem;
+
+        span:first-child {
+          font-size: 1.05rem;
+        }
       }
     }
   }

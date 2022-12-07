@@ -77,7 +77,7 @@ export default {
   }
 }
 
-@media (max-width: '360px') {
+@media all and (max-width: '912px') {
   .pride-moments {
     .content {
       .main-text {

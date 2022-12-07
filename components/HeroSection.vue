@@ -11,6 +11,8 @@
     <div class="content">
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
+      <p class="techno-date">1<sup>st</sup> MARCH - 4<sup>th</sup> MARCH</p>
+      <p class="reg-btn">Register</p>
     </div>
   </div>
 </template>
@@ -52,6 +54,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 
     .techno-title {
       font-size: 7rem;
@@ -73,10 +76,42 @@ export default {
       text-shadow: rgba(91, 212, 247, 1) 0px 0px 15px,
         rgba(91, 212, 247, 1) 0px 0px 15px, rgba(91, 212, 247, 1) 0px 0px 15px;
     }
+
+    .techno-date {
+      margin-top: 0.5em;
+      font-size: 2rem;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      // text-shadow: rgba(91, 212, 247, 0.5) 0px 0px 10px,
+      //   rgba(91, 212, 247, 0.8) 0px 0px 12px, rgba(91, 212, 247, 1) 0px 0px 10px;
+      text-shadow: rgba(132, 220, 207, 0.7) 0px 0px 10px,
+        rgba(132, 220, 207, 0.6) 0px 0px 10px;
+    }
+
+    .reg-btn {
+      margin-top: 0.9rem;
+      padding: 0.6em 1.7rem;
+      background: rgba(63, 194, 255, 0.11);
+      border-radius: 3px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(3.3px);
+      -webkit-backdrop-filter: blur(3.3px);
+      border: 1px solid rgba(63, 194, 255, 0.63);
+      font-weight: normal;
+      font-size: 1.3rem;
+      color: #fff;
+      text-shadow: rgba(63, 194, 255, 0.63) 0px 0px 6px,
+        rgba(63, 194, 255, 0.63) 0px 0px 5px;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(63, 194, 255, 0.19);
+      }
+    }
   }
 }
 
-@media (max-width: '360px') {
+@media all and (max-width: '912px') {
   .hero-wrapper {
     .content {
       .techno-title {
@@ -84,6 +119,12 @@ export default {
       }
       .techno-sub {
         font-size: 1.3rem;
+      }
+      .techno-date {
+        font-size: 1.1rem;
+      }
+      .reg-btn {
+        font-size: 1.05rem;
       }
     }
   }
