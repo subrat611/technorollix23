@@ -8,6 +8,13 @@
       <div class="main-text">
         <span class="title">Our Pride Moments</span>
       </div>
+      <div class="images-on-scroll">
+        <img src="~/assets/img/moments/1.JPG" alt="pride-moments-pic" />
+        <img src="~/assets/img/moments/2.JPG" alt="pride-moments-pic" />
+        <img src="~/assets/img/moments/3.JPG" alt="pride-moments-pic" />
+        <!-- <img src="~/assets/img/moments/4.JPG" alt="pride-moments-pic" />
+        <img src="~/assets/img/moments/5.JPG" alt="pride-moments-pic" /> -->
+      </div>
     </div>
   </div>
 </template>
@@ -72,6 +79,38 @@ export default {
         font-size: 6.2rem;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
+      }
+    }
+
+    .images-on-scroll {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 22%;
+        width: 300px;
+        border-radius: 4px;
+      }
+
+      img:nth-child(3) {
+        top: 40%;
+        left: 4%;
+      }
+
+      img:nth-child(2) {
+        top: 70%;
+        left: 12%;
+      }
+
+      img:nth-child(1) {
+        top: 10%;
+        left: 18%;
       }
     }
   }
