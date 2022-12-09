@@ -33,14 +33,15 @@ export default {
 
   .nav-bar {
     /* From https://css.glass */
-    // background: rgba(122, 40, 203, 0.52);
-    // border-radius: 16px;
-    // backdrop-filter: blur(2.8px);
-    // -webkit-backdrop-filter: blur(2.8px);
-    // border: 1px solid rgba(122, 40, 203, 0.3);
+    background: rgba(42, 157, 143, 0.57);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(42, 157, 143, 0.3);
 
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    background-color: #131515;
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    // background-color: #131515;
     height: 50px;
     width: 50px;
     border-radius: 50%;

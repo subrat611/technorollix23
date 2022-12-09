@@ -17,9 +17,9 @@
       <div>
         <p class="title">Junoon</p>
       </div>
-      <div class="reg-btn">
+      <!-- <div class="reg-btn">
         <span>Get ticket</span>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
