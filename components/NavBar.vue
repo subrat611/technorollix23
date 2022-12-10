@@ -177,7 +177,7 @@ export default {
         .nav-item {
           padding: 3rem 0;
           a {
-            font-size: 3.15rem;
+            font-size: 3.05rem;
           }
         }
       }
