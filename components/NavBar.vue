@@ -1,9 +1,29 @@
 <template>
-  <div class="nav-container" @click="openMenu">
-    <div class="nav-bar">
-      <div :class="toggleMenu ? 'bar-one-click' : 'bar-one'"></div>
-      <div :class="toggleMenu ? 'bar-two-click' : 'bar-two'"></div>
-      <div :class="toggleMenu ? 'bar-three-click' : 'bar-three'"></div>
+  <div>
+    <div class="nav-container" @click="openMenu">
+      <div class="nav-bar">
+        <div :class="toggleMenu ? 'bar-one-click' : 'bar-one'"></div>
+        <div :class="toggleMenu ? 'bar-two-click' : 'bar-two'"></div>
+        <div :class="toggleMenu ? 'bar-three-click' : 'bar-three'"></div>
+      </div>
+    </div>
+    <div v-show="toggleMenu" class="nav-content">
+      <div class="nav-items-content">
+        <ul class="nav-items">
+          <li class="nav-item">
+            <nuxt-link to="/">events</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/">schedule</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/">team</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link to="/">gallery</nuxt-link>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -29,7 +49,7 @@ export default {
   position: fixed;
   bottom: 3%;
   right: 5%;
-  z-index: 1;
+  z-index: 4;
 
   .nav-bar {
     /* From https://css.glass */
@@ -71,6 +91,96 @@ export default {
 
     .bar-three-click {
       transform: rotate(-45deg) translate(6px, -6px);
+    }
+  }
+}
+
+.nav-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 3;
+  // transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  height: 100vh;
+  width: 100vw;
+  // animation: toggle-menu-0957edea 0.7s cubic-bezier(0.65, 0.05, 0.36, 1)
+  //   forwards alternate;
+
+  .nav-items-content {
+    height: 100%;
+    width: 100%;
+    .nav-items {
+      height: inherit;
+      width: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-left: 1.6rem;
+
+      .nav-item {
+        a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 5rem;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 800;
+          letter-spacing: 0.06em;
+          transition: color 0.3s ease-in-out;
+
+          &:hover {
+            color: aqua;
+          }
+        }
+
+        width: fit-content;
+        transition: scale 0.3s ease-in-out;
+        scale: 1;
+
+        &:hover {
+          scale: 1.04;
+        }
+      }
+    }
+  }
+}
+
+@keyframes toggle-menu {
+  0% {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    border-radius: 100%;
+    height: 40%;
+    width: 50%;
+  }
+  50% {
+    border-radius: 85% 40% 0 0;
+  }
+  70% {
+    border-radius: 70% 10% 0 0;
+  }
+  100% {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media (max-width: '912px') {
+  .nav-content {
+    .nav-items-content {
+      .nav-items {
+        display: block;
+        padding-top: 2rem;
+
+        .nav-item {
+          padding: 3rem 0;
+          a {
+            font-size: 3.15rem;
+          }
+        }
+      }
     }
   }
 }

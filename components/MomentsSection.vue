@@ -9,9 +9,21 @@
         <span class="title">Our Pride Moments</span>
       </div>
       <div class="images-on-scroll">
-        <img src="~/assets/img/moments/1.JPG" alt="pride-moments-pic" />
-        <img src="~/assets/img/moments/2.JPG" alt="pride-moments-pic" />
-        <img src="~/assets/img/moments/3.JPG" alt="pride-moments-pic" />
+        <img
+          src="~/assets/img/moments/1.JPG"
+          alt="pride-moments-pic"
+          draggable="false"
+        />
+        <img
+          src="~/assets/img/moments/2.JPG"
+          alt="pride-moments-pic"
+          draggable="false"
+        />
+        <img
+          src="~/assets/img/moments/3.JPG"
+          alt="pride-moments-pic"
+          draggable="false"
+        />
         <!-- <img src="~/assets/img/moments/4.JPG" alt="pride-moments-pic" />
         <img src="~/assets/img/moments/5.JPG" alt="pride-moments-pic" /> -->
       </div>
