@@ -104,8 +104,8 @@ export default {
   // transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   height: 100vh;
   width: 100vw;
-  // animation: toggle-menu-0957edea 0.7s cubic-bezier(0.65, 0.05, 0.36, 1)
-  //   forwards alternate;
+  animation: toggle-menu 0.6s cubic-bezier(0.65, 0.05, 0.36, 1) forwards
+    alternate;
 
   .nav-items-content {
     height: 100%;
@@ -119,6 +119,7 @@ export default {
       padding-left: 1.6rem;
 
       .nav-item {
+        animation: fade-in 0.8s cubic-bezier(0.65, 0.05, 0.36, 1);
         a {
           color: #fff;
           text-decoration: none;
@@ -149,21 +150,22 @@ export default {
 @keyframes toggle-menu {
   0% {
     position: fixed;
-    top: 90%;
-    left: 90%;
-    border-radius: 100%;
-    height: 40%;
-    width: 50%;
-  }
-  50% {
-    border-radius: 85% 40% 0 0;
-  }
-  70% {
-    border-radius: 70% 10% 0 0;
+    top: 0;
+    height: 10vh;
+    width: 100%;
   }
   100% {
     height: 100vh;
     width: 100vw;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
