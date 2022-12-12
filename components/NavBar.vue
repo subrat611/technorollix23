@@ -10,20 +10,23 @@
     <div v-show="toggleMenu" class="nav-content">
       <div class="nav-items-content">
         <ul class="nav-items">
-          <li class="nav-item">
-            <nuxt-link to="/">events</nuxt-link>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/">home</nuxt-link>
           </li>
-          <li class="nav-item">
-            <nuxt-link to="/">schedule</nuxt-link>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/commingsoon">events</nuxt-link>
           </li>
-          <li class="nav-item">
-            <nuxt-link to="/">team</nuxt-link>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/commingsoon">schedule</nuxt-link>
           </li>
-          <li class="nav-item">
-            <nuxt-link to="/">gallery</nuxt-link>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/commingsoon">team</nuxt-link>
           </li>
-           <li class="nav-item">
-            <nuxt-link to="/">about us</nuxt-link>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/commingsoon">gallery</nuxt-link>
+          </li>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/commingsoon">about us</nuxt-link>
           </li>
         </ul>
       </div>
@@ -126,7 +129,7 @@ export default {
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          font-size: 5rem;
+          font-size: 4rem;
           font-family: 'Montserrat', sans-serif;
           font-weight: 800;
           letter-spacing: 0.06em;
@@ -176,12 +179,12 @@ export default {
     .nav-items-content {
       .nav-items {
         display: block;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
 
         .nav-item {
-          padding: 2.5rem 0;
+          padding: 1.5rem 0;
           a {
-            font-size: 3.05rem;
+            font-size: 2.5rem;
           }
         }
       }
