@@ -5,7 +5,7 @@
       autoplay
       loop
       muted
-      src="~/assets/videos/loading.mp4"
+      src="~/assets/videos/loding-video.mp4"
     ></video>
   </div>
 </template>

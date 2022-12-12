@@ -10,17 +10,17 @@
       </div>
       <div class="images-on-scroll">
         <img
-          src="~/assets/img/moments/1.JPG"
+          src="~/assets/img/moments/1-min.JPG"
           alt="pride-moments-pic"
           draggable="false"
         />
         <img
-          src="~/assets/img/moments/2.JPG"
+          src="~/assets/img/moments/2-min.JPG"
           alt="pride-moments-pic"
           draggable="false"
         />
         <img
-          src="~/assets/img/moments/3.JPG"
+          src="~/assets/img/moments/3-min.JPG"
           alt="pride-moments-pic"
           draggable="false"
         />
