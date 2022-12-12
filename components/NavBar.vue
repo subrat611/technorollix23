@@ -22,6 +22,9 @@
           <li class="nav-item">
             <nuxt-link to="/">gallery</nuxt-link>
           </li>
+           <li class="nav-item">
+            <nuxt-link to="/">about us</nuxt-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -176,7 +179,7 @@ export default {
         padding-top: 2rem;
 
         .nav-item {
-          padding: 3rem 0;
+          padding: 2.5rem 0;
           a {
             font-size: 3.05rem;
           }
