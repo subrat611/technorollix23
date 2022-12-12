@@ -101,7 +101,6 @@ export default {
   left: 0;
   background: #000;
   z-index: 3;
-  // transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   height: 100vh;
   width: 100vw;
   animation: toggle-menu 0.6s cubic-bezier(0.65, 0.05, 0.36, 1) forwards
