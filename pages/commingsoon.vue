@@ -2,7 +2,7 @@
   <div>
     <nav-bar />
     <div class="container">
-      <h1>site development is in progress...</h1>
+      <p>site development is in progress...</p>
     </div>
   </div>
 </template>
@@ -22,11 +22,11 @@ export default {
   align-items: center;
   background: #000;
 
-  h1 {
+  p {
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     color: #fff;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     letter-spacing: 0.01em;
   }
