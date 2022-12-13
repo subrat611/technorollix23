@@ -21,17 +21,20 @@ export default {
     }
   },
   mounted() {
-    if (!sessionStorage.getItem('allowLoader')) {
-      setTimeout(() => {
-        this.isLoad = false
-        sessionStorage.setItem('allowLoader', false)
-      }, 4100)
-    } else {
-      setTimeout(() => {
-        this.isLoad = false
-        sessionStorage.setItem('allowLoader', false)
-      }, 0)
-    }
+    // if (!sessionStorage.getItem('allowLoader')) {
+    //   setTimeout(() => {
+    //     this.isLoad = false
+    //     sessionStorage.setItem('allowLoader', false)
+    //   }, 4100)
+    // } else {
+    //   setTimeout(() => {
+    //     this.isLoad = false
+    //     sessionStorage.setItem('allowLoader', false)
+    //   }, 0)
+    // }
+    setTimeout(() => {
+      this.isLoad = false
+    }, 5000)
   },
   methods: {
     closeAdd() {

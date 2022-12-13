@@ -30,4 +30,13 @@ export default {
     width: 80%;
   }
 }
+
+@media all and (max-width: '912px') {
+  .loading-screen {
+    video {
+      height: 95%;
+      width: 95%;
+    }
+  }
+}
 </style>

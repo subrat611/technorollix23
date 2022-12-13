@@ -129,7 +129,7 @@ export default {
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          font-size: 4rem;
+          font-size: 3rem;
           font-family: 'Montserrat', sans-serif;
           font-weight: 800;
           letter-spacing: 0.06em;
