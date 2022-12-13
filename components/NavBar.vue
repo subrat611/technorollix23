@@ -116,7 +116,7 @@ export default {
     height: 100%;
     width: 100%;
     .nav-items {
-      height: inherit;
+      height: 80%;
       width: inherit;
       display: flex;
       flex-direction: column;
