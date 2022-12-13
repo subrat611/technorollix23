@@ -1,12 +1,7 @@
 <template>
   <div>
     <div class="addvert">
-      <p>
-        site is under development. would you like to
-        <a href="https://github.com/subrat611/technorollix23" target="_blank"
-          >contribute</a
-        >
-      </p>
+      <p>site development is in progress</p>
       <p class="cross-btn" @click="$emit('close-add')">X</p>
     </div>
   </div>
@@ -36,11 +31,7 @@ export default {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
-
-    a {
-      font-weight: 700;
-      color: #004fff;
-    }
+    font-size: 1.01rem;
   }
 
   .cross-btn {

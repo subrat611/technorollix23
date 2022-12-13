@@ -12,7 +12,7 @@
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
       <p class="techno-date">1<sup>st</sup> MARCH - 4<sup>th</sup> MARCH</p>
-      <p class="reg-btn">Register</p>
+      <p class="reg-btn" @click="$router.push('register')">Register</p>
     </div>
   </div>
 </template>
@@ -20,6 +20,9 @@
 <script>
 export default {
   name: 'HeroSection',
+  head: {
+    title: "Technorollix'23 | O.P Jindal University",
+  },
 }
 </script>
 

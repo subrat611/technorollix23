@@ -2,33 +2,31 @@
   <div>
     <nav-bar />
     <div class="container">
-      <h1>site development is in progress...</h1>
+      <h1>Registration open very soon....</h1>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'CommingSoon',
+  name: 'RegisterPage',
 }
 </script>
 
 <style lang="scss" scoped>
 .container {
-  height: 100vh;
-  width: 100vw;
+  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
+  height: 100vh;
 
   h1 {
-    font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
+    padding: 0 1rem;
     color: #fff;
-    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
     text-align: center;
-    letter-spacing: 0.01em;
   }
 }
 </style>
