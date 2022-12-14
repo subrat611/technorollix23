@@ -9,31 +9,54 @@
         <span class="title">Our Pride Moments</span>
       </div>
       <div class="images-on-scroll">
-        <!-- <img
-          src="~/assets/img/moments/1-min.JPG"
-          alt="pride-moments-pic"
-          draggable="false"
-        />
-        <img
-          src="~/assets/img/moments/2-min.JPG"
-          alt="pride-moments-pic"
-          draggable="false"
-        />
-        <img
-          src="~/assets/img/moments/3-min.JPG"
-          alt="pride-moments-pic"
-          draggable="false"
-        /> -->
-        <!-- <img src="~/assets/img/moments/4.JPG" alt="pride-moments-pic" />
-        <img src="~/assets/img/moments/5.JPG" alt="pride-moments-pic" /> -->
+        <div class="container">
+          <div class="image-container">
+            <img
+              class="pride-img"
+              src="~/assets/img/moments/1-min.JPG"
+              alt="pride-moments-pic"
+              draggable="false"
+            />
+            <img
+              class="pride-img"
+              src="~/assets/img/moments/2-min.JPG"
+              alt="pride-moments-pic"
+              draggable="false"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="~/assets/img/moments/4-min.JPG"
+              alt="pride-moments-pic"
+              draggable="false"
+            />
+            <img
+              src="~/assets/img/moments/5-min.JPG"
+              alt="pride-moments-pic"
+              draggable="false"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { gsap } from 'gsap'
+
 export default {
   name: 'MomentsSection',
+  mounted() {
+    gsap.registerPlugin('ScrollTrigger')
+
+    gsap.to('.image-container', {
+      yPercent: -100,
+      duration: 12,
+      repeat: -1,
+      yoyo: true,
+    })
+  },
 }
 </script>
 
@@ -101,28 +124,38 @@ export default {
       height: 100%;
       width: 100%;
 
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 22%;
-        width: 300px;
-        border-radius: 4px;
-      }
+      .container {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
 
-      img:nth-child(3) {
-        top: 40%;
-        left: 4%;
-      }
+        .image-container {
+          position: relative;
+          height: 100%;
 
-      img:nth-child(2) {
-        top: 70%;
-        left: 12%;
-      }
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 40%;
+            width: 30%;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+              rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          }
 
-      img:nth-child(1) {
-        top: 10%;
-        left: 18%;
+          img:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            transform: rotate(-5deg);
+          }
+
+          img:nth-child(2) {
+            top: 40%;
+            left: 60%;
+            transform: rotate(-5deg);
+          }
+        }
       }
     }
   }
@@ -134,6 +167,31 @@ export default {
       .main-text {
         .title {
           font-size: 2rem;
+        }
+      }
+      .images-on-scroll {
+        .container {
+          width: 100%;
+          .image-container {
+            height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+              position: relative;
+              height: 200px;
+              width: 300px;
+            }
+            img:nth-child(1) {
+              left: -3%;
+              transform: rotate(0);
+            }
+            img:nth-child(2) {
+              left: 5%;
+              transform: rotate(0);
+            }
+          }
         }
       }
     }

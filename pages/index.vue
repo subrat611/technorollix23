@@ -21,20 +21,20 @@ export default {
     }
   },
   mounted() {
-    // if (!sessionStorage.getItem('allowLoader')) {
-    //   setTimeout(() => {
-    //     this.isLoad = false
-    //     sessionStorage.setItem('allowLoader', false)
-    //   }, 4100)
-    // } else {
-    //   setTimeout(() => {
-    //     this.isLoad = false
-    //     sessionStorage.setItem('allowLoader', false)
-    //   }, 0)
-    // }
-    setTimeout(() => {
-      this.isLoad = false
-    }, 5000)
+    if (!sessionStorage.getItem('allowLoader')) {
+      setTimeout(() => {
+        this.isLoad = false
+        sessionStorage.setItem('allowLoader', false)
+      }, 4100)
+    } else {
+      setTimeout(() => {
+        this.isLoad = false
+        sessionStorage.setItem('allowLoader', false)
+      }, 0)
+    }
+    // setTimeout(() => {
+    //   this.isLoad = false
+    // }, 5000)
   },
   methods: {
     closeAdd() {
@@ -52,6 +52,7 @@ export default {
 
   .wrapper {
     position: relative;
+    padding-bottom: 0.5rem;
   }
 
   .pride-moment {

@@ -180,6 +180,21 @@ export default {
         }
       }
     }
+
+    .hero-img {
+
+      .jubin-img {
+        img {
+          object-position: center center;
+        }
+      }
+
+      .shirely-img {
+        img {
+          object-position: 30% center;
+        }
+      }
+    }
   }
 }
 </style>
