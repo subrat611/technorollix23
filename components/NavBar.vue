@@ -14,7 +14,7 @@
             <nuxt-link to="/">home</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/commingsoon">events</nuxt-link>
+            <nuxt-link to="/event">events</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
             <nuxt-link to="/commingsoon">schedule</nuxt-link>
