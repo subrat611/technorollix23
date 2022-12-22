@@ -23,7 +23,7 @@
             <nuxt-link to="/commingsoon">team</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/commingsoon">gallery</nuxt-link>
+            <nuxt-link to="/gallery">gallery</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
             <nuxt-link to="/commingsoon">about us</nuxt-link>
