@@ -4,8 +4,8 @@
       <img src="~/assets/img/bg.png" />
     </div>
     <div class="card-content">
-      <p>Event name</p>
-      <p>
+      <p class="card-title">{{ eventName }}</p>
+      <p class="card-desc">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam
         fuga, deleniti accusantium neque repudiandae id quos esse in iste.
       </p>
@@ -17,6 +17,12 @@
 <script>
 export default {
   name: 'EventCard',
+  props: {
+    eventName: {
+      type: String,
+      default: 'Event name',
+    },
+  },
 }
 </script>
 
@@ -29,7 +35,7 @@ export default {
   box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
   backdrop-filter: blur(3.3px);
   -webkit-backdrop-filter: blur(3.3px);
-    border: 1px solid rgba(255, 217, 252, 0.2);
+  border: 1px solid rgba(255, 217, 252, 0.2);
   padding: 1rem;
 
   .card-img {
@@ -43,14 +49,17 @@ export default {
   .card-content {
     width: 100%;
 
-    p:first-child {
+    .card-title {
       font-size: 1.4rem;
       padding: 0.7rem 0;
       font-weight: 600;
+      text-transform: capitalize;
     }
 
-    p:last-child {
+    .card-desc {
       line-height: 1.2rem;
+      text-transform: capitalize;
+      padding: 0 1rem 0 0;
     }
 
     button {
@@ -63,6 +72,7 @@ export default {
       text-transform: capitalize;
       border-radius: 3px;
       outline: none;
+      letter-spacing: 0.05em;
 
       background: rgba(255, 255, 255, 0.116);
       box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);

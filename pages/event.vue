@@ -4,7 +4,11 @@
     <div class="event-container">
       <p class="page-title">Events</p>
       <div class="event-lists">
-        <event-card v-for="(e, i) in 10" :key="i" />
+        <event-card
+          v-for="(event, i) in events"
+          :key="i"
+          :event-name="event.event_name"
+        />
       </div>
     </div>
   </div>
@@ -15,6 +19,76 @@ import EventCard from '~/components/EventCard.vue'
 export default {
   name: 'EventPage',
   components: { EventCard },
+  data() {
+    return {
+      events: [
+        {
+          event_name: 'shart tank',
+          event_desc: '',
+        },
+        {
+          event_name: 'KalaKriti',
+          event_desc: '',
+        },
+        {
+          event_name: 'antaragni',
+          event_desc: '',
+        },
+        {
+          event_name: 'ideathon',
+          event_desc: '',
+        },
+        {
+          event_name: 'YuvaSadan',
+          event_desc: '',
+        },
+        {
+          event_name: 'robovation',
+          event_desc: '',
+        },
+        {
+          event_name: 'lan gaming',
+          event_desc: '',
+        },
+        {
+          event_name: 'battle of bands',
+          event_desc: '',
+        },
+        {
+          event_name: 'brainy escape',
+          event_desc: '',
+        },
+        {
+          event_name: 'tech lab',
+          event_desc: '',
+        },
+        {
+          event_name: 'roadies',
+          event_desc: '',
+        },
+        {
+          event_name: 'aaghaaz the fashion show',
+          event_desc: '',
+        },
+        {
+          event_name: 'food fiesta',
+          event_desc: '',
+        },
+        {
+          event_name: 'codigo code challenge',
+          event_desc: '',
+        },
+        {
+          event_name: 'talent hunt',
+          event_desc: '',
+        },
+        {
+          event_name: 'aero-show',
+          event_desc: '',
+        },
+      ],
+    }
+  },
 }
 </script>
 
