@@ -1,7 +1,7 @@
 <template>
   <div class="pride-moments">
     <div class="pride-moment-bg">
-      <img src="~/assets/img/bg.png" alt="background" />
+      <nuxt-img src="/bg.png" alt="background" format="webp" loading="lazy" />
       <div class="overlay"></div>
     </div>
     <div class="content">
@@ -11,29 +11,41 @@
       <div class="images-on-scroll">
         <div class="container">
           <div class="image-container">
-            <img
+            <nuxt-img
               class="pride-img"
-              src="~/assets/img/moments/1-min.JPG"
+              src="/moments/1-min.JPG"
               alt="pride-moments-pic"
-              draggable="false"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
             />
-            <img
+            <nuxt-img
               class="pride-img"
-              src="~/assets/img/moments/2-min.JPG"
+              src="/moments/2-min.JPG"
               alt="pride-moments-pic"
-              draggable="false"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
             />
           </div>
           <div class="image-container">
-            <img
-              src="~/assets/img/moments/4-min.JPG"
+            <nuxt-img
+              src="/moments/4-min.JPG"
               alt="pride-moments-pic"
-              draggable="false"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
             />
-            <img
-              src="~/assets/img/moments/5-min.JPG"
+            <nuxt-img
+              src="/moments/5-min.JPG"
               alt="pride-moments-pic"
-              draggable="false"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
             />
           </div>
         </div>

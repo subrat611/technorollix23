@@ -1,7 +1,7 @@
 <template>
   <div class="card-container">
     <div class="card-img">
-      <img src="~/assets/img/bg.png" />
+      <nuxt-img src="bg.png" />
     </div>
     <div class="card-content">
       <p class="card-title">{{ eventName }}</p>
