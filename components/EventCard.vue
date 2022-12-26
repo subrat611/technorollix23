@@ -6,8 +6,8 @@
     <div class="card-content">
       <p class="card-title">{{ eventName }}</p>
       <p class="card-desc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam
-        fuga, deleniti accusantium neque repudiandae id quos esse in iste.
+        {{ eventDesc }}
+        <nuxt-link to="/">...more</nuxt-link>
       </p>
       <button>register</button>
     </div>
@@ -21,6 +21,11 @@ export default {
     eventName: {
       type: String,
       default: 'Event name',
+    },
+    eventDesc: {
+      type: String,
+      default:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam fuga, deleniti accusantium neque repudiandae id quos esse in iste. Lorem ipsum dolor sit amet consectetur adipisicing elit',
     },
   },
 }
@@ -50,6 +55,7 @@ export default {
     width: 100%;
 
     .card-title {
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.4rem;
       padding: 0.7rem 0;
       font-weight: 600;
@@ -57,9 +63,17 @@ export default {
     }
 
     .card-desc {
-      line-height: 1.2rem;
+      line-height: 1.4rem;
       text-transform: capitalize;
-      padding: 0 1rem 0 0;
+      padding: 0 0.5rem 0 0;
+      color: #e5e5e5;
+      font-family: 'Montserrat', sans-serif;
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #00b4d8;
+      }
     }
 
     button {
@@ -72,7 +86,10 @@ export default {
       text-transform: capitalize;
       border-radius: 3px;
       outline: none;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.02em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
 
       background: rgba(255, 255, 255, 0.116);
       box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
@@ -97,12 +114,12 @@ export default {
     margin: 1rem 0.5rem;
 
     .card-content {
-      p:first-child {
-        font-size: 1.1rem;
+      .card-title {
+        font-size: 1.2rem;
       }
 
-      p:last-child {
-        font-size: 1rem;
+      .card-desc {
+        font-size: 0.9rem;
       }
 
       button {

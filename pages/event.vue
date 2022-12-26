@@ -8,6 +8,7 @@
           v-for="(event, i) in events"
           :key="i"
           :event-name="event.event_name"
+          :event-desc="event.event_desc"
         />
       </div>
     </div>
@@ -24,67 +25,55 @@ export default {
       events: [
         {
           event_name: 'shart tank',
-          event_desc: '',
         },
         {
           event_name: 'KalaKriti',
-          event_desc: '',
         },
         {
           event_name: 'antaragni',
-          event_desc: '',
         },
         {
           event_name: 'ideathon',
-          event_desc: '',
         },
         {
           event_name: 'YuvaSadan',
-          event_desc: '',
+          event_desc:
+            'The yuva sadan, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics.',
         },
         {
           event_name: 'robovation',
-          event_desc: '',
         },
         {
           event_name: 'lan gaming',
-          event_desc: '',
         },
         {
           event_name: 'battle of bands',
-          event_desc: '',
         },
         {
           event_name: 'brainy escape',
-          event_desc: '',
+          event_desc:
+            'A fun and exciting game for you to show your knowledge and intellectual skills and win exciting prizes. With different rounds to test your different skills and problem solving aptitude',
         },
         {
           event_name: 'tech lab',
-          event_desc: '',
         },
         {
           event_name: 'roadies',
-          event_desc: '',
         },
         {
           event_name: 'aaghaaz the fashion show',
-          event_desc: '',
         },
         {
           event_name: 'food fiesta',
-          event_desc: '',
         },
         {
           event_name: 'codigo code challenge',
-          event_desc: '',
         },
         {
           event_name: 'talent hunt',
-          event_desc: '',
         },
         {
           event_name: 'aero-show',
-          event_desc: '',
         },
       ],
     }
@@ -122,6 +111,10 @@ export default {
 
     .page-title {
       font-size: 2.5rem;
+    }
+
+    .event-lists {
+      margin-top: 3rem;
     }
   }
 }
