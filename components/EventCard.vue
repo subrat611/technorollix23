@@ -1,13 +1,11 @@
 <template>
   <div class="card-container">
-    <div class="card-img">
-      <nuxt-img src="bg.png" />
-    </div>
+    <div class="card-img"><nuxt-img :src="'/event/' + eventImg" /></div>
     <div class="card-content">
       <p class="card-title">{{ eventName }}</p>
       <p class="card-desc">
         {{ eventDesc }}
-        <nuxt-link to="/">...more</nuxt-link>
+        <nuxt-link to="/eventdetails/e">...more</nuxt-link>
       </p>
       <button>register</button>
     </div>
@@ -27,6 +25,10 @@ export default {
       default:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quisquam fuga, deleniti accusantium neque repudiandae id quos esse in iste. Lorem ipsum dolor sit amet consectetur adipisicing elit',
     },
+    eventImg: {
+      type: null,
+      default: 'yuva.jpg',
+    },
   },
 }
 </script>
@@ -41,7 +43,10 @@ export default {
   backdrop-filter: blur(3.3px);
   -webkit-backdrop-filter: blur(3.3px);
   border: 1px solid rgba(255, 217, 252, 0.2);
-  padding: 1rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .card-img {
     width: 100%;
@@ -112,6 +117,7 @@ export default {
   .card-container {
     width: 100%;
     margin: 1rem 0.5rem;
+    padding: 1rem;
 
     .card-content {
       .card-title {
@@ -120,6 +126,7 @@ export default {
 
       .card-desc {
         font-size: 0.9rem;
+        line-height: 1.3rem;
       }
 
       button {

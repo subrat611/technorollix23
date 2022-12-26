@@ -9,6 +9,7 @@
           :key="i"
           :event-name="event.event_name"
           :event-desc="event.event_desc"
+          :event-img="event.event_img"
         />
       </div>
     </div>
@@ -39,6 +40,7 @@ export default {
           event_name: 'YuvaSadan',
           event_desc:
             'The yuva sadan, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics.',
+          event_img: 'yuva.jpg',
         },
         {
           event_name: 'robovation',
