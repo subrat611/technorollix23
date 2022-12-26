@@ -56,6 +56,7 @@ export default {
           event_name: 'brainy escape',
           event_desc:
             'A fun and exciting game for you to show your knowledge and intellectual skills and win exciting prizes. With different rounds to test your different skills and problem solving aptitude',
+          event_img: 'quiz.jpg',
         },
         {
           event_name: 'tech lab',
