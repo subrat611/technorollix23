@@ -103,7 +103,6 @@ export default {
 
       img:nth-child(2) {
         align-self: flex-end;
-        z-index: 1;
         border-radius: 4px;
       }
     }
