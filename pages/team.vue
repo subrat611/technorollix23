@@ -28,72 +28,7 @@ export default {
           team: [
             {
               name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-          ],
-        },
-        {
-          name: 'Mentors',
-          team: [
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-          ],
-        },
-        {
-          name: 'Conveners',
-          team: [
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-          ],
-        },
-        {
-          name: 'Co-conveners',
-          team: [
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-          ],
-        },
-        {
-          name: 'Coordinators',
-          team: [
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
-              designation: 'Chancellor, OPJU',
-            },
-            {
-              name: 'Ms. Shallu Jindal',
-              image: '1.JPG',
+              image: 'shallu.png',
               designation: 'Chancellor, OPJU',
             },
           ],
