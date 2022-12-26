@@ -5,7 +5,7 @@
       <p class="card-title">{{ eventName }}</p>
       <p class="card-desc">
         {{ eventDesc }}
-        <nuxt-link to="/eventdetails/e">...more</nuxt-link>
+        <nuxt-link :to="`/eventdetails/` + index">...more</nuxt-link>
       </p>
       <button>register</button>
     </div>
@@ -28,6 +28,10 @@ export default {
     eventImg: {
       type: null,
       default: 'yuva.jpg',
+    },
+    index: {
+      type: Number,
+      default: 0,
     },
   },
 }

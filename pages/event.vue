@@ -10,6 +10,7 @@
           :event-name="event.event_name"
           :event-desc="event.event_desc"
           :event-img="event.event_img"
+          :index="i"
         />
       </div>
     </div>
