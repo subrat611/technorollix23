@@ -23,7 +23,10 @@ export default {
 <style lang="scss" scoped>
 .event-details-wrapper {
   background: #000;
-  padding: 1rem 0.5rem;
+  padding: 2rem 0.5rem 1rem 0.5rem;
   color: #fff;
+  min-height: 100vh;
+  max-height: 100%;
+  background-image: linear-gradient(to bottom, #600f634f, #58014059);
 }
 </style>

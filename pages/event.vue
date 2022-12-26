@@ -87,6 +87,7 @@ export default {
 <style lang="scss" scoped>
 .event-container {
   background: #000;
+  background-image: linear-gradient(to bottom, #41195f2d, #000000);
   height: 100%;
   width: 100vw;
   padding: 4rem 3rem 2rem 3rem;
