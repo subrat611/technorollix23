@@ -126,7 +126,7 @@ export default {
 
         img {
           width: 100%;
-          height: 280px;
+          height: 260px;
           padding: 1rem;
         }
       }
