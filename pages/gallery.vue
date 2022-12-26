@@ -123,10 +123,11 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0.5rem 0;
 
         img {
           width: 320px;
-          height: 235px;
+          height: 232px;
           margin-top: 1rem;
         }
         img:nth-child(2) {
