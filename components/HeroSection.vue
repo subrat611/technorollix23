@@ -5,7 +5,7 @@
         autoplay
         loop
         muted
-        src="~/assets/videos/hero-bg-video.mp4"
+        src="~/assets/videos/hero-bg-video1.mp4"
       ></video>
     </div>
     <div class="content">
@@ -44,6 +44,7 @@ export default {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      filter: blur(1px);
     }
   }
 
