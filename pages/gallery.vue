@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="gallery-container">
-      <h1 class="page-title">gallery page</h1>
+      <h1 class="page-title">gallery</h1>
       <div class="gallery">
         <div class="gallery-img">
           <nuxt-img
@@ -105,6 +105,30 @@ export default {
         align-self: flex-end;
         z-index: 1;
         border-radius: 4px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: '912px') {
+  .gallery-container {
+    .page-title {
+      font-size: 1.5rem;
+      z-index: 2;
+    }
+
+    .gallery {
+      .gallery-img {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        // margin-top: 2rem;
+
+        img {
+          width: 100%;
+          height: 280px;
+          padding: 1rem;
+        }
       }
     }
   }
