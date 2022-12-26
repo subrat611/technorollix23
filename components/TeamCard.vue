@@ -56,21 +56,23 @@ export default {
     transition: all 300ms ease-in-out;
 
     .title {
+      color: #ffffff;
       font-family: 'Montserrat', sans-serif;
       font-weight: bolder;
       letter-spacing: 0.05em;
       font-size: 1.6rem;
       text-shadow: rgb(241, 241, 241) 0px 0px 1px,
-        rgb(216, 216, 216) 0px 0px 1px;
+        rgba(211, 211, 211, 0.568) 0px 0px 2px;
     }
 
     .desig {
       padding-top: 1rem;
       font-family: 'Montserrat', sans-serif;
       font-weight: bolder;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
       font-size: 1rem;
-      text-shadow: rgb(241, 241, 241) 0px 0px 1px;
+      text-shadow: rgb(241, 241, 241) 0px 0px 1px,
+        rgba(216, 216, 216, 0.568) 0px 0px 2px;
     }
   }
 
