@@ -122,12 +122,15 @@ export default {
         height: 100%;
         flex-direction: column;
         justify-content: center;
-        // margin-top: 2rem;
+        align-items: center;
 
         img {
-          width: 100%;
-          height: 260px;
-          padding: 1rem;
+          width: 320px;
+          height: 240px;
+          margin-top: 1rem;
+        }
+        img:nth-child(2) {
+          align-self: center;
         }
       }
     }
