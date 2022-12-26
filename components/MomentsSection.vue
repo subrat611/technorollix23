@@ -64,7 +64,7 @@ export default {
 
     gsap.to('.image-container', {
       yPercent: -100,
-      duration: 12,
+      duration: 15,
       repeat: -1,
       yoyo: true,
     })
