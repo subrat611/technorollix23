@@ -1,6 +1,6 @@
 <template>
   <div class="team-card">
-    <nuxt-img :src="'/team/' + member.image" />
+    <nuxt-img :src="'/team/' + member.image" format="webp" loading="lazy" />
     <div class="overlay">
       <p class="title">{{ member.name }}</p>
       <p class="desig">{{ member.designation }}</p>
@@ -60,7 +60,8 @@ export default {
       font-weight: bolder;
       letter-spacing: 0.05em;
       font-size: 1.6rem;
-      text-shadow: rgb(241, 241, 241) 0px 0px 1px;
+      text-shadow: rgb(241, 241, 241) 0px 0px 1px,
+        rgb(216, 216, 216) 0px 0px 1px;
     }
 
     .desig {
