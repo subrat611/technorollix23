@@ -126,7 +126,7 @@ export default {
 
         img {
           width: 320px;
-          height: 240px;
+          height: 235px;
           margin-top: 1rem;
         }
         img:nth-child(2) {
