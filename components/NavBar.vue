@@ -20,7 +20,7 @@
             <nuxt-link to="/commingsoon">schedule</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/commingsoon">team</nuxt-link>
+            <nuxt-link to="/team">team</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
             <nuxt-link to="/gallery">gallery</nuxt-link>
