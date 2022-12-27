@@ -26,7 +26,7 @@
             <nuxt-link to="/gallery">gallery</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/commingsoon">about us</nuxt-link>
+            <nuxt-link to="/aboutus">about us</nuxt-link>
           </li>
         </ul>
       </div>
