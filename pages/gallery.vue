@@ -12,7 +12,7 @@
             loading="lazy"
           />
           <nuxt-img
-            src="/1.JPG"
+            src="/2.JPG"
             width="550"
             height="360"
             format="webp"
@@ -21,14 +21,14 @@
         </div>
         <div class="gallery-img">
           <nuxt-img
-            src="/1.JPG"
+            src="/3.JPG"
             width="550"
             height="360"
             format="webp"
             loading="lazy"
           />
           <nuxt-img
-            src="/1.JPG"
+            src="/4.JPG"
             width="550"
             height="360"
             format="webp"
@@ -37,14 +37,46 @@
         </div>
         <div class="gallery-img">
           <nuxt-img
-            src="/1.JPG"
+            src="/5.JPG"
             width="550"
             height="360"
             format="webp"
             loading="lazy"
           />
           <nuxt-img
-            src="/1.JPG"
+            src="/6.JPG"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/7.JPG"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/8.JPG"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/9.JPG"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/10.JPG"
             width="550"
             height="360"
             format="webp"
@@ -95,6 +127,7 @@ export default {
   }
 
   .gallery {
+    padding: 2rem 0;
     .gallery-img {
       height: 70vh;
       display: flex;
