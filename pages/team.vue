@@ -157,7 +157,7 @@ export default {
 <style lang="scss" scoped>
 .team-wrapper {
   background: #000;
-  background-image: linear-gradient(to bottom, #42063156, #0e0e5552);
+  background-image: linear-gradient(to bottom, #6308492d, #0e0e5552);
   background-repeat: no-repeat;
   min-height: 100vh;
   max-height: 100%;
