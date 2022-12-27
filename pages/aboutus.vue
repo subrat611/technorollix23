@@ -240,11 +240,31 @@ export default {
 
         .title {
           font-size: 1.5rem;
+          text-align: center;
         }
       }
 
       .about-content {
         padding: 2rem;
+
+        .about-opju {
+          
+          .about-title {
+            text-align: center;
+          }
+        }
+
+        .patron-container {
+          .patron-title-one {
+            text-align: center;
+          }
+        }
+
+        .about-techno {
+          .techno-title {
+            text-align: center;
+          }
+        }
       }
     }
   }
