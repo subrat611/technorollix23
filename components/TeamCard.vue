@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 .team-card {
   width: 276px;
-  height: 365px;
+  height: 360px;
   border-radius: 3px;
   margin: 2rem 1rem 1rem 1rem;
   background: #edf2f4;
@@ -60,7 +60,7 @@ export default {
 
     .title {
       position: absolute;
-      bottom: 12%;
+      bottom: 13%;
       color: #ffffff;
       font-family: 'Montserrat', sans-serif;
       font-weight: bolder;
@@ -78,7 +78,7 @@ export default {
       font-family: 'Montserrat', sans-serif;
       font-weight: bolder;
       letter-spacing: 0.08em;
-      font-size: 1rem;
+      font-size: 1.1rem;
       text-shadow: rgb(241, 241, 241) 0px 0px 1px,
         rgba(216, 216, 216, 0.568) 0px 0px 2px;
     }
