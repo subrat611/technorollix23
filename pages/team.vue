@@ -203,6 +203,9 @@ export default {
         .card-title {
           text-align: center;
         }
+        .members {
+          justify-content: center;
+        }
       }
     }
   }
