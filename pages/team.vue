@@ -33,6 +33,121 @@ export default {
             },
           ],
         },
+        {
+          name: 'Leadership Team',
+          team: [
+            {
+              name: 'Dr. R.D Patidar',
+              image: 'RD.png',
+              designation: 'Vice Chancellor, OPJU',
+            },
+            {
+              name: 'Mr. Anurag Vijaywargya',
+              image: 'vijay.png',
+              designation: 'Registrar, OPJU',
+            },
+          ],
+        },
+        {
+          name: 'Faculty Mentors',
+          team: [
+            {
+              name: 'Dr. Mahesh Bhiwapurkar',
+              image: 'mahesh.png',
+              designation: '',
+            },
+          ],
+        },
+        {
+          name: 'Faculty Conveners',
+          team: [
+            {
+              name: 'Dr. Swati Verma',
+              image: 'swati.png',
+              designation: '',
+            },
+            {
+              name: 'Dr. Trinath Talapaneni',
+              image: 'trinath.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. L R Bhandarkar',
+              image: 'LR.png',
+              designation: '',
+            },
+            {
+              name: 'Dr. Vikash Kumar',
+              image: 'vikas.png',
+              designation: '',
+            },
+          ],
+        },
+        {
+          name: 'Faculty Co-conveners',
+          team: [
+            {
+              name: 'Dr. Imran Ahmad Qadri',
+              image: 'imran.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Princy Diwan',
+              image: 'princy.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Sujata Panda',
+              image: 'sujata.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Pushpanjali Shadangi',
+              image: 'pushpanjali.png',
+              designation: '',
+            },
+          ],
+        },
+        {
+          name: 'Faculty Coordinators',
+          team: [
+            {
+              name: 'Prof. Sikha Tiwari',
+              image: 'sikha.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Pradeep Shrivas',
+              image: 'pradeep.png',
+              designation: '',
+            },
+            {
+              name: 'Dr. Nidhi Kobragade',
+              image: 'nidhi.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Dharmender Singh Saini',
+              image: 'dharmender.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Ankireddy Narendra',
+              image: 'ankireddy.png',
+              designation: '',
+            },
+            {
+              name: 'Dr. Deepak Patel',
+              image: 'deepak.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Manoj Kumar Mishra',
+              image: 'manoj.png',
+              designation: '',
+            },
+          ],
+        },
       ],
     }
   },
@@ -42,7 +157,7 @@ export default {
 <style lang="scss" scoped>
 .team-wrapper {
   background: #000;
-  // background-image: linear-gradient(to bottom, #30022456, #19191a52);
+  background-image: linear-gradient(to bottom, #42063156, #0e0e5552);
   background-repeat: no-repeat;
   min-height: 100vh;
   max-height: 100%;
@@ -59,6 +174,7 @@ export default {
 
     padding: 2rem 0;
     .card {
+      padding: 0 1.5rem;
       margin: 5rem 1.2rem;
 
       .card-title {
@@ -81,6 +197,12 @@ export default {
     .team-card-container {
       .heading {
         font-size: 1.5rem;
+      }
+      .card {
+        padding: 0;
+        .card-title {
+          text-align: center;
+        }
       }
     }
   }

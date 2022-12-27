@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .team-card {
-  width: 260px;
+  width: 280px;
   height: 350px;
   border-radius: 3px;
   margin: 2rem 1rem 1rem 1rem;
@@ -37,6 +37,7 @@ export default {
   img {
     width: 100%;
     height: 100%;
+    transition: transform 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
 
   .overlay {
@@ -77,6 +78,11 @@ export default {
   }
 
   &:hover {
+    overflow: hidden;
+
+    img {
+      transform: scale(1.02);
+    }
     .overlay {
       opacity: 0;
     }
