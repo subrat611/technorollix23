@@ -22,8 +22,8 @@ export default {
 
 <style lang="scss" scoped>
 .team-card {
-  width: 275px;
-  height: 370px;
+  width: 276px;
+  height: 365px;
   border-radius: 3px;
   margin: 2rem 1rem 1rem 1rem;
   background: #edf2f4;
