@@ -175,9 +175,9 @@ export default {
         }
 
         .about-para {
-          letter-spacing: 0.02em;
           font-family: 'Montserrat', sans-serif;
           color: #dee2e6;
+          text-align: justify;
         }
       }
 
@@ -197,16 +197,16 @@ export default {
         }
 
         .patron-para-one {
-          letter-spacing: 0.02em;
           color: #dee2e6;
           font-family: 'Montserrat', sans-serif;
+          text-align: justify;
         }
 
         .patron-para-two {
           font-family: 'Montserrat', sans-serif;
-          letter-spacing: 0.02em;
           margin-top: 1.2rem;
           color: #dee2e6;
+          text-align: justify;
         }
       }
 
@@ -221,7 +221,7 @@ export default {
         .techno-para {
           color: #dee2e6;
           font-family: 'Montserrat', sans-serif;
-          letter-spacing: 0.02em;
+          text-align: justify;
 
           .techno {
             color: orange;
