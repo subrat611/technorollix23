@@ -98,13 +98,15 @@
             opportunity to showcase their thoughts and ideas. Over the last four
             years, it has been a platform that has successfully brought
             students, academicians, and industrial giants under one roof.
-            Technorollix’20, Spanning from 18th to 21st February 2022, aims at
-            giving a spine-tingling ride to inspiring minds and bringing
-            together dynamic, innovative and enterprising students of various
-            colleges (students of B Tech., B.Com, B.Sc., BBA) from all over
-            India on a common platform to participate in different competitive
-            events along with OPJU students, dedicated to experiencing the fun
-            in technology, Management and science.
+            Technorollix’23, Spanning from 1<sup>th</sup> March 2023 to 4<sup
+              >th</sup
+            >
+            March 2023, aims at giving a spine-tingling ride to inspiring minds
+            and bringing together dynamic, innovative and enterprising students
+            of various colleges (students of B Tech., B.Com, B.Sc., BBA) from
+            all over India on a common platform to participate in different
+            competitive events along with OPJU students, dedicated to
+            experiencing the fun in technology, Management and science.
           </p>
         </div>
       </div>
@@ -248,9 +250,14 @@ export default {
         padding: 2rem;
 
         .about-opju {
-          
           .about-title {
             text-align: center;
+          }
+          .about-para {
+            min-width: 300px;
+            max-width: 100%;
+            text-align: left;
+            line-height: 1.5rem;
           }
         }
 
@@ -258,11 +265,24 @@ export default {
           .patron-title-one {
             text-align: center;
           }
+          .patron-para-one,
+          .patron-para-two {
+            min-width: 300px;
+            max-width: 100%;
+            text-align: left;
+            line-height: 1.5rem;
+          }
         }
 
         .about-techno {
           .techno-title {
             text-align: center;
+          }
+          .techno-para {
+            min-width: 300px;
+            max-width: 100%;
+            text-align: left;
+            line-height: 1.5rem;
           }
         }
       }
