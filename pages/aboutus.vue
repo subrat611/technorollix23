@@ -180,6 +180,8 @@ export default {
           font-family: 'Montserrat', sans-serif;
           color: #dee2e6;
           text-align: justify;
+          line-height: 1.5rem;
+          font-size: 1.15rem;
         }
       }
 
@@ -202,6 +204,8 @@ export default {
           color: #dee2e6;
           font-family: 'Montserrat', sans-serif;
           text-align: justify;
+          line-height: 1.5rem;
+          font-size: 1.15rem;
         }
 
         .patron-para-two {
@@ -209,6 +213,8 @@ export default {
           margin-top: 1.2rem;
           color: #dee2e6;
           text-align: justify;
+          line-height: 1.5rem;
+          font-size: 1.15rem;
         }
       }
 
@@ -224,6 +230,8 @@ export default {
           color: #dee2e6;
           font-family: 'Montserrat', sans-serif;
           text-align: justify;
+          line-height: 1.5rem;
+          font-size: 1.15rem;
 
           .techno {
             color: orange;
@@ -258,6 +266,7 @@ export default {
             max-width: 100%;
             text-align: left;
             line-height: 1.5rem;
+            font-size: 1rem;
           }
         }
 
@@ -271,6 +280,7 @@ export default {
             max-width: 100%;
             text-align: left;
             line-height: 1.5rem;
+            font-size: 1rem;
           }
         }
 
@@ -283,6 +293,7 @@ export default {
             max-width: 100%;
             text-align: left;
             line-height: 1.5rem;
+            font-size: 1rem;
           }
         }
       }
