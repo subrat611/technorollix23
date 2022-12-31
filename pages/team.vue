@@ -148,6 +148,121 @@ export default {
             },
           ],
         },
+        {
+          name: 'Design and Development',
+          team: [
+            {
+              name: 'Subrat Kumar Jena',
+              image: 'subratjena.png',
+              designation: 'Team Lead & Developer',
+            },
+            {
+              name: 'Surbhi Vandana',
+              image: 'surbhivandana.png',
+              designation: 'Designer',
+            },
+          ],
+        },
+        {
+          name: 'Co-convenor (Students)',
+          team: [
+            {
+              name: 'Manish Gupta',
+              image: 'manishgupta.png',
+              designation: 'CSE',
+            },
+            {
+              name: 'Tanuja Nair',
+              image: 'tanuja.png',
+              designation: 'CSE',
+            },
+            {
+              name: 'Anand Raj Dansena',
+              image: 'anandraj.png',
+              designation: 'MECHANICAL',
+            },
+            {
+              name: 'Shubham Yadav',
+              image: 'shubhamyadav.png',
+              designation: 'MECHANICAL',
+            },
+            {
+              name: 'Sarang Suhas Bakre',
+              image: 'sarang.png',
+              designation: 'METALLURGY',
+            },
+            {
+              name: 'Anusuya P',
+              image: 'anusuya.png',
+              designation: 'METALLURGY',
+            },
+            {
+              name: 'Simran Patel',
+              image: 'simranpatel.png',
+              designation: 'CIVIL',
+            },
+            {
+              name: 'Priyesh Prasad',
+              image: 'priyeshprasad.png',
+              designation: 'CIVIL',
+            },
+            {
+              name: 'Raunak Agarwal',
+              image: 'raunak.png',
+              designation: 'ELECTRICAL',
+            },
+            {
+              name: 'Bindu Sao',
+              image: 'bindusao.png',
+              designation: 'ELECTRICAL',
+            },
+            {
+              name: 'Suryaranjan',
+              image: 'suryaranjan.png',
+              designation: 'MBA',
+            },
+            {
+              name: 'Awadhesh Patnayak',
+              image: 'awadhesh.png',
+              designation: 'MBA',
+            },
+            {
+              name: 'Kusum Pandey',
+              image: 'kusum.png',
+              designation: 'BSc. Hons',
+            },
+            {
+              name: 'Amit Chatterje',
+              image: 'amit.png',
+              designation: 'BSc. Hons',
+            },
+            {
+              name: 'Rahul Devangan',
+              image: 'rahuldevangan.png',
+              designation: 'BSc. Hons',
+            },
+            {
+              name: 'Yashvi Solanki',
+              image: 'yashvi.png',
+              designation: 'B.Com',
+            },
+            {
+              name: 'Sourabh Mehani',
+              image: 'sourabh.png',
+              designation: 'B.Com',
+            },
+            {
+              name: 'Sanskar gupta',
+              image: 'sanskargupta.png',
+              designation: 'BBA',
+            },
+            {
+              name: 'Tejeswar verma',
+              image: 'tejeswarverma.png',
+              designation: 'BBA',
+            },
+          ],
+        },
       ],
     }
   },

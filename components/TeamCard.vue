@@ -22,8 +22,8 @@ export default {
 
 <style lang="scss" scoped>
 .team-card {
-  width: 276px;
-  height: 360px;
+  width: 310px;
+  height: 380px;
   border-radius: 3px;
   margin: 2rem 1rem 1rem 1rem;
   background: #edf2f4;
@@ -39,6 +39,8 @@ export default {
   img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top;
     transition: transform 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
 
