@@ -32,7 +32,7 @@
           </div>
           <div class="image-container">
             <nuxt-img
-              src="/moments/4-min.JPG"
+              src="/moments/6-min.JPG"
               alt="pride-moments-pic"
               width="550"
               height="360"
@@ -50,7 +50,7 @@
           </div>
           <div class="image-container">
             <nuxt-img
-              src="/moments/6-min.JPG"
+              src="/moments/4-min.JPG"
               alt="pride-moments-pic"
               width="550"
               height="360"
@@ -82,7 +82,7 @@ export default {
 
     gsap.to('.image-container', {
       yPercent: -200,
-      duration: 20,
+      duration: 40,
       repeat: -1,
       yoyo: true,
     })
@@ -167,7 +167,7 @@ export default {
             position: absolute;
             top: 0;
             left: 0;
-            height: 40%;
+            height: 42%;
             width: 32%;
             border-radius: 4px;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
