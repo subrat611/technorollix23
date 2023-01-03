@@ -48,6 +48,24 @@
               loading="lazy"
             />
           </div>
+          <div class="image-container">
+            <nuxt-img
+              src="/moments/6-min.JPG"
+              alt="pride-moments-pic"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
+            />
+            <nuxt-img
+              src="/moments/7-min.JPG"
+              alt="pride-moments-pic"
+              width="550"
+              height="360"
+              format="webp"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -63,8 +81,8 @@ export default {
     gsap.registerPlugin('ScrollTrigger')
 
     gsap.to('.image-container', {
-      yPercent: -100,
-      duration: 15,
+      yPercent: -200,
+      duration: 20,
       repeat: -1,
       yoyo: true,
     })
@@ -150,7 +168,7 @@ export default {
             top: 0;
             left: 0;
             height: 40%;
-            width: 30%;
+            width: 32%;
             border-radius: 4px;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
               rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -158,14 +176,14 @@ export default {
 
           img:nth-child(1) {
             top: 20%;
-            left: 10%;
-            transform: rotate(-5deg);
+            left: 5%;
+            transform: rotate(-3deg);
           }
 
           img:nth-child(2) {
             top: 40%;
             left: 60%;
-            transform: rotate(-5deg);
+            transform: rotate(-2deg);
           }
         }
       }

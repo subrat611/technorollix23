@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <nav-bar />
-    <div class="container">
-      <p>site development is in progress...</p>
+    <div>
+      <nav-bar />
+      <div class="container">
+        <p>coming soon...</p>
+      </div>
     </div>
-  </div>
 </template>
 
 <script>

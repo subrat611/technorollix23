@@ -3,7 +3,7 @@
     <pre-loader v-show="isLoad"></pre-loader>
     <div v-show="!isLoad" class="wrapper">
       <nav-bar />
-      <notify-add v-show="isShowNotif" @close-add="closeAdd" />
+      <!-- <notify-add v-show="isShowNotif" @close-add="closeAdd" /> -->
       <hero-section />
       <moments-section />
       <junoon-section />

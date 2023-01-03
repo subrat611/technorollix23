@@ -26,6 +26,9 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
+  position: absolute;
+  top: 2%;
+  left: 2%;
   width: fit-content;
   padding: 0.6rem;
   display: flex;
