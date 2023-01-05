@@ -37,7 +37,7 @@ export default {
           name: 'Leadership Team',
           team: [
             {
-              name: 'Dr. R.D Patidar',
+              name: 'Dr R.D Patidar',
               image: 'RD.png',
               designation: 'Vice Chancellor, OPJU',
             },
@@ -52,12 +52,12 @@ export default {
           name: 'Faculty Mentors',
           team: [
             {
-              name: 'Dr. Mahesh Bhiwapurkar',
+              name: 'Dr Mahesh Bhiwapurkar',
               image: 'mahesh.png',
               designation: '',
             },
             {
-              name: 'Dr. Sanjay Singh',
+              name: 'Dr Sanjay Singh',
               image: 'sanjay.png',
               designation: '',
             },
@@ -67,32 +67,32 @@ export default {
           name: 'Faculty Conveners',
           team: [
             {
-              name: 'Dr. Swati Verma',
+              name: 'Dr Swati Verma',
               image: 'swati.png',
               designation: '',
             },
             {
-              name: 'Dr. Trinath Talapaneni',
+              name: 'Dr Trinath Talapaneni',
               image: 'trinath.png',
               designation: '',
             },
             {
-              name: 'Prof. L R Bhandarkar',
+              name: 'Dr L R Bhandarkar',
               image: 'LR.png',
               designation: '',
             },
             {
-              name: 'Dr. Vikash Kumar',
+              name: 'Dr Vikash Kumar',
               image: 'vikas.png',
               designation: '',
             },
           ],
         },
         {
-          name: 'Faculty Co-conveners',
+          name: 'Faculty Co-Conveners',
           team: [
             {
-              name: 'Dr. Imran Ahmad Qadri',
+              name: 'Dr Imran Ahmad Qadri',
               image: 'imran.png',
               designation: '',
             },
@@ -127,7 +127,7 @@ export default {
               designation: '',
             },
             {
-              name: 'Dr. Nidhi Kobragade',
+              name: 'Dr Nidhi Kobragade',
               image: 'nidhi.png',
               designation: '',
             },
@@ -142,7 +142,7 @@ export default {
               designation: '',
             },
             {
-              name: 'Dr. Deepak Patel',
+              name: 'Dr Deepak Patel',
               image: 'deepak.png',
               designation: '',
             },
@@ -169,7 +169,7 @@ export default {
           ],
         },
         {
-          name: 'Co-convenor (Students)',
+          name: 'Student Co-Convenor',
           team: [
             {
               name: 'Manish Gupta',

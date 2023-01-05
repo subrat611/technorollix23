@@ -41,12 +41,12 @@
         <div class="patron-container">
           <p class="patron-title-one">patron's message</p>
           <p class="patron-title-two">
-            SHRI NAVEEN JINDAL Chairman, Jindal Steel and Power Ltd
+            SHRI NAVEEN JINDAL Chairman, Jindal Steel and Power (JSP)
           </p>
           <p class="patron-para-one">
             When OPJU was established 8 years ago in Punjipathra, Raigarh
             District it was the culmination of the dream of my father and the
-            founding Chairman of OP Jindal Group, Shri O. P. Jindal. JSPL’s
+            founding Chairman of OP Jindal Group, Shri O. P. Jindal. JSP’s
             humble beginnings are rooted in the District of Raigarh, where it
             began as a small steel making operation in the early 1990’s and
             through the hard work and dedication of the founders and employees
@@ -54,16 +54,16 @@
             Tamnar – the first independent power producer, Nalwa Steel Works,
             Structural Steel Division, and OP Jindal Industrial Park,
             Punjipathra. For a community that means so much to the success of
-            JSPL, it was our dream to start a University in the area as both a
+            JSP, it was our dream to start a University in the area as both a
             way to give back to the region, but more so, a deeply rooted
             commitment to educate the youth of the area, as only an educated
             youth can help the nation develop to its full potential.
           </p>
           <p class="patron-para-two">
             Started in 2008 as an engineering college, today I can proudly say
-            that in a short span of only four years, OPJU has become a role
-            model for institutions of higher education not only in Chhattisgarh,
-            but in the entire nation of what can be achieved with the right
+            that in a span of 14 years, OPJU has become a role model for
+            institutions of higher education not only in Chhattisgarh, but in
+            the entire nation of what can be achieved with the right
             motivations, vision, and programs focused on student outcomes,
             creating vast employment opportunities for the youth of our nation
             and guiding them along a path to becoming successful contributors to
@@ -83,30 +83,24 @@
 
         <!-- about technorollix -->
         <div class="about-techno">
-          <p class="techno-title">about technorollix</p>
+          <p class="techno-title">about technorollix - 2023</p>
           <p class="techno-para">
-            Welcome to Central India's Biggest Technial And Cultural Fest
-            <span class="techno">#Technorollix.</span>This event is organized
-            yearly by our students and faculty staff. This event is called the
-            Biggest Technical and Cultural because of its variety in every
-            possible way possible. This fest includes each and every competition
-            and event you can think off from art to gaming, from talks to
-            exhibitions, each and every event has its own charm. Technorollix,
-            the annual techno-Management festival of OP Jindal University, hosts
-            a galaxy of events aimed at boosting the technological and cultural
-            skills inherent in today’s youth, giving them an unrivalled
-            opportunity to showcase their thoughts and ideas. Over the last four
-            years, it has been a platform that has successfully brought
-            students, academicians, and industrial giants under one roof.
-            Technorollix’23, Spanning from 1<sup>th</sup> March 2023 to 4<sup
-              >th</sup
-            >
-            March 2023, aims at giving a spine-tingling ride to inspiring minds
-            and bringing together dynamic, innovative and enterprising students
-            of various colleges (students of B Tech., B.Com, B.Sc., BBA) from
-            all over India on a common platform to participate in different
-            competitive events along with OPJU students, dedicated to
-            experiencing the fun in technology, Management and science.
+            Welcome to Central India's Biggest Technical And Cultural Fest
+            <span class="techno">#Technorollix - 2023</span>. This event is
+            organized yearly by our students and faculty staff. This fest hosts
+            a galaxy of events(Tech-Lab, Ideathon, Lan-Gaming, Startup business
+            plan, Fashion show, Roadies, Robovation, Talent-Hunt and many more
+            excited events) aimed at boosting the technical and cultural skills
+            inherent in today’s youth by giving them an opportunity to showcase
+            it. Over the last 14 years, it has been a platform that has
+            successfully brought students, academicians, and industrial giants
+            under one roof. Technorollix’23, Spanning from 1 - 4 March 2023,
+            aims at giving a spine-tingling ride to inspiring minds and bringing
+            together dynamic, innovative and enterprising students of various
+            colleges (students of B Tech., B.Com, B.Sc., BBA) from all over
+            India on a common platform to participate in different competitive
+            events along with OPJU students, dedicated to experiencing the fun
+            in technology, Management and science.
           </p>
         </div>
       </div>
