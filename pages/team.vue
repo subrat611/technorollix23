@@ -56,6 +56,11 @@ export default {
               image: 'mahesh.png',
               designation: '',
             },
+            {
+              name: 'Dr. Sanjay Singh',
+              image: 'sanjay.png',
+              designation: '',
+            },
           ],
         },
         {
@@ -293,6 +298,7 @@ export default {
       margin: 5rem 1.2rem;
 
       .card-title {
+        text-align: center;
         color: #fff;
         font-size: 2rem;
         font-family: 'Montserrat', sans-serif;
@@ -301,6 +307,8 @@ export default {
 
       .members {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
       }
     }
