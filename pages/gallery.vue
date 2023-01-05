@@ -6,8 +6,8 @@
         <div class="gallery-img">
           <nuxt-img
             src="/1.JPG"
-            width="550"
-            height="360"
+            width="520"
+            height="320"
             format="webp"
             loading="lazy"
           />
@@ -83,6 +83,70 @@
             loading="lazy"
           />
         </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/11.JPG"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/12.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/13.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/14.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/15.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/16.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-img">
+          <nuxt-img
+            src="/17.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+          <nuxt-img
+            src="/18.jpg"
+            width="550"
+            height="360"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
     <nav-bar />
@@ -151,7 +215,7 @@ export default {
 
     .gallery {
       .gallery-img {
-        height: 100%;
+        height: 63vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
