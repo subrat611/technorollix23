@@ -237,16 +237,6 @@ export default {
               designation: 'BSc. Hons',
             },
             {
-              name: 'Amit Chatterje',
-              image: 'amit.png',
-              designation: 'BSc. Hons',
-            },
-            {
-              name: 'Rahul Devangan',
-              image: 'rahuldevangan.png',
-              designation: 'BSc. Hons',
-            },
-            {
               name: 'Yashvi Solanki',
               image: 'yashvi.png',
               designation: 'B.Com',

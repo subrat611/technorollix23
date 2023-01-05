@@ -22,7 +22,7 @@
         <div class="about-opju">
           <p class="about-title">about o.p. jindal university</p>
           <p class="about-para">
-            Founded by the Jindal Educaticdon and Welfare Society, OP Jindal
+            Founded by the Jindal education and Welfare Society, OP Jindal
             University (OPJU) was set up to bring high quality education to its
             students based on a world class curriculum, the latest teaching
             methodology and committed faculty members. The multidisciplinary
@@ -122,7 +122,7 @@ export default {
 
 <style lang="scss" scoped>
 .about-page {
-  background: #000;
+  background: rgb(0, 2, 22);
 
   .about-container {
     color: #fff;
@@ -170,6 +170,7 @@ export default {
       .about-opju {
         margin-bottom: 2rem;
         .about-title {
+          font-family: 'Roboto', sans-serif;
           font-size: 2rem;
           text-transform: capitalize;
           margin-bottom: 1.5rem;
@@ -177,11 +178,11 @@ export default {
         }
 
         .about-para {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Roboto', sans-serif;
           color: #dee2e6;
           text-align: justify;
-          line-height: 1.5rem;
-          font-size: 1.15rem;
+          line-height: 1.8rem;
+          font-size: 1.3rem;
         }
       }
 
@@ -189,6 +190,7 @@ export default {
         margin-bottom: 2rem;
 
         .patron-title-one {
+          font-family: 'Roboto', sans-serif;
           font-size: 2rem;
           text-transform: capitalize;
           margin-bottom: 1rem;
@@ -196,31 +198,33 @@ export default {
         }
 
         .patron-title-two {
+          font-family: 'Roboto', sans-serif;
           font-size: 1.5rem;
           padding: 0.5rem 0;
         }
 
         .patron-para-one {
           color: #dee2e6;
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Roboto', sans-serif;
           text-align: justify;
-          line-height: 1.5rem;
-          font-size: 1.15rem;
+          line-height: 1.8rem;
+          font-size: 1.3rem;
         }
 
         .patron-para-two {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Roboto', sans-serif;
           margin-top: 1.2rem;
           color: #dee2e6;
           text-align: justify;
-          line-height: 1.5rem;
-          font-size: 1.15rem;
+          line-height: 1.8rem;
+          font-size: 1.3rem;
         }
       }
 
       .about-techno {
         margin-bottom: 2rem;
         .techno-title {
+          font-family: 'Roboto', sans-serif;
           font-size: 2rem;
           text-transform: capitalize;
           margin-bottom: 1rem;
@@ -228,10 +232,10 @@ export default {
         }
         .techno-para {
           color: #dee2e6;
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Roboto', sans-serif;
           text-align: justify;
-          line-height: 1.5rem;
-          font-size: 1.15rem;
+          line-height: 1.8rem;
+          font-size: 1.3rem;
 
           .techno {
             color: orange;

@@ -25,7 +25,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:wght@500;600;700;800;900&family=Pacifico&family=Poppins:wght@400;600;700;800;900&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Gugi&family=Montserrat:wght@500;600;700;800;900&family=Pacifico&family=Poppins:wght@400;600;700;800;900&display=swap',
       },
     ],
   },
