@@ -45,6 +45,9 @@ export default {
         },
         {
           event_name: 'robovation',
+          event_desc:
+            'Design a robot wire or wireless within the specified dimensions that can operated manually and can travel through all turns of the track. The robot that will complete',
+          event_img: 'robovation.jpg',
         },
         {
           event_name: 'lan gaming',
@@ -100,6 +103,10 @@ export default {
     font-size: 3rem;
     letter-spacing: 0.02em;
     width: fit-content;
+    background: -webkit-linear-gradient(#adadad, #e3e3e3e5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .event-lists {

@@ -5,9 +5,11 @@
       <p class="card-title">{{ eventName }}</p>
       <p class="card-desc">
         {{ eventDesc }}
-        <nuxt-link :to="`/eventdetails/` + index">...more</nuxt-link>
+        <nuxt-link :to="`/eventdetails/` + eventName">...more</nuxt-link>
       </p>
-      <button>register</button>
+      <nuxt-link :to="`/eventdetails/` + eventName">
+        <button>register</button>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -38,6 +40,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a {
+  color: #e5e5e5;
+}
+
 .card-container {
   margin: 0 0.5rem 4rem 0.5rem;
   width: 400px;

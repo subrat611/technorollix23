@@ -27,8 +27,8 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   position: absolute;
-  top: 2%;
-  left: 2%;
+  top: 3%;
+  left: 3%;
   width: fit-content;
   padding: 0.6rem;
   display: flex;
@@ -48,7 +48,7 @@ export default {
   }
 
   svg {
-    height: 26px;
+    height: 24px;
     color: #ffffff;
   }
 }
