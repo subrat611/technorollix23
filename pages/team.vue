@@ -227,11 +227,6 @@ export default {
               designation: 'MBA',
             },
             {
-              name: 'Awadhesh Patnayak',
-              image: 'awadhesh.png',
-              designation: 'MBA',
-            },
-            {
               name: 'Kusum Pandey',
               image: 'kusum.png',
               designation: 'BSc. Hons',
