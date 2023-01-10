@@ -29,7 +29,7 @@ export default {
     },
     eventImg: {
       type: null,
-      default: 'yuva.jpg',
+      default: '',
     },
     index: {
       type: Number,
@@ -126,7 +126,7 @@ a {
 @media all and (max-width: '912px') {
   .card-container {
     width: 100%;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0.2rem;
     padding: 1rem;
 
     .card-content {

@@ -337,7 +337,6 @@
       </div>
 
       <!-- robo soccer -->
-
     </div>
   </div>
 </template>
@@ -358,10 +357,6 @@ export default {
           'Robo soccer is one of famous challenges of robovation in this event teams comes with single robot and chase ball around the big size of arena with the aim to kick more goals than the opponent.',
       },
     }
-  },
-  created() {
-    this.a = 2
-    console.log(typeof this.eventImg)
   },
 }
 </script>
@@ -409,7 +404,7 @@ export default {
         margin: 1rem 0;
 
         h1 {
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Poppins', sans-serif;
           background: -webkit-linear-gradient(#ff0084, #e3e3e3);
           background-clip: text;
           -webkit-background-clip: text;
