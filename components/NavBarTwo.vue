@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="nav-items-center">
-          <h2>OPJU</h2>
+          <nuxt-img src="/opju-logo.png" class="logo" format="webp" />
         </div>
         <div class="nav-items-right">
           <ul class="nav-items">
@@ -106,6 +106,21 @@ export default {
         backdrop-filter: blur(2.8px);
         -webkit-backdrop-filter: blur(5.8px);
         transform: skewX(30deg);
+      }
+    }
+
+    .nav-items-center {
+      /* From https://css.glass */
+      background: rgba(35, 9, 51, 0.66);
+      border-radius: 0 0 16px 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6.5px);
+      -webkit-backdrop-filter: blur(6.5px);
+
+      .logo {
+        padding: 0 1rem;
+        width: 148px;
+        filter: drop-shadow(0 3px 30px rgba(220, 100, 20, 0.8));
       }
     }
 
