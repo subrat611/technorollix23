@@ -5,7 +5,9 @@
       <p class="card-title">{{ eventName }}</p>
       <p class="card-desc">
         {{ eventDesc }}
-        <nuxt-link :to="`/eventdetails/` + eventName">...more</nuxt-link>
+        <nuxt-link :to="`/eventdetails/` + eventName.replace(/\s/g, '')"
+          >...more</nuxt-link
+        >
       </p>
       <nuxt-link :to="`/eventdetails/` + eventName">
         <button>register</button>

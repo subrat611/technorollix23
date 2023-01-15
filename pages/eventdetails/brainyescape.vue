@@ -20,36 +20,46 @@
         <p>{{ event.event_desc }}</p>
       </div>
 
+      <!-- event theme -->
+      <div class="detail-rules">
+        <h2>{{ 'theme'.toUpperCase() }}</h2>
+        <p>
+          General Knowledge, Technology, Engineering, POP culture, Riddles and
+          puzzles.
+        </p>
+      </div>
+
       <!-- event rules and regulation -->
       <div class="detail-rules">
         <h2>{{ 'Rules and Regulation'.toUpperCase() }}</h2>
         <ul>
           <li>
-            Every team has to register on the official OPJU website for the
-            Yuvasadan.
-          </li>
-          <li>Each team must contain 3-4 members.</li>
-          <li>
-            There will be 2 rounds. 1st round will be the qualifying round and
-            2nd round will be the final round.
+            The event will happen in 3 rounds and will be on 1st and 2nd of
+            March 2023.
           </li>
           <li>
-            Each duel will be a knockout and will be replayed in several stages
-            as game progresses.
+            The quiz will be conducted on 2 levels, Qualifiers and Finale.
           </li>
-          <li>Each team will be given the topics prior to the rounds.</li>
+          <li>No electronic devices or phones allowed.</li>
           <li>
-            Each team will be given 2 minutes to speak about their topics and 4
-            minutes will be given for the argument.
+            The results (for every level) will be decided on the basis of their
+            score.
           </li>
-          <li>Language could be Hindi/English.</li>
           <li>
-            If, due to certain circumstances, one team could not be present
-            during the debate, then the opposing team will be selected for the
-            next round.
+            A team will consist of 3 members maximum. After 1st round only
+            remaining top 8 teams will qualifies for next rounds.
           </li>
-          <li>Participants must speak in parliamentary words only.</li>
-          <li>Decision of the chairperson of the event is final.</li>
+          <li>There will be negative markings (as per the questions).</li>
+          <li>
+            There would be (approx.) 20 questions and will be defined as per the
+            levels.
+          </li>
+          <li>Participation Certificates for all participants.</li>
+          <li>Top winners will be awarded with gifts.</li>
+          <li>
+            There is no elimination after 2nd round and all teams qualify for
+            final round.
+          </li>
         </ul>
       </div>
 
@@ -57,30 +67,17 @@
       <div class="detail-judg">
         <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
         <p>
-          <b
-            >(Each will be containing 20 marks and total will be of 100
-            marks)</b
-          >
+          <b>Winners will be decided by points.</b>
         </p>
-        <ul>
-          <li>
-            Organization and Clarity: Viewpoints and response are outlined both
-            clearly and orderly.
-          </li>
-          <li>Use of Arguments: Reasons given to support viewpoint.</li>
-          <li>
-            Use of examples and Facts: Examples and facts are given to support
-            reasons, with references.
-          </li>
-          <li>
-            Use of Rebuttal: Arguments made by the other teams are responded to
-            and deal with effectively.
-          </li>
-          <li>
-            Presentation Style: Tone of voice, use of gestures, and level of
-            enthusiasm are convincing to the audience.
-          </li>
-        </ul>
+      </div>
+
+      <!-- venue -->
+
+      <div class="detail-judg">
+        <h2>{{ 'venue'.toUpperCase() }}</h2>
+        <p>
+          <b>Multi-Purpose Hall (MP Hall).</b>
+        </p>
       </div>
 
       <!-- contact details -->
@@ -93,14 +90,14 @@
 
 <script>
 export default {
-  name: 'YuvaSadanEventPage',
+  name: 'BrainyEscapeEventPage',
   data() {
     return {
       event: {
-        name: 'yuva sadan',
-        img: 'yuva.jpg',
+        name: 'Brainy Escape',
+        img: 'quiz.jpg',
         event_desc:
-          'The Yuvasadan, Technorollix 23, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students. It helps you to acquire better poise, speech delivery and public speaking skills.',
+          'Engrossed with fun and Quiz-mania to tackle puzzles, riddles, and memes. Brush up your memory in the Technology, and General knowledge, build up curiosity and get the way out!!',
       },
     }
   },

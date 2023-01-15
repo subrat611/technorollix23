@@ -41,7 +41,7 @@ export default {
           event_name: 'ideathon',
         },
         {
-          event_name: 'YuvaSadan',
+          event_name: 'Yuva Sadan',
           event_desc:
             'The yuva sadan, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics.',
           event_img: 'yuva.jpg',
@@ -107,7 +107,7 @@ export default {
     font-size: 3rem;
     letter-spacing: 0.02em;
     width: fit-content;
-    background: -webkit-linear-gradient(#adadad, #e3e3e3e5);
+    background: -webkit-linear-gradient(#b6b6b6, #e3e3e3e5);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
