@@ -158,7 +158,7 @@ export default {
           team: [
             {
               name: 'Subrat Kumar Jena',
-              image: 'subratjena.png',
+              image: 'subrat.png',
               designation: 'Team Lead & Developer',
             },
             {
@@ -280,7 +280,7 @@ export default {
     padding: 2rem 0;
     .card {
       padding: 0 1.5rem;
-      margin: 5rem 1.2rem;
+      margin: 3rem 1.2rem;
 
       .card-title {
         text-align: center;
