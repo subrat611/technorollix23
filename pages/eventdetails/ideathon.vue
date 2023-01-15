@@ -1,0 +1,353 @@
+<template>
+  <div class="event-details-wrapper">
+    <back-btn />
+    <div class="detail-container">
+      <!-- img -->
+      <div class="detail-img">
+        <nuxt-img :src="'/event/' + event.img" />
+        <div class="overlay"></div>
+      </div>
+
+      <!-- header -->
+      <div class="detail-header">
+        <div class="header-one">
+          <h1>{{ event.name.toUpperCase() }}</h1>
+        </div>
+      </div>
+
+      <!-- event desc -->
+      <div class="detail-info">
+        <p>{{ event.event_desc }}</p>
+        <br />
+        <p>
+          Here participants throw in their propositions and present them to get
+          feedback and what they should be working on or how they should advance
+          regarding their ideas.
+        </p>
+        <br />
+        <p>
+          Participants work in teams and utilize design thinking and innovative
+          learning practices to envision and collaborate on possible solutions.
+        </p>
+        <br />
+        <p>
+          Ideathon is not restricted to one common subject as it usually varies
+          from marketing to philosophy to science.
+        </p>
+      </div>
+
+      <!-- event theme -->
+      <div class="detail-rules">
+        <h2>{{ 'theme'.toUpperCase() }}</h2>
+        <p>
+          <b>Scrutinize the already scrutinized</b> <br />
+          Meaning: To examine the existing things carefully to create or
+          visualize something new innovatively.
+        </p>
+      </div>
+
+      <!-- event topic (example) -->
+      <div class="detail-rules">
+        <h2>{{ 'TOPICS (FOR EXAMPLE)'.toUpperCase() }}</h2>
+        <ul>
+          <li>Impact of Workplace Diversity on Company Culture</li>
+          <li>How Financial Literacy impacts Investment Behavior</li>
+          <li>Environmental issues with their solution.</li>
+          <li>Big Data and Automation in Supply Chain Management</li>
+          <li>
+            Towards a Cleaner and Greener Environment with new technologies
+          </li>
+          <li>Conversion of waste material into useful material.</li>
+          <li>Agriculture, Food and Rural Development</li>
+          <li>Block chain and Cybersecurity</li>
+          <li>Augmented Reality</li>
+          <li>Clean And Green Technology</li>
+          <li>Fitness and Sports</li>
+          <li>MedTech/BioTech/HealthTech</li>
+          <li>Renewable/Sustainable Energy</li>
+          <li>Robotics and Drone</li>
+          <li>Smart Automation</li>
+          <li>Transport and Logistics</li>
+          <li>Disaster Management</li>
+          <li>Big Data Technology</li>
+          <li>Business management with AI</li>
+        </ul>
+      </div>
+
+      <!-- event rules and regulation -->
+      <div class="detail-rules">
+        <h2>{{ 'Rules and Regulation'.toUpperCase() }}</h2>
+        <ul>
+          <li>
+            Every participant must reach the designated venue 15 minutes before
+            the event's commencement.
+          </li>
+          <li>
+            Only registered participants are allowed to present their ideas at
+            the event (Registration form will be circulated soon).
+          </li>
+          <li>
+            An abstract must be submitted from every individual/team prior to
+            the commencement of the event.
+          </li>
+          <li>
+            The abstract must contain a brief summary of the presenter’s central
+            theme/idea (maximum 400 words).
+          </li>
+          <li>
+            Participants must have an “Innovative” solution to the existing
+            problems.
+          </li>
+          <li>
+            A participant can participate individually or in a team according to
+            their willingness.
+          </li>
+          <li>There will be only a single round.</li>
+          <li>
+            Every participant's ideas will be judged on 5 different criteria.
+          </li>
+          <li>
+            Teams/participants attaining the maximum number of points out of the
+            total will be the winners.
+          </li>
+          <li>Each team can have a maximum of 3 participants.</li>
+          <li>
+            One team can submit only one idea. In case of submitting a new idea,
+            the team leader must change. No team leader can present more than
+            one idea.
+          </li>
+          <li>
+            Team must have to complete their presentation within a time limit of
+            08 minutes.
+          </li>
+          <li>
+            A <i>warning bell</i> will ring at 6 minutes during the
+            presentation. It will indicate the last two minutes remaining for
+            the presenter to complete their presentation.
+          </li>
+          <li>
+            After the ringing of the warning bell, the presenter must focus on
+            summarizing or concluding their presentation.
+          </li>
+          <li>Two minutes will be given for the Query round.</li>
+        </ul>
+      </div>
+
+      <!-- Judgemental Criteria -->
+      <div class="detail-judg">
+        <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
+        <p>
+          <b
+            >Every presenter's idea will be evaluated on 5 different criteria</b
+          >
+          <br />
+          1. Uniqueness of the idea. <br />
+          2. Feasibility of the presenter's idea. <br />
+          3. Way of presentation. <br />
+          4. Response to Questionnaire. <br />
+          5. Scalability of the Idea
+        </p>
+        <p>
+          Each criterion will contain a maximum of 20 points, with all the
+          criteria summing up to a total of 100 points.
+        </p>
+      </div>
+
+      <!-- prizes -->
+      <div class="detail-judg">
+        <h2>{{ 'prizes'.toUpperCase() }}</h2>
+        <p>
+          <b>From total participants there will be 6 prizes</b>
+          <br />
+          1. First Prize <br />
+          2. Second Prize <br />
+          3. Third Prize <br />
+          4. Best Feasible Idea Prize <br />
+          5. Best Innovative Idea Prize (Unique and Originality) <br />
+          6. Best Presentation Prize
+        </p>
+      </div>
+
+      <!-- venue -->
+
+      <div class="detail-judg">
+        <h2>{{ 'venue'.toUpperCase() }}</h2>
+        <p>
+          <b>FB-14 (EEE Seminar Hall)</b> <br />
+          1. Inaugural Session <br />
+          2. Mechanical / CSE / Electrical
+        </p>
+        <p>
+          TB-10 <br />
+          1. BBA/MBA
+        </p>
+        <p>
+          FB-05 <br />
+          1. BSc/MSc/Others
+        </p>
+        <p>
+          FB-08 (Robotics lab)<br />
+          1. Civil / Metallurgy / Other Engineering Branches
+        </p>
+      </div>
+
+      <!-- event Content Of Presentation -->
+      <div class="detail-rules">
+        <h2>{{ 'Content Of Presentation'.toUpperCase() }}</h2>
+        <ul>
+          <li>
+            Title of proposed solution (in 20 words): A heading that best
+            describes your solution.
+          </li>
+          <li>
+            Problem Statement:- Describe the problem which your idea is going to
+            solve.
+          </li>
+          <li>
+            The proposed solution of the problems:- Propose a solution and
+            explain how your innovative idea is going to solve that problem.
+          </li>
+          <li>Conclusion:- Conclusion of your idea.</li>
+        </ul>
+      </div>
+
+      <!-- contact details -->
+      <div class="detail-contact">
+        <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'IdeathonEventPage',
+  data() {
+    return {
+      event: {
+        name: 'Ideathon',
+        img: '',
+        event_desc:
+          'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals and students having different skills and interests converge to diagnose predefined problems, identify the best opportunities and ideate the most viable solution.',
+      },
+    }
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+li {
+  list-style: square;
+}
+.event-details-wrapper {
+  background: #000;
+  color: #fff;
+  min-height: 100vh;
+  max-height: 100%;
+  background-image: linear-gradient(to bottom, #00388b4f, #6b08663b);
+
+  .detail-container {
+    max-width: 1480px;
+    margin: 0 auto;
+
+    padding: 5rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+
+    .detail-img {
+      width: 100%;
+      height: 420px;
+      position: relative;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      }
+
+      // overlay edit here
+    }
+
+    .detail-header {
+      margin-top: 1rem;
+
+      .header-one {
+        margin: 1rem 0;
+
+        h1 {
+          font-family: 'Poppins', sans-serif;
+          background: -webkit-linear-gradient(#ff0084, #e3e3e3);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          padding: 0.3rem 0;
+        }
+      }
+    }
+
+    .detail-info {
+      background: rgba(63, 194, 255, 0.11);
+      border-radius: 7px;
+      box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+      backdrop-filter: blur(3.3px);
+      -webkit-backdrop-filter: blur(3.3px);
+      border: 1px solid rgba(255, 217, 252, 0.2);
+      padding: 1rem;
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+      }
+    }
+
+    .detail-rules,
+    .detail-judg {
+      margin-top: 1.5rem;
+
+      h2 {
+        padding: 1rem 0;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      p {
+        margin: 0.5rem 0;
+        line-height: 1.4rem;
+        padding: 1rem 1rem;
+        background: rgba(63, 194, 255, 0.11);
+        border-radius: 7px;
+        box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border: 1px solid rgba(255, 217, 252, 0.2);
+      }
+
+      ul > li {
+        padding: 0.3rem 0;
+        margin-left: 1rem;
+        font-size: 1.1rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6rem;
+      }
+    }
+
+    .detail-contact {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media all and (max-width: '912px') {
+  .event-details-wrapper {
+    .detail-container {
+      padding: 7rem auto 5rem auto;
+
+      .detail-img {
+        height: 20vh;
+      }
+    }
+  }
+}
+</style>

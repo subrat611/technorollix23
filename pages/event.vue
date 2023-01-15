@@ -28,7 +28,10 @@ export default {
     return {
       events: [
         {
-          event_name: 'shart tank',
+          event_name: 'shark tank',
+          event_desc:
+            'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed or early-stage. Based on the market',
+          event_img: '',
         },
         {
           event_name: 'KalaKriti',
@@ -39,6 +42,9 @@ export default {
         },
         {
           event_name: 'ideathon',
+          event_desc:
+            'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals',
+          event_img: '',
         },
         {
           event_name: 'Yuva Sadan',
@@ -58,6 +64,9 @@ export default {
         },
         {
           event_name: 'battle of bands',
+          event_desc:
+            "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college students together and inspire",
+          event_img: '',
         },
         {
           event_name: 'brainy escape',
@@ -67,6 +76,7 @@ export default {
         },
         {
           event_name: 'tech lab',
+          event_img: '',
         },
         {
           event_name: 'roadies',
@@ -79,12 +89,17 @@ export default {
         },
         {
           event_name: 'codigo code challenge',
+          event_desc:
+            'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically. To test the strategy of comprehensive experience ',
+          event_img: '',
         },
         {
           event_name: 'talent hunt',
         },
         {
-          event_name: 'aero-show',
+          event_name: 'aero show',
+          event_desc:
+            'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously across the event through',
         },
       ],
     }
