@@ -103,7 +103,7 @@ export default {
         background-image: linear-gradient(
           -43.2deg,
           rgba(13, 6, 26, 0.514) 10.8%,
-          rgba(187, 48, 125, 0.6) 94.3%
+          rgba(236, 13, 117, 0.521) 94.3%
         );
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(2.8px);
@@ -124,7 +124,7 @@ export default {
         background-image: linear-gradient(
           43.2deg,
           rgba(13, 6, 26, 0.514) 10.8%,
-          rgba(187, 48, 125, 0.6) 94.3%
+          rgba(236, 13, 117, 0.521) 94.3%
         );
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(2.8px);
