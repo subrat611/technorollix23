@@ -56,6 +56,7 @@ export default {
   bottom: 3%;
   right: 5%;
   z-index: 4;
+  display: none;
 
   .nav-bar {
     /* From https://css.glass */
@@ -175,8 +176,15 @@ export default {
   }
 }
 
-@media (max-width: '912px') {
+@media all and (max-width: '1248px') {
+  .nav-container {
+    display: block;
+  }
+}
+
+@media all and (max-width: '912px') {
   .nav-content {
+    display: block;
     .nav-items-content {
       .nav-items {
         display: block;

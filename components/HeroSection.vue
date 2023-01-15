@@ -1,12 +1,13 @@
 <template>
   <div class="hero-wrapper">
     <div class="bg-video">
-      <video
+      <!-- <video
         autoplay
         loop
         muted
         src="~/assets/videos/hero-bg-video1.mp4"
-      ></video>
+      ></video> -->
+      <nuxt-img src="hero-bg.png" format="webp" />
     </div>
     <div class="content">
       <p class="techno-title">TECHNOROLLIX</p>
@@ -38,6 +39,14 @@ export default {
     position: relative;
 
     video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    img {
       position: absolute;
       top: 0;
       left: 0;

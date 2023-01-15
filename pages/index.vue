@@ -3,6 +3,7 @@
     <pre-loader v-show="isLoad"></pre-loader>
     <div v-show="!isLoad" class="wrapper">
       <nav-bar />
+      <nav-bar-two />
       <!-- <notify-add v-show="isShowNotif" @close-add="closeAdd" /> -->
       <hero-section />
       <moments-section />

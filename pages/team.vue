@@ -1,6 +1,7 @@
 <template>
   <div class="team-wrapper">
     <nav-bar />
+    <nav-bar-two />
     <div class="team-card-container">
       <p class="heading">Technorollix'23 Team</p>
       <div v-for="team in teams" :key="team.name" class="card">
@@ -268,6 +269,7 @@ export default {
   max-height: 100%;
 
   .team-card-container {
+    padding: 8rem 0;
     .heading {
       font-size: 3rem;
       color: #fff;
@@ -277,7 +279,6 @@ export default {
       font-weight: bolder;
     }
 
-    padding: 2rem 0;
     .card {
       padding: 0 1.5rem;
       margin: 3rem 1.2rem;
@@ -296,6 +297,14 @@ export default {
         align-items: center;
         flex-wrap: wrap;
       }
+    }
+  }
+}
+
+@media all and (max-width: '1248px') {
+  .team-wrapper {
+    .team-card-container {
+      padding: 2rem 0;
     }
   }
 }

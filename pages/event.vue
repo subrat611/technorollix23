@@ -1,6 +1,7 @@
 <template>
   <div>
     <nav-bar />
+    <nav-bar-two />
     <div class="event-container">
       <p class="page-title">Events</p>
       <div class="event-lists">
@@ -19,9 +20,10 @@
 
 <script>
 import EventCard from '~/components/EventCard.vue'
+import NavBarTwo from '~/components/NavBarTwo.vue'
 export default {
   name: 'EventPage',
-  components: { EventCard },
+  components: { EventCard, NavBarTwo },
   data() {
     return {
       events: [
@@ -33,6 +35,7 @@ export default {
         },
         {
           event_name: 'antaragni',
+          event_img: '',
         },
         {
           event_name: 'ideathon',
@@ -51,6 +54,7 @@ export default {
         },
         {
           event_name: 'lan gaming',
+          event_img: '',
         },
         {
           event_name: 'battle of bands',
@@ -94,7 +98,7 @@ export default {
   background-image: linear-gradient(to bottom, #41195f2d, #000000);
   height: 100%;
   width: 100vw;
-  padding: 4rem 3rem 2rem 3rem;
+  padding: 8rem 3rem 2rem 3rem;
   color: #fff;
 
   .page-title {
@@ -117,10 +121,14 @@ export default {
   }
 }
 
-@media all and (max-width: '912px') {
+@media all and (max-width: '1248px') {
   .event-container {
     padding: 4rem 2rem 2rem 2rem;
+  }
+}
 
+@media all and (max-width: '912px') {
+  .event-container {
     .page-title {
       font-size: 2.5rem;
     }

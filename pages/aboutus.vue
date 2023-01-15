@@ -1,6 +1,7 @@
 <template>
   <div class="about-page">
     <nav-bar />
+    <nav-bar-two />
 
     <!-- about container -->
     <div class="about-container">

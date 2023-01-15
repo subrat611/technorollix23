@@ -1,5 +1,7 @@
 <template>
   <div>
+    <nav-bar />
+    <nav-bar-two />
     <div class="gallery-container">
       <h1 class="page-title">gallery</h1>
       <div class="gallery">
@@ -161,6 +163,7 @@ export default {
 
 <style lang="scss" scoped>
 .gallery-container {
+  padding-top: 6rem;
   background: #000;
   color: #fff;
   height: 100vh;
@@ -203,6 +206,12 @@ export default {
         border-radius: 4px;
       }
     }
+  }
+}
+
+@media all and (max-width: '1248px') {
+  .gallery-container {
+    padding-top: 0;
   }
 }
 
