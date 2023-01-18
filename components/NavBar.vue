@@ -106,7 +106,10 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  background: #000;
+  // background: #000;
+  background-image: url('~assets/img/nav-bg3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 3;
   height: 100vh;
   width: 100vw;
