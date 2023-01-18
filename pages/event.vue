@@ -95,6 +95,9 @@ export default {
         },
         {
           event_name: 'talent hunt',
+          event_desc:
+            'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity. You can apply in any of the following categories: Magic, Story telling',
+          event_img: '',
         },
         {
           event_name: 'aero show',
