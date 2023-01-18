@@ -9,7 +9,7 @@
           >...more</nuxt-link
         >
       </p>
-      <nuxt-link :to="`/eventdetails/` + eventName">
+      <nuxt-link :to="`/eventdetails/` + eventName.replace(/\s/g, '')">
         <button>register</button>
       </nuxt-link>
     </div>

@@ -76,7 +76,9 @@ export default {
         },
         {
           event_name: 'tech lab',
-          event_img: '',
+          event_desc:
+            'Tech lab is one of the most prestigious event of Technorollix,which is the biggest tech festival of central India.The event shows the creativity and potential of bright minds from ',
+          event_img: 'techlab.jpg',
         },
         {
           event_name: 'roadies',
