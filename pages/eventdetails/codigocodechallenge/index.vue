@@ -8,7 +8,7 @@
           :key="i"
           class="card-container"
         >
-          <div class="card-img"><nuxt-img src="/event/''.jpg" /></div>
+          <div class="card-img"><nuxt-img src="/event/codigo.png" /></div>
           <div class="card-content">
             <p class="card-title">{{ eventName.toUpperCase() }}</p>
             <p class="card-desc">
@@ -194,6 +194,7 @@ a {
       margin-top: 1rem;
 
       h2 {
+        text-align: center;
         padding: 1rem 0;
         font-family: 'Roboto', sans-serif;
       }

@@ -108,7 +108,7 @@ export default {
     return {
       event: {
         name: 'Crack it if you can (coding base)',
-        img: '',
+        img: 'codigo.png',
         event_desc:
           'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically.',
       },

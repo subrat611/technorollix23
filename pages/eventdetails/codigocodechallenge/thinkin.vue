@@ -111,7 +111,7 @@ export default {
     return {
       event: {
         name: 'Think in UI/UX (designing)',
-        img: '',
+        img: 'codigo.png',
         event_desc:
           'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
       },

@@ -93,7 +93,7 @@ export default {
           event_name: 'codigo code challenge',
           event_desc:
             'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically. To test the strategy of comprehensive experience ',
-          event_img: '',
+          event_img: 'codigo.png',
         },
         {
           event_name: 'talent hunt',
