@@ -4,7 +4,7 @@
     <div class="detail-container">
       <!-- img -->
       <div class="detail-img">
-        <nuxt-img :src="'/event/' + event.img" />
+        <nuxt-img src="/event/thinkin.png" />
         <div class="overlay"></div>
       </div>
 

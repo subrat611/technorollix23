@@ -4,11 +4,11 @@
     <div class="main-wrapper">
       <div class="card-wrapper">
         <div
-          v-for="({ param, eventName, eventDesc }, i) in events"
+          v-for="({ param, eventName, eventDesc, img }, i) in events"
           :key="i"
           class="card-container"
         >
-          <div class="card-img"><nuxt-img src="/event/codigo.png" /></div>
+          <div class="card-img"><nuxt-img :src="'/event/' + img" /></div>
           <div class="card-content">
             <p class="card-title">{{ eventName.toUpperCase() }}</p>
             <p class="card-desc">
@@ -66,12 +66,14 @@ export default {
         {
           param: 'crackit',
           eventName: 'Crack it if you can (coding base)',
+          img: 'crackit.png',
           eventDesc:
             'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically.',
         },
         {
           param: 'thinkin',
           eventName: 'Think in UI/UX (designing)',
+          img: 'thinkin.png',
           eventDesc:
             'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
         },
