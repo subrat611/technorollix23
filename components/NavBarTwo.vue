@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="nav-items-center">
-          <nuxt-img src="/opju-logo.png" class="logo" format="webp" />
+          <nuxt-img src="/technorollixlogo.png" class="logo" format="webp" />
         </div>
         <div class="nav-items-right">
           <ul class="nav-items">
@@ -119,7 +119,7 @@ export default {
 
       .logo {
         padding: 0 1rem;
-        width: 148px;
+        width: 200px;
         filter: drop-shadow(0 3px 30px rgba(220, 100, 20, 0.8));
       }
     }
