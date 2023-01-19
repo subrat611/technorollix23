@@ -38,6 +38,8 @@ export default {
         },
         {
           event_name: 'antaragni',
+          event_desc:
+            'Antaragni has been known for incorporating cultural excellence and opportunities. You can apply in any of the following categories Dancing, Singing, Mimicry, Stand up comed',
           event_img: '',
         },
         {
@@ -60,7 +62,9 @@ export default {
         },
         {
           event_name: 'lan gaming',
-          event_img: '',
+          event_desc:
+            'OPJU brings you the platform of LAN GAMING to showcase your gaming talents and let the world celebrate your identity. You can apply in any of the following games VALORANT, Clash Royal',
+          event_img: 'langaming.jpg',
         },
         {
           event_name: 'battle of bands',
