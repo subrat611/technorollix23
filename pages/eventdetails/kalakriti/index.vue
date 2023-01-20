@@ -2,6 +2,16 @@
   <div class="event-details-wrapper">
     <back-btn />
     <div class="main-wrapper">
+      <div class="details-wrapper">
+        <p>
+          Craft is the vehicle for expressing your vision. Craft is the visible
+          edge of Art. Here we are with " Kalakriti " which is a unique Event
+          driven by our artists' ideas, the context of space, season and the
+          vibes of the region, you will Perceive - " Fiction turning into
+          Reality". You are going to witness a different field of abstract
+          painting, fine arts photography sculpture and many more....
+        </p>
+      </div>
       <div class="card-wrapper">
         <div
           v-for="({ param, eventName, eventDesc, img }, i) in events"
@@ -13,45 +23,15 @@
             <p class="card-title">{{ eventName.toUpperCase() }}</p>
             <p class="card-desc">
               {{ eventDesc }}
-              <nuxt-link :to="`/eventdetails/codigocodechallenge/` + param"
+              <nuxt-link :to="`/eventdetails/kalakriti/` + param"
                 >...more</nuxt-link
               >
             </p>
-            <nuxt-link :to="`/eventdetails/codigocodechallenge/` + param">
+            <nuxt-link :to="`/eventdetails/kalakriti/` + param">
               <button>register</button>
             </nuxt-link>
           </div>
         </div>
-      </div>
-      <div class="details-wrapper">
-        <h2>RULES AND REGULATIONS OF CODIGO</h2>
-        <ul>
-          <li>
-            1. No participant is allowed to carry mobile or any electronic
-            gadgets during the competition.
-          </li>
-          <li>2. Sitting arrangement will be decided by event organizers.</li>
-          <li>
-            3. If due to any circumstances, one could not be present during the
-            event then the participant will be eliminated.
-          </li>
-          <li>
-            4. If any participant is found using Unfair means, necessary action
-            as per the rules of the event shall be taken.
-          </li>
-          <li>5. Both events will be held on the same day simultaneously.</li>
-          <li>6. No participants can take part in both the sub-events.</li>
-          <li>7. After Every round point will be announced.</li>
-          <li>
-            8. Rules and Regulations may change without prior notice, by the
-            Event organizers.
-          </li>
-          <li>9. No extra time will be given in any of the events.</li>
-          <li>
-            10. The event will be held on any Online platform and disclosed
-            right before the event.
-          </li>
-        </ul>
       </div>
     </div>
   </div>
@@ -59,24 +39,59 @@
 
 <script>
 export default {
-  name: 'CodigoEventCard',
+  name: 'KalakritiEventCard',
   data() {
     return {
       events: [
         {
-          param: 'crackit',
-          eventName: 'Crack it if you can (coding base)',
-          img: 'crackit.png',
+          param: 'exhibition',
+          eventName: 'Pradarshini (Exhibition)',
+          img: '',
           eventDesc:
-            'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically.',
+            "Imagine what life would have been without colors, art and aesthetics boring right? And what Techno would be without an Art exhibition indeed boring. But don't worry",
         },
         {
-          param: 'thinkin',
-          eventName: 'Think in UI/UX (designing)',
-          img: 'thinkin.png',
+          param: 'decoration',
+          eventName: 'Drishyaam (Decoration)',
+          img: '',
           eventDesc:
-            'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
+            'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition.',
         },
+        {
+          param: 'photorollix',
+          eventName: 'Photorollix',
+          img: '',
+          eventDesc:
+            'Photorollix is a recreational event where in participants are welcomed to openly participate here to show their " third eye handling Skill " as it is said, The picture that you took with your camera',
+        },
+        {
+          param: 'bestoutofwaste',
+          eventName: 'Best out of Waste',
+          img: '',
+          eventDesc:
+            'It is a holistic event where Creative and attractive DIYs items are to be made from the recycled & Up cycled Stuffs which will worth in using as decor and they are Environment friendly.',
+        },
+        {
+          param: 'rangoli',
+          eventName: 'Rangoli',
+          img: '',
+          eventDesc:
+            'Rangoli is a very popular folk art that has several connotations across India. It is a spiritual distribution of colors Which represents the happiness, positivity and liveliness of a household',
+        },
+        {
+          param: 'colourpainting',
+          eventName: 'Colour Painting',
+          img: '',
+          eventDesc:
+            'In order to create, we draw from our inner well. This inner well, an artistic reservoir, is ideally like a well-stocked fish pond… If we don’t give some attention to upkeep, our well is',
+        },
+        // {
+        //   param: 'glasspainting',
+        //   eventName: 'Glass Painting',
+        //   img: 'thinkin.png',
+        //   eventDesc:
+        //     'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
+        // },
       ],
     }
   },
@@ -106,12 +121,13 @@ a {
 
     .card-wrapper {
       width: 100%;
-      margin: 0 auto;
+      margin: 2rem auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
 
       .card-container {
+        margin: 1rem 0;
         width: 400px;
         background: rgba(63, 194, 255, 0.11);
         border-radius: 7px;
@@ -194,11 +210,17 @@ a {
       width: 95%;
       padding: 1rem;
       margin-top: 1rem;
+      background: rgba(63, 194, 255, 0.11);
+      border-radius: 7px;
+      box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+      backdrop-filter: blur(3.3px);
+      -webkit-backdrop-filter: blur(3.3px);
+      border: 1px solid rgba(255, 217, 252, 0.2);
 
-      h2 {
-        text-align: center;
-        padding: 1rem 0;
+      p {
         font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
       }
 
       ul > li {
@@ -218,7 +240,7 @@ a {
       width: 100%;
       .card-wrapper {
         width: 100%;
-        margin: 5rem 0 0 0;
+        margin: 2rem 0 3rem 0;
         padding: 0 1rem;
 
         .card-container {
@@ -241,6 +263,10 @@ a {
             }
           }
         }
+      }
+
+      .details-wrapper {
+        margin-top: 6rem;
       }
     }
   }

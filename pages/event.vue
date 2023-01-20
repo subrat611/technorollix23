@@ -35,8 +35,9 @@ export default {
         },
         {
           event_name: 'KalaKriti',
-          event_desc: '',
-          event_img: 'kalakriti.jpg'
+          event_desc:
+            'Craft is the vehicle for expressing your vision. Craft is the visible edge of Art. Here we are with " Kalakriti " which is a unique Event driven by our artists ideas, the context of space,',
+          event_img: 'kalakriti.jpg',
         },
         {
           event_name: 'antaragni',
