@@ -8,6 +8,7 @@
       <hero-section />
       <moments-section />
       <junoon-section />
+      <nav-bar-three />
     </div>
   </div>
 </template>

@@ -2,6 +2,7 @@
   <div>
     <nav-bar />
     <nav-bar-two />
+    <nav-bar-three />
     <div class="event-container">
       <p class="page-title">Events</p>
       <div class="event-lists">

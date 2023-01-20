@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="nav-container">
+    <div class="nav-container" :class="{ 'navbar-hidden': !showNavbar }">
       <div class="nav-content">
         <div class="nav-items-left">
           <ul class="nav-items">
             <li class="nav-item">
-              <nuxt-link to="/">home</nuxt-link>
+              <nuxt-link to="/team">contact us</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/event">events</nuxt-link>
+              <nuxt-link to="/event">about us</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/commingsoon">schedule</nuxt-link>
+              <nuxt-link to="/commingsoon">sponsors</nuxt-link>
             </li>
           </ul>
         </div>
@@ -21,10 +21,13 @@
         <div class="nav-items-right">
           <ul class="nav-items">
             <li class="nav-item">
-              <nuxt-link to="/team">Registration</nuxt-link>
+              <nuxt-link to="/team">social media</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/gallery">accommodation</nuxt-link>
+              <nuxt-link to="/gallery">gallery</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link to="/aboutus">about us</nuxt-link>
             </li>
           </ul>
         </div>
@@ -57,7 +60,7 @@ export default {
       }
       // Stop executing this function if the difference between
       // current scroll position and last scroll position is less than some offset
-      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 60) {
+      if (Math.abs(currentScrollPosition + this.lastScrollPosition) < 60) {
         return
       }
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
@@ -70,15 +73,22 @@ export default {
 <style lang="scss" scoped>
 .nav-container {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: 4;
   width: 100vw;
   transform: translate3d(0, 0, 0);
   transition: 0.1s all ease-out;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(15, 15, 15, 0),
+    rgba(0, 0, 0, 0.849)
+  );
+  padding: 1.3rem 0;
 
   &.navbar-hidden {
     transform: translate3d(0, -100%, 0);
+    display: none;
   }
 
   .nav-content {
@@ -99,20 +109,20 @@ export default {
         width: 100%;
         background-image: linear-gradient(
           -43.2deg,
-          rgba(13, 6, 26, 0.514) 10.8%,
+          rgba(13, 6, 26, 0.712) 10.8%,
           rgba(236, 13, 117, 0.521) 94.3%
         );
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(2.8px);
         -webkit-backdrop-filter: blur(5.8px);
-        transform: skewX(30deg);
+        transform: skewX(-200deg);
       }
     }
 
     .nav-items-center {
       /* From https://css.glass */
       background: rgba(35, 9, 51, 0.66);
-      border-radius: 0 0 16px 16px;
+      border-radius: 16px 16px 0 0;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(6.5px);
       -webkit-backdrop-filter: blur(6.5px);
@@ -135,13 +145,13 @@ export default {
         width: 100%;
         background-image: linear-gradient(
           43.2deg,
-          rgba(13, 6, 26, 0.514) 10.8%,
+          rgba(13, 6, 26, 0.712) 10.8%,
           rgba(236, 13, 117, 0.521) 94.3%
         );
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(2.8px);
         -webkit-backdrop-filter: blur(5.8px);
-        transform: skewX(-30deg);
+        transform: skewX(200deg);
       }
     }
 

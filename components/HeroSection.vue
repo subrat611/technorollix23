@@ -10,10 +10,11 @@
       <nuxt-img src="hero-bg.png" format="webp" />
     </div>
     <div class="content">
+      <p class="techno-sub top--title">A National Level TechFest</p>
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
-      <p class="techno-date">1<sup>st</sup> MARCH - 4<sup>th</sup> MARCH</p>
-      <p class="reg-btn" @click="$router.push('register')">Register</p>
+      <p class="techno-date">MARCH 1<sup>st</sup> - 4<sup>th</sup></p>
+      <!-- <p class="reg-btn" @click="$router.push('register')">Register</p> -->
     </div>
   </div>
 </template>
@@ -80,6 +81,14 @@ export default {
         rgb(255, 120, 239, 0.5) 0px 0px 15px, rgb(255, 120, 239, 1) 0px 0px 15px;
     }
 
+    .techno-sub.top--title {
+      font-size: 2rem;
+      padding-bottom: 1rem;
+      text-shadow: rgba(91, 213, 247, 0.521) 0px 0px 15px,
+        rgba(91, 213, 247, 0.616) 0px 0px 15px,
+        rgba(91, 212, 247, 1) 0px 0px 15px;
+    }
+
     .techno-sub {
       margin-top: 1rem;
       text-align: center;
@@ -129,6 +138,9 @@ export default {
     .content {
       .techno-title {
         font-size: 2.3rem;
+      }
+      .techno-sub.top--title {
+        font-size: 1.2rem;
       }
       .techno-sub {
         font-size: 1.3rem;
