@@ -91,7 +91,7 @@ export default {
           event_name: 'roadies',
           event_desc:
             'OPJU brings you the platform of ROADIES to showcase your talents and let the world celebrate your identity. t is an individual event i.e. one entry per registration.',
-          event_img: '',
+          event_img: 'roadies.png',
         },
         {
           event_name: 'aaghaaz the fashion show',

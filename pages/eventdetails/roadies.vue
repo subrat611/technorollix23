@@ -119,7 +119,7 @@ export default {
     return {
       event: {
         name: 'ROADIES',
-        img: '',
+        img: 'roadies.png',
         event_desc:
           'OPJU brings you the platform of ROADIES to showcase your talents and let the world celebrate your identity.',
       },
