@@ -35,6 +35,8 @@ export default {
         },
         {
           event_name: 'KalaKriti',
+          event_desc: '',
+          event_img: 'kalakriti.jpg'
         },
         {
           event_name: 'antaragni',
@@ -70,7 +72,7 @@ export default {
           event_name: 'battle of bands',
           event_desc:
             "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college students together and inspire",
-          event_img: '',
+          event_img: 'battleofband.png',
         },
         {
           event_name: 'brainy escape',

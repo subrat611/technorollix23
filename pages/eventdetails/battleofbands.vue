@@ -111,7 +111,7 @@ export default {
     return {
       event: {
         name: 'Battle of bands',
-        img: '',
+        img: 'battleofband.png',
         event_desc:
           "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college students together and inspire creativity, ingenuity, and personal growth through music. For the event, bands are given time slots to perform on stage. After the performance, judges score each band on criteria such as musicality and stage presence. ",
       },
