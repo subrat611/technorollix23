@@ -84,7 +84,7 @@ export default {
     .techno-sub.top--title {
       font-size: 2rem;
       padding-bottom: 1rem;
-      text-shadow: rgba(91, 213, 247, 0.521) 0px 0px 15px,
+      text-shadow: rgba(10, 50, 61, 0.521) 0px 0px 15px,
         rgba(91, 213, 247, 0.616) 0px 0px 15px,
         rgba(91, 212, 247, 1) 0px 0px 15px;
     }
@@ -95,19 +95,19 @@ export default {
       color: #fff;
       font-size: 5.6rem;
       font-family: 'origin Tech';
-      text-shadow: rgba(91, 212, 247, 1) 0px 0px 15px,
-        rgba(91, 212, 247, 1) 0px 0px 15px, rgba(91, 212, 247, 1) 0px 0px 15px;
+      text-shadow: rgba(91, 213, 247, 0.493) 0px 0px 15px,
+        rgba(91, 212, 247, 1) 0px 0px 15px, rgba(91, 213, 247, 0.61) 0px 0px 15px;
     }
 
     .techno-date {
       margin-top: 0.5em;
       font-size: 2rem;
       color: #fff;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'origin Tech';
       // text-shadow: rgba(91, 212, 247, 0.5) 0px 0px 10px,
       //   rgba(91, 212, 247, 0.8) 0px 0px 12px, rgba(91, 212, 247, 1) 0px 0px 10px;
       text-shadow: rgba(132, 220, 207, 0.7) 0px 0px 10px,
-        rgba(132, 220, 207, 0.6) 0px 0px 10px;
+        rgba(7, 63, 55, 0.815) 0px 0px 10px;
     }
 
     .reg-btn {
