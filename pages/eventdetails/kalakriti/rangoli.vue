@@ -98,7 +98,7 @@ export default {
     return {
       event: {
         name: 'Rangoli',
-        img: '',
+        img: 'rangoli.jpg',
         event_desc:
           'Rangoli is a very popular folk art that has several connotations across India. It is a spiritual distribution of colors Which represents the happiness, positivity and liveliness of a household, and is intended to welcome the goddess of wealth and Prosperity.',
       },

@@ -23,21 +23,29 @@
       <!-- event theme -->
       <div class="detail-rules">
         <h2>{{ 'theme'.toUpperCase() }}</h2>
-        <p>Bird view,Fish view, insect view, opju campus and Nature</p>
+        <p>On the Spot</p>
       </div>
 
       <!-- event rules and regulation -->
       <div class="detail-rules">
         <h2>{{ 'Rules of the event'.toUpperCase() }}</h2>
         <ul>
+          <li>Theme of the competition will be given on spot.</li>
           <li>
-            The event will happen in 2 round and continue for two days. i.e 1st
-            round before 1st mar. and 2nd of Feb 2023.
+            In group there must be 2 Participants. Or Single Participation is
+            Appreciated.
+          </li>
+          <li>Only Glass will be provided by the Organizers.</li>
+          <li>
+            Prizes will be awarded to First, Second and Third position holders,
+            along with Certificates of Achievement. A Certificate of
+            Participation will be given to all present participants.
           </li>
           <li>
-            Every participant will have to submit single photo at the end of the
-            day via G Form using which will be framed at the gallery.
+            The decision of jury shall remain final and no correspondence will
+            be entertained.
           </li>
+          <li>The participant must strictly adhere to the timings.</li>
           <li>
             Last minute changes in the above rules, if necessary, can be made.
           </li>
@@ -47,7 +55,7 @@
       <!-- rounds of event -->
       <div class="detail-judg">
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
-        <p>2 Rounds</p>
+        <p>1 Rounds</p>
       </div>
 
       <!-- Judgemental Criteria -->
@@ -60,7 +68,7 @@
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
         <p>
-          <b>Online</b>
+          <b>Infront of library (Lawn)</b>
         </p>
       </div>
 
@@ -74,14 +82,14 @@
 
 <script>
 export default {
-  name: 'PhotorollixEventPage',
+  name: 'GlassPaintingEventPage',
   data() {
     return {
       event: {
-        name: 'Photorollix',
-        img: 'photorollix.jpg',
+        name: 'Glass Painting',
+        img: 'glasspainting.jpg',
         event_desc:
-          'Photorollix is a recreational event where in participants are welcomed to openly participate here to show their "third eye handling Skill" as it is said,The picture that you took with your camera is the imagination you want to create with the reality. It will be the hall of fame which will show different beautiful moment Captured by the photographers. It will make you to re-live amazing moments again and again.',
+          'Glass Painting Traditions of India is one of the most refined art forms, which emerged in the state of Gujarat in the beginning of the 18th century. Glass paintings are executed with oil and hard resin or with watercolor and gum on glass sheets.',
       },
     }
   },

@@ -86,12 +86,12 @@
 
 <script>
 export default {
-  name: 'RangoliEventPage',
+  name: 'ColorPaintingEventPage',
   data() {
     return {
       event: {
         name: 'Colour Painting',
-        img: '',
+        img: 'colorpainting.jpg',
         event_desc:
           'In order to create, we draw from our inner well. This inner well, an artistic reservoir, is ideally like a well-stocked fish pond… If we don’t give some attention to upkeep, our well is apt to become depleted, stagnant, or blocked…As artists, we must learn to be self-nourishing. We must become alert enough to consciously replenish our creative resources as we draw on them — to restock the trout pond, Speak up…. Just Speak up on Canvas',
       },

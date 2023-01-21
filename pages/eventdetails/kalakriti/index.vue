@@ -46,52 +46,52 @@ export default {
         {
           param: 'exhibition',
           eventName: 'Pradarshini (Exhibition)',
-          img: '',
+          img: 'pradarshini.jpg',
           eventDesc:
             "Imagine what life would have been without colors, art and aesthetics boring right? And what Techno would be without an Art exhibition indeed boring. But don't worry",
         },
         {
           param: 'decoration',
           eventName: 'Drishyaam (Decoration)',
-          img: '',
+          img: 'drishyaam.jpg',
           eventDesc:
             'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition.',
         },
         {
           param: 'photorollix',
           eventName: 'Photorollix',
-          img: '',
+          img: 'photorollix.jpg',
           eventDesc:
             'Photorollix is a recreational event where in participants are welcomed to openly participate here to show their " third eye handling Skill " as it is said, The picture that you took with your camera',
         },
         {
           param: 'bestoutofwaste',
           eventName: 'Best out of Waste',
-          img: '',
+          img: 'bestoutofwaste.jpg',
           eventDesc:
             'It is a holistic event where Creative and attractive DIYs items are to be made from the recycled & Up cycled Stuffs which will worth in using as decor and they are Environment friendly.',
         },
         {
           param: 'rangoli',
           eventName: 'Rangoli',
-          img: '',
+          img: 'rangoli.jpg',
           eventDesc:
             'Rangoli is a very popular folk art that has several connotations across India. It is a spiritual distribution of colors Which represents the happiness, positivity and liveliness of a household',
         },
         {
           param: 'colourpainting',
           eventName: 'Colour Painting',
-          img: '',
+          img: 'colorpainting.jpg',
           eventDesc:
             'In order to create, we draw from our inner well. This inner well, an artistic reservoir, is ideally like a well-stocked fish pond… If we don’t give some attention to upkeep, our well is',
         },
-        // {
-        //   param: 'glasspainting',
-        //   eventName: 'Glass Painting',
-        //   img: 'thinkin.png',
-        //   eventDesc:
-        //     'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
-        // },
+        {
+          param: 'glasspainting',
+          eventName: 'Glass Painting',
+          img: 'glasspainting.jpg',
+          eventDesc:
+            'Glass Painting Traditions of India is one of the most refined art forms, which emerged in the state of Gujarat in the beginning of the 18th century. Glass paintings are executed with',
+        },
       ],
     }
   },
@@ -209,7 +209,7 @@ a {
     .details-wrapper {
       width: 95%;
       padding: 1rem;
-      margin-top: 1rem;
+      margin-top: 3rem;
       background: rgba(63, 194, 255, 0.11);
       border-radius: 7px;
       box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);

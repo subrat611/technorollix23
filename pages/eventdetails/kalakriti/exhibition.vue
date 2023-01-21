@@ -71,12 +71,12 @@
 
 <script>
 export default {
-  name: 'ExhibitionEventPage',
+  name: 'PradarshiniEventPage',
   data() {
     return {
       event: {
         name: 'Pradarshini (Exhibition)',
-        img: '',
+        img: 'pradarshini.jpg',
         event_desc:
           'Imagine what life would have been without colors, art and aesthetics boring right? And what Techno would be without an Art exhibition indeed boring. But don\'t worry we would not give you a millisecond of it. So, to dazzle your eyes we have "Pradarshini”, an art exhibition by Kalakriti. and to quench the thirst of your imagination and take you on a bewildering journey worth remembering. Get yourself a pair of sunglasses and come engulf yourself in the art and aesthetics.',
       },

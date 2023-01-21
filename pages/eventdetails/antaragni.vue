@@ -131,7 +131,7 @@ export default {
     return {
       event: {
         name: 'ANTARAGNI - GRAND-E-ROLLIX',
-        img: '',
+        img: 'antaragni.jpg',
         event_desc:
           'Antaragni has been known for incorporating cultural excellence and opportunities.',
       },

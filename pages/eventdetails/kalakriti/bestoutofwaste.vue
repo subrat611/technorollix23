@@ -82,7 +82,7 @@ export default {
     return {
       event: {
         name: 'Best Out of Waste',
-        img: '',
+        img: 'bestoutofwaste.jpg',
         event_desc:
           'It is a holistic event where Creative and attractive DIYs items are to be made from the recycled & Up cycled Stuffs which will worth in using as decor and they are Environment friendly.',
       },

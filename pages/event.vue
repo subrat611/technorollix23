@@ -44,7 +44,7 @@ export default {
           event_name: 'antaragni',
           event_desc:
             'Antaragni has been known for incorporating cultural excellence and opportunities. You can apply in any of the following categories Dancing, Singing, Mimicry, Stand up comed',
-          event_img: '',
+          event_img: 'antaragni.jpg',
         },
         {
           event_name: 'ideathon',
