@@ -71,7 +71,7 @@
       <div class="detail-rules">
         <h2>RULES AND REGULATIONS</h2>
         <ul>
-          <li>The participants can bring their own laptops.</li>
+          <li>Participants have to bring their own laptops.</li>
           <li>
             Regarding the coding platform you will get to know it right before
             the competition.

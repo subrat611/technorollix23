@@ -64,6 +64,7 @@
       <div class="detail-rules">
         <h2>RULES AND REGULATIONS</h2>
         <ul>
+          <li>Participants have to bring their own laptops.</li>
           <li>
             You can use any website for inspiration to design your website.
           </li>
