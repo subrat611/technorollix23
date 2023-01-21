@@ -101,6 +101,9 @@ export default {
         },
         {
           event_name: 'food fiesta',
+          event_desc:
+            'Good food is good mood. OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste. A recipe has no soul you as the cook',
+          event_img: '',
         },
         {
           event_name: 'codigo code challenge',
