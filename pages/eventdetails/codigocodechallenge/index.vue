@@ -27,8 +27,7 @@
         <h2>RULES AND REGULATIONS OF CODIGO</h2>
         <ul>
           <li>
-            1. No participant is allowed to carry mobile or any electronic
-            gadgets during the competition.
+            1. Participants have to bring their own laptops.
           </li>
           <li>2. Sitting arrangement will be decided by event organizers.</li>
           <li>
