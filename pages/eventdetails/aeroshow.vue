@@ -124,7 +124,7 @@ export default {
     return {
       event: {
         name: 'Aero Show',
-        img: '',
+        img: 'aeroshow.jpg',
         event_desc:
           'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously across the event through various rounds. Showyour skillsandabilities to bring out max potential of your UAVs.',
       },

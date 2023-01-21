@@ -96,6 +96,8 @@ export default {
         },
         {
           event_name: 'aaghaaz the fashion show',
+          event_desc: '',
+          event_img: 'aaghaaz.png',
         },
         {
           event_name: 'food fiesta',
@@ -116,6 +118,7 @@ export default {
           event_name: 'aero show',
           event_desc:
             'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously across the event through',
+          event_img: 'aeroshow.jpg',
         },
       ],
     }
