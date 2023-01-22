@@ -8,7 +8,7 @@
               <nuxt-link to="/team">contact us</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/event">about us</nuxt-link>
+              <nuxt-link to="/aboutus">about us</nuxt-link>
             </li>
             <li class="nav-item">
               <nuxt-link to="/commingsoon">sponsors</nuxt-link>
