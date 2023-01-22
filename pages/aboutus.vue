@@ -118,6 +118,8 @@ export default {
 <style lang="scss" scoped>
 .about-page {
   background: rgb(0, 2, 22);
+  min-height: 100vh;
+  max-height: 100%;
 
   .about-container {
     color: #fff;
