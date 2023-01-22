@@ -21,7 +21,7 @@
       </div>
 
       <!-- event categories -->
-      <div class="detail-rules">
+      <!-- <div class="detail-rules">
         <h2>You can apply in any of the following games</h2>
         <div class="flex justify-content-start">
           <ul>
@@ -32,7 +32,7 @@
             <li>Free Fire MAX</li>
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <!-- event theme -->
       <div class="detail-rules">
@@ -51,7 +51,7 @@
           </li>
           <li>
             Registrations are allowed from other institute (outsider of OPJU)
-            registration fee per group 100 rs.
+            registration fee per group 100rs.
           </li>
           <li>
             UG and PG students (Age 18- below 30) allowed of colleges /
