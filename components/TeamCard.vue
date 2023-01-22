@@ -8,7 +8,7 @@
       </div>
       <div class="overlay-hover">
         <div class="contact-links">
-          <a href="tel:" style="color: black">
+          <a :href="'tel:' + member.call" style="color: black">
             <div class="contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
     </div>
     <div class="contact-container-mobile">
       <div class="contact-links">
-        <a href="tel:+" style="color: black">
+        <a :href="'tel:' + member.call" style="color: black">
           <div class="contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"

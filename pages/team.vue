@@ -69,6 +69,7 @@ export default {
               name: 'Tanuja Nair',
               image: 'tanuja.png',
               designation: 'CSE',
+              call: '+916263374001'
             },
             {
               name: 'Anand Raj Dansena',
