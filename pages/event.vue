@@ -29,7 +29,7 @@ export default {
     return {
       events: [
         {
-          event_name: 'shark tank',
+          event_name: 'startup business plan',
           event_desc:
             'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed or early-stage. Based on the market',
           event_img: '',
@@ -50,7 +50,7 @@ export default {
           event_name: 'ideathon',
           event_desc:
             'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals',
-          event_img: '',
+          event_img: 'ideathon.jpg',
         },
         {
           event_name: 'Yuva Sadan',
@@ -103,7 +103,7 @@ export default {
           event_name: 'food fiesta',
           event_desc:
             'Good food is good mood. OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste. A recipe has no soul you as the cook',
-          event_img: '',
+          event_img: 'foodfiesta.jpg',
         },
         {
           event_name: 'codigo code challenge',
@@ -118,10 +118,10 @@ export default {
           event_img: '',
         },
         {
-          event_name: 'aero show',
+          event_name: 'aero drone',
           event_desc:
             'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously across the event through',
-          event_img: 'aeroshow.jpg',
+          event_img: 'aeroshow.jpeg',
         },
       ],
     }

@@ -134,7 +134,7 @@ export default {
     return {
       event: {
         name: 'FOOD FIESTA',
-        img: '',
+        img: 'foodfiesta.jpg',
         event_desc:
           'OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste.',
       },

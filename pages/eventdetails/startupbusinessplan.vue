@@ -104,11 +104,11 @@
 
 <script>
 export default {
-  name: 'SharkTankEventPage',
+  name: 'StartupEventPage',
   data() {
     return {
       event: {
-        name: 'Shark Tank (Start-up Competititon)',
+        name: 'startup business plan',
         img: '',
         event_desc:
           'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed or early-stage. Based on the market opportunity and concept validity of the plan, judges will assess the seed category. Entrepreneurs in the early-stage category, who have more developed company models, will be judged. The best pitches will walk away with Cash Prizes and Mentoring Opportunities.',

@@ -226,7 +226,7 @@ export default {
     return {
       event: {
         name: 'Ideathon',
-        img: '',
+        img: 'ideathon.jpg',
         event_desc:
           'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals and students having different skills and interests converge to diagnose predefined problems, identify the best opportunities and ideate the most viable solution.',
       },
