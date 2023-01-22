@@ -90,6 +90,8 @@ export default {
 
     .nav-items-left {
       position: relative;
+      width: 545px;
+      // height: 70px;
       &::before {
         content: '';
         position: absolute;
@@ -126,6 +128,8 @@ export default {
 
     .nav-items-right {
       position: relative;
+      width: 545px;
+      //  height: 70px;
       &::before {
         content: '';
         position: absolute;

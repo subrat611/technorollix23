@@ -21,13 +21,19 @@
         <div class="nav-items-right">
           <ul class="nav-items">
             <li class="nav-item">
-              <nuxt-link to="/team">social media</nuxt-link>
+              <nuxt-link to="/team">
+                <nuxt-img src="/facebook.png" format="webp" width="35" />
+              </nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/gallery">gallery</nuxt-link>
+              <nuxt-link to="/gallery">
+                <nuxt-img src="/instagram.png" format="webp" width="35" />
+              </nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/aboutus">about us</nuxt-link>
+              <nuxt-link to="/aboutus">
+                <nuxt-img src="/pinterest.png" format="webp" width="35" />
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -100,6 +106,8 @@ export default {
 
     .nav-items-left {
       position: relative;
+      width: 545px;
+      height: 70px;
       &::before {
         content: '';
         position: absolute;
@@ -136,6 +144,9 @@ export default {
 
     .nav-items-right {
       position: relative;
+      width: 545px;
+      height: 70px;
+
       &::before {
         content: '';
         position: absolute;
