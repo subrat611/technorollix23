@@ -39,7 +39,7 @@
         </div>
 
         <!-- patron message -->
-        <div class="patron-container">
+        <!-- <div class="patron-container">
           <p class="patron-title-one">patron's message</p>
           <p class="patron-title-two">
             SHRI NAVEEN JINDAL Chairman, Jindal Steel and Power (JSP)
@@ -80,7 +80,7 @@
             responsible, equitable, and accessible institute we can all take
             pride in.
           </p>
-        </div>
+        </div> -->
 
         <!-- about technorollix -->
         <div class="about-techno">
