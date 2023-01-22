@@ -53,7 +53,7 @@ export default {
         {
           param: 'decoration',
           eventName: 'Drishyam (Decoration)',
-          img: 'drishyaam.jpg',
+          img: 'drishyam.jpg',
           eventDesc:
             'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition.',
         },

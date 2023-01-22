@@ -94,7 +94,7 @@ export default {
     return {
       event: {
         name: 'Drishyam (Decoration)',
-        img: 'drishyaam.jpg',
+        img: 'drishyam.jpg',
         event_desc:
           'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition. Kalakriti is Presenting a Voyage through Different Cultures and Cultural Diversity of India. We are going to Showcase the Land of Cultural heritage, India whose versatility is Undeniable and unquestionable.',
       },
