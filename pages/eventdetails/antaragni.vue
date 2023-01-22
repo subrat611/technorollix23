@@ -81,7 +81,7 @@
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
         <p>
           There will be 3 rounds from which 2 will be conducted in MP hall and
-          last round in the ground at night.
+          last round will be in the university ground at night.
         </p>
       </div>
 
