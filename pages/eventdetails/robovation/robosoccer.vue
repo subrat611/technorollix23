@@ -14,7 +14,9 @@
         <!-- header -->
         <div class="header-one">
           <h1>{{ event.name_of_event_two.toUpperCase() }}</h1>
-          <p>{{ event.event_two_desc }}</p>
+          <div class="detail-info">
+            <p>{{ event.event_two_desc }}</p>
+          </div>
         </div>
 
         <h2>RULES AND ROUND OF THE ROBO SOCCER</h2>
@@ -45,11 +47,11 @@
             3 balls are placed at specified locations on the arena and 5 teams
             allowed to enter in the arena.
           </li>
-          <li>only Selected 2 teams who scoring high goals.</li>
+          <li>Only selected 2 teams who scoring high goals.</li>
           <li>Time limit is 5 minutes.</li>
           <li>
             Participants can drive, push or hit the ball into any of the goal
-            posts (only two goal post)
+            posts (only two goal post).
           </li>
           <li>Points = number of goals.</li>
           <li>
@@ -60,7 +62,6 @@
       </div>
 
       <!-- Round 2 -->
-
       <div class="detail-round-two">
         <h2>ROUND 2</h2>
         <ul>
@@ -71,7 +72,7 @@
           <li>Time limit is 5 minutes.</li>
           <li>1 no of goals = 5 points.</li>
           <li>
-            Participants should hit the ball into the opponent’s goal to score
+            Participants should hit the ball into the opponent's goal to score
             points.
           </li>
           <li>
@@ -85,10 +86,10 @@
             If ball gets hits out of the arena, then penalty shot will be given
             to opponent team (Opponent team will heat the ball from where the
             ball was hits out of the arena). And second team will defend its
-            goal. <br />
+            goal.<br />
             <b>
               Judging criteria for final winner will be based on number of goals
-              scored and time taken </b
+              scored and time taken. </b
             >.
           </li>
         </ul>
@@ -107,11 +108,11 @@
           </li>
           <li>
             Power supply (only DC) is allowed. Participants cannot draw power
-            fromoutside main(220v) power supply.
+            from outside main(220v) power supply.
           </li>
           <li>
-            Only one participant should control the robot and one for holding
-            battery or wire. No player can be exchanged in the match.
+            Only one participant should control the robot No player can be
+            exchanged in the match.
           </li>
         </ul>
       </div>
@@ -140,7 +141,7 @@
           </li>
           <li>
             Decision of the Judges and Event Organizers shall be treated as
-            final and binding on all and cannot becontested.
+            final and binding on all and cannot be contested.
           </li>
           <li>
             The event coordinator is the match referee. He takes all the
@@ -162,11 +163,7 @@
             Positions of balls will be decided by the organizers on the
             particular day of event.
           </li>
-          <li>
-            The length of the wire (for wired bots) should be long enough and
-            you cannot drag the wire during hitting the ball, wire should remain
-            slack during the event.
-          </li>
+          <li>The robot is wireless or autonomous.</li>
         </ul>
       </div>
 

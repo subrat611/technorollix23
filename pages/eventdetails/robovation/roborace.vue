@@ -13,7 +13,9 @@
         <!-- header -->
         <div class="header-one">
           <h1>{{ event.name_of_event_one.toUpperCase() }}</h1>
-          <p>{{ event.event_one_desc }}</p>
+          <div class="detail-info">
+            <p>{{ event.event_one_desc }}</p>
+          </div>
         </div>
 
         <h2>RULES AND ROUND OF THE ROBO RACE</h2>
@@ -22,10 +24,10 @@
       <!-- info -->
       <div class="detail-info">
         <p>
-          Design a robot wire or wireless within the specified dimensions that
-          can operated manually and can travel through all turns of the track.
-          The robot that will complete the specified task in least time will be
-          the winner. and not allowed to skip any obstacles or hurdles.
+          Design a wireless control robot with specified dimensions that can
+          operate autonomously and travel through all track turns. The robot
+          that will complete the specified task in the least time will be the
+          winner and will not be allowed to skip any obstacles or hurdles.
         </p>
       </div>
 
@@ -45,14 +47,10 @@
             additional power supply is accepted).
           </li>
           <li>
-            The machine must not be made from Lego parts, or any ready-made kit,
-            if we find such machine it will be disqualified.
+            The machine must not be made from Lego parts or any ready-made kit,
+            if we find such machine that will be disqualified.
           </li>
-          <li>
-            The length of the wire (for wired bots) should be long enough to
-            cover the whole track and should remain slack during the complete
-            run.
-          </li>
+          <li>The robot should be wireless.</li>
         </ul>
       </div>
 
@@ -144,8 +142,9 @@
             penalty and timer will not stop during this course of action.
           </li>
           <li>
-            The robot will be judged on basis of (in priority): - A Time to
-            complete the track. b). Number of checkpoints cleared.
+            The robot will be judged on basis of (in priority): - <br />
+            (a) A Time to complete the track.<br />
+            (b) Number of checkpoints cleared.
           </li>
           <li>
             Must not contain any readymade kits, pneumatic &hydraulic systems,
