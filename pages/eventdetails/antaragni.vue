@@ -21,7 +21,7 @@
       </div>
 
       <!-- event categories -->
-      <div class="detail-rules">
+      <!-- <div class="detail-rules">
         <h2>You can apply in any of the following categories</h2>
         <div class="flex justify-content-start">
           <ul>
@@ -37,39 +37,42 @@
             <li>Instrument play</li>
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <!-- event theme -->
       <div class="detail-rules">
         <h2>{{ 'theme'.toUpperCase() }}</h2>
-        <p>The Fire Within</p>
+        <p>Kala-E-Sham</p>
       </div>
 
       <!-- event rules and regulation -->
       <div class="detail-rules">
         <h2>{{ 'Rules of the event'.toUpperCase() }}</h2>
         <ul>
-          <li>Inappropriate (vulgar) songs are not permitted for the dance.</li>
+          <li>
+            Inappropriate or vulgar songs are not permitted for dancing or
+            singing.
+          </li>
           <li>
             Every contestant should provide their tracks to the coordinators in
             advance for the smooth conduction of the event.
           </li>
           <li>
-            Overall judgement will be based upon performance, decency,
-            discipline of contestants.
+            Overall judgment will be based on performance, decency, discipline
+            of contestants.
           </li>
-          <li>Performers should bring their own props.</li>
           <li>
-            Contents should not be offensive, politically driven, gender biased,
-            personal comments or any sensitive topic.
+            The contestants have to strictly follow all the rules and
+            regulations of the event.
           </li>
-          <li>Costumes should be appropriate.</li>
-          <li>No entries without registration.</li>
-          <li>Decision of the jury will be final.</li>
           <li>
-            The contestants should strictly follow all the rules and regulations
-            of the event.
+            Decision taken by the juries/faculty coordinators will be final.
           </li>
+          <li>
+            Only UG, PG and diploma students can participate. Students from
+            outside university are eligible.
+          </li>
+          <li>The elimination will be done after each round by the judges.</li>
         </ul>
       </div>
 
@@ -77,9 +80,8 @@
       <div class="detail-judg">
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
         <p>
-          The number of rounds will be decided based on the entries. This will
-          be intimated later. However, in final round 15- 20 individuals will be
-          given a chance to showcase their talent.
+          There will be 3 rounds from which 2 will be conducted in MP hall and
+          last round in the ground at night.
         </p>
       </div>
 
@@ -88,23 +90,16 @@
         <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
         <ul>
           <li>
-            For singing, judgement will be based upon voice quality, music,
-            nodes, pitch, stage presentation, synchronization.
+            As per judges call (voice quality, stage presentation, nodes, pitch,
+            synchronization)
           </li>
-          <li>Theme</li>
-          <li>Energy level</li>
-          <li>Clarity in performance</li>
-          <li>Confidence</li>
         </ul>
       </div>
 
       <!-- prizes -->
       <div class="detail-judg">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
-        <p>
-          1. First, Second and Third<br />
-          2. Certificate of appreciation for all the participants.
-        </p>
+        <p>1. First, Second and Third<br /></p>
       </div>
 
       <!-- venue -->
@@ -112,7 +107,7 @@
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
         <p>
-          <b>MP hall and Campus ground</b>
+          <b>Multi Purpose Hall and campus ground</b>
         </p>
       </div>
 
@@ -133,7 +128,7 @@ export default {
         name: 'ANTARAGNI - GRAND-E-ROLLIX',
         img: 'antaragni.jpg',
         event_desc:
-          'Antaragni has been known for incorporating cultural excellence and opportunities.',
+          'This event is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping  and fusion etc.',
       },
     }
   },
