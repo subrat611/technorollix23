@@ -22,7 +22,7 @@
           <ul class="nav-items">
             <li class="nav-item">
               <nuxt-link to="/team">
-                <nuxt-img src="/facebook.png" format="webp" width="35" />
+                <nuxt-img src="/pinterest.png" format="webp" width="35" />
               </nuxt-link>
             </li>
             <li class="nav-item">
@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <nuxt-link to="/aboutus">
-                <nuxt-img src="/pinterest.png" format="webp" width="35" />
+                <nuxt-img src="/facebook.png" format="webp" width="35" />
               </nuxt-link>
             </li>
           </ul>
