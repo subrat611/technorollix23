@@ -52,7 +52,7 @@ export default {
         },
         {
           param: 'decoration',
-          eventName: 'Drishyaam (Decoration)',
+          eventName: 'Drishyam (Decoration)',
           img: 'drishyaam.jpg',
           eventDesc:
             'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition.',
@@ -161,7 +161,6 @@ a {
 
           .card-desc {
             line-height: 1.4rem;
-            text-transform: capitalize;
             padding: 0 0.5rem 0 0;
             color: #e5e5e5;
             font-family: 'Montserrat', sans-serif;

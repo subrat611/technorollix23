@@ -50,7 +50,7 @@
       <!-- rounds of event -->
       <div class="detail-judg">
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
-        <p>1 Rounds</p>
+        <p>1 Round</p>
       </div>
 
       <!-- Judgemental Criteria -->

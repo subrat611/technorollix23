@@ -144,7 +144,6 @@ a {
 
           .card-desc {
             line-height: 1.4rem;
-            text-transform: capitalize;
             padding: 0 0.5rem 0 0;
             color: #e5e5e5;
             font-family: 'Montserrat', sans-serif;
