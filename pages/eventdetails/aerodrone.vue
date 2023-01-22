@@ -119,7 +119,7 @@
 
 <script>
 export default {
-  name: 'YuvaSadanEventPage',
+  name: 'AeroDroneEventPage',
   data() {
     return {
       event: {

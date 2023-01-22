@@ -31,67 +31,67 @@ export default {
         {
           event_name: 'startup business plan',
           event_desc:
-            'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed or early-stage. Based on the market',
+            'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed',
           event_img: '',
         },
         {
           event_name: 'KalaKriti',
           event_desc:
-            'Craft is the vehicle for expressing your vision. Craft is the visible edge of Art. Here we are with " Kalakriti " which is a unique Event driven by our artists ideas, the context of space,',
+            'Craft is the vehicle for expressing your vision. Craft is the visible edge of Art. Here we are with " Kalakriti " which is a unique Event driven',
           event_img: 'kalakriti.jpg',
         },
         {
           event_name: 'antaragni',
           event_desc:
-            'Antaragini (Grand- E- Rollix) is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping  and fusion etc.',
+            'Antaragini (Grand- E- Rollix) is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping and fusion etc..',
           event_img: 'antaragni.jpg',
         },
         {
           event_name: 'ideathon',
           event_desc:
-            'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals',
+            'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most',
           event_img: 'ideathon.jpg',
         },
         {
           event_name: 'Yuva Sadan',
           event_desc:
-            'The yuva sadan, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics.',
+            'The yuva sadan, technorollix, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide',
           event_img: 'yuva.jpg',
         },
         {
           event_name: 'robovation',
           event_desc:
-            'Design a robot wire or wireless within the specified dimensions that can operated manually and can travel through all turns of the track. The robot that will complete',
+            'Design a robot wire or wireless within the specified dimensions that can operated manually and can travel through all turns of the track',
           event_img: 'robovation.jpg',
         },
         {
           event_name: 'lan gaming',
           event_desc:
-            'OPJU brings you the platform of LAN GAMING to showcase your gaming talents and let the world celebrate your identity. You can apply in any of the following games VALORANT, Clash Royal',
+            'OPJU brings you the platform of LAN GAMING to showcase your gaming talents and let the world celebrate your identity. You can apply in any of',
           event_img: 'langaming.jpg',
         },
         {
           event_name: 'battle of bands',
           event_desc:
-            "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college students together and inspire",
+            "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college",
           event_img: 'battleofband.png',
         },
         {
           event_name: 'brainy escape',
           event_desc:
-            'A fun and exciting game for you to show your knowledge and intellectual skills and win exciting prizes. With different rounds to test your different skills and problem solving aptitude',
+            'A fun and exciting game for you to show your knowledge and intellectual skills and win exciting prizes. With different rounds to test your different',
           event_img: 'quiz.jpg',
         },
         {
           event_name: 'tech lab',
           event_desc:
-            'Tech lab is one of the most prestigious event of Technorollix,which is the biggest tech festival of central India.The event shows the creativity and potential of bright minds from ',
+            'Tech lab is one of the most prestigious event of Technorollix,which is the biggest tech festival of central India.The event shows the creativity',
           event_img: 'techlab.jpg',
         },
         {
           event_name: 'roadies',
           event_desc:
-            'OPJU brings you the platform of ROADIES to showcase your talents and let the world celebrate your identity. t is an individual event i.e. one entry per registration.',
+            'OPJU brings you the platform of ROADIES to showcase your talents and let the world celebrate your identity. t is an individual event i.e. one entry',
           event_img: 'roadies.png',
         },
         {
@@ -102,25 +102,25 @@ export default {
         {
           event_name: 'food fiesta',
           event_desc:
-            'Good food is good mood. OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste. A recipe has no soul you as the cook',
+            'Good food is good mood. OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste',
           event_img: 'foodfiesta.jpg',
         },
         {
           event_name: 'codigo code challenge',
           event_desc:
-            'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically. To test the strategy of comprehensive experience ',
+            'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically. To test the strategy',
           event_img: 'codigo.png',
         },
         {
           event_name: 'talent hunt',
           event_desc:
-            'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity. You can apply in any of the following categories: Magic, Story telling',
+            'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity. You can apply in any of the',
           event_img: 'talenthunt.png',
         },
         {
           event_name: 'aero drone',
           event_desc:
-            'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously across the event through',
+            'It is a drone racing event captivating the knowledge of Mechanical, Electrical and Cs skills based on your drone. Your drone wouldbetestedrigorously',
           event_img: 'aeroshow.jpeg',
         },
       ],
