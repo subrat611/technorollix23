@@ -146,7 +146,7 @@ export default {
     return {
       event: {
         name: 'Talent Hunt - (Talent hits a target; no one else can hit)',
-        img: '',
+        img: 'talenthunt.png',
         event_desc:
           'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity.',
       },
