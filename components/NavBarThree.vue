@@ -21,6 +21,9 @@
         <div class="nav-items-right">
           <ul class="nav-items">
             <li class="nav-item">
+              <nuxt-link to="/gallery">Gallery</nuxt-link>
+            </li>
+            <li class="nav-item">
               <nuxt-link to="/team">
                 <nuxt-img src="/pinterest.png" format="webp" width="35" />
               </nuxt-link>

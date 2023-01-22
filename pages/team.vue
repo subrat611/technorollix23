@@ -24,153 +24,41 @@ export default {
   data() {
     return {
       teams: [
+        // {
+        //   name: 'Patron',
+        //   team: [
+        //     {
+        //       name: 'Ms. Shallu Jindal',
+        //       image: 'shallu.png',
+        //       designation: 'Chancellor, OPJU',
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: 'Leadership Team',
+        //   team: [
+        //     {
+        //       name: 'Dr R.D Patidar',
+        //       image: 'RD.png',
+        //       designation: 'Vice Chancellor, OPJU',
+        //     },
+        //     {
+        //       name: 'Mr. Anurag Vijaywargya',
+        //       image: 'vijay.png',
+        //       designation: 'Registrar, OPJU',
+        //     },
+        //   ],
+        // },
+
+        // student conveners
         {
-          name: 'Patron',
-          team: [
-            {
-              name: 'Ms. Shallu Jindal',
-              image: 'shallu.png',
-              designation: 'Chancellor, OPJU',
-            },
-          ],
+          name: 'Student Conveners',
+          team: [],
         },
+
+        // student co-conveners
         {
-          name: 'Leadership Team',
-          team: [
-            {
-              name: 'Dr R.D Patidar',
-              image: 'RD.png',
-              designation: 'Vice Chancellor, OPJU',
-            },
-            {
-              name: 'Mr. Anurag Vijaywargya',
-              image: 'vijay.png',
-              designation: 'Registrar, OPJU',
-            },
-          ],
-        },
-        {
-          name: 'Faculty Mentors',
-          team: [
-            {
-              name: 'Dr Mahesh Bhiwapurkar',
-              image: 'mahesh.png',
-              designation: '',
-            },
-            {
-              name: 'Dr Sanjay Singh',
-              image: 'sanjay.png',
-              designation: '',
-            },
-          ],
-        },
-        {
-          name: 'Faculty Conveners',
-          team: [
-            {
-              name: 'Dr Swati Verma',
-              image: 'swati.png',
-              designation: '',
-            },
-            {
-              name: 'Dr Trinath Talapaneni',
-              image: 'trinath.png',
-              designation: '',
-            },
-            {
-              name: 'Dr L R Bhandarkar',
-              image: 'LR.png',
-              designation: '',
-            },
-            {
-              name: 'Dr Vikash Kumar',
-              image: 'vikas.png',
-              designation: '',
-            },
-          ],
-        },
-        {
-          name: 'Faculty Co-Conveners',
-          team: [
-            {
-              name: 'Dr Imran Ahmad Qadri',
-              image: 'imran.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Princy Diwan',
-              image: 'princy.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Sujata Panda',
-              image: 'sujata.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Pushpanjali Shadangi',
-              image: 'pushpanjali.png',
-              designation: '',
-            },
-          ],
-        },
-        {
-          name: 'Faculty Coordinators',
-          team: [
-            {
-              name: 'Prof. Sikha Tiwari',
-              image: 'sikha.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Pradeep Shrivas',
-              image: 'pradeep.png',
-              designation: '',
-            },
-            {
-              name: 'Dr Nidhi Kobragade',
-              image: 'nidhi.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Dharmender Singh Saini',
-              image: 'dharmender.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Ankireddy Narendra',
-              image: 'ankireddy.png',
-              designation: '',
-            },
-            {
-              name: 'Dr Deepak Patel',
-              image: 'deepak.png',
-              designation: '',
-            },
-            {
-              name: 'Prof. Manoj Kumar Mishra',
-              image: 'manoj.png',
-              designation: '',
-            },
-          ],
-        },
-        {
-          name: 'Design and Development',
-          team: [
-            {
-              name: 'Subrat Kumar Jena',
-              image: 'subrat.png',
-              designation: 'Team Lead & Developer',
-            },
-            {
-              name: 'Surbhi Vandana',
-              image: 'surbhivandana.png',
-              designation: 'Designer',
-            },
-          ],
-        },
-        {
-          name: 'Student Co-Convenor',
+          name: 'Student Co-Conveners',
           team: [
             {
               name: 'Manish Gupta',
@@ -251,6 +139,135 @@ export default {
               name: 'Tejeswar verma',
               image: 'tejeswarverma.png',
               designation: 'BBA',
+            },
+          ],
+        },
+
+        // faculty convenors
+        {
+          name: 'Faculty Conveners',
+          team: [
+            {
+              name: 'Dr Swati Verma',
+              image: 'swati.png',
+              designation: '',
+            },
+            {
+              name: 'Dr Trinath Talapaneni',
+              image: 'trinath.png',
+              designation: '',
+            },
+            {
+              name: 'Dr L R Bhandarkar',
+              image: 'LR.png',
+              designation: '',
+            },
+            {
+              name: 'Dr Vikash Kumar',
+              image: 'vikas.png',
+              designation: '( junoon )',
+            },
+          ],
+        },
+
+        // faculty co-convenors
+        {
+          name: 'Faculty Co-Conveners',
+          team: [
+            {
+              name: 'Dr Imran Ahmad Qadri',
+              image: 'imran.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Princy Diwan',
+              image: 'princy.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Sujata Panda',
+              image: 'sujata.png',
+              designation: '',
+            },
+            {
+              name: 'Prof. Pushpanjali Shadangi',
+              image: 'pushpanjali.png',
+              designation: '',
+            },
+          ],
+        },
+
+        // faculty mentors
+        // {
+        //   name: 'Faculty Mentors',
+        //   team: [
+        //     {
+        //       name: 'Dr Mahesh Bhiwapurkar',
+        //       image: 'mahesh.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Dr Sanjay Singh',
+        //       image: 'sanjay.png',
+        //       designation: '',
+        //     },
+        //   ],
+        // },
+
+        // {
+        //   name: 'Faculty Coordinators',
+        //   team: [
+        //     {
+        //       name: 'Prof. Sikha Tiwari',
+        //       image: 'sikha.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Prof. Pradeep Shrivas',
+        //       image: 'pradeep.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Dr Nidhi Kobragade',
+        //       image: 'nidhi.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Prof. Dharmender Singh Saini',
+        //       image: 'dharmender.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Prof. Ankireddy Narendra',
+        //       image: 'ankireddy.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Dr Deepak Patel',
+        //       image: 'deepak.png',
+        //       designation: '',
+        //     },
+        //     {
+        //       name: 'Prof. Manoj Kumar Mishra',
+        //       image: 'manoj.png',
+        //       designation: '',
+        //     },
+        //   ],
+        // },
+
+        // design and dev
+        {
+          name: 'Design and Development',
+          team: [
+            {
+              name: 'Subrat Kumar Jena',
+              image: 'subrat.png',
+              designation: 'Developer',
+            },
+            {
+              name: 'Surbhi Vandana',
+              image: 'surbhivandana.png',
+              designation: 'Designer',
             },
           ],
         },
