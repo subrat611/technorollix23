@@ -64,12 +64,15 @@ export default {
               name: 'Manish Gupta',
               image: 'manishgupta.png',
               designation: 'CSE',
+              call: '+919131391650',
+              mail: 'mani.ug20cse24@opju.ac.in',
             },
             {
               name: 'Tanuja Nair',
               image: 'tanuja.png',
               designation: 'CSE',
-              call: '+916263374001'
+              call: '+916263374001',
+              mail: 'tanu.ug20cse52@opju.ac.in',
             },
             {
               name: 'Anand Raj Dansena',
@@ -102,7 +105,7 @@ export default {
               designation: 'CIVIL',
             },
             {
-              name: 'Raunak Agarwal',
+              name: 'Rounak Agarwal',
               image: 'raunak.png',
               designation: 'ELECTRICAL',
             },
