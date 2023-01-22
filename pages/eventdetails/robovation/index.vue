@@ -42,6 +42,11 @@ export default {
           eventDesc:
             'Robo soccer is one of famous challenges of robovation in this event teams comes with single',
         },
+        {
+          eventName: 'Robo War',
+          eventDesc:
+            'Robo war is the most exciting challenge of this event It celebrates the sport of Robotic Combat through a contest',
+        },
       ],
     }
   },
