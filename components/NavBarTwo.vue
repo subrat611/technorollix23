@@ -21,10 +21,16 @@
         <div class="nav-items-right">
           <ul class="nav-items">
             <li class="nav-item">
-              <nuxt-link to="/team">Registration</nuxt-link>
+              <a
+                href="https://sites.google.com/view/opju-reg/home"
+                target="_blank"
+                >Registration</a
+              >
             </li>
             <li class="nav-item">
-              <nuxt-link to="/gallery">accommodation</nuxt-link>
+              <a href="https://forms.gle/WK62GKGoYydwGTCu6" target="_blank"
+                >accommodation</a
+              >
             </li>
           </ul>
         </div>
