@@ -10,11 +10,16 @@
       <nuxt-img src="hero-bg.png" format="webp" />
     </div>
     <div class="content">
-      <p class="techno-sub top--title">A National Level TechFest</p>
+      <p class="techno-sub top--title">
+        A National Level<br />
+        TechCulturFest
+      </p>
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
       <p class="techno-date">
-        MARCH 1<sup style="font-family: 'origin Tech'; font-size: 0.9rem">st</sup>
+        MARCH 1<sup style="font-family: 'origin Tech'; font-size: 0.9rem"
+          >st</sup
+        >
         - 4<sup style="font-family: 'origin Tech'; font-size: 0.9rem">th</sup>
       </p>
       <!-- <p class="reg-btn" @click="$router.push('register')">Register</p> -->
@@ -85,6 +90,7 @@ export default {
     }
 
     .techno-sub.top--title {
+      text-align: center;
       font-size: 2rem;
       padding-bottom: 1rem;
       text-shadow: rgba(10, 50, 61, 0.521) 0px 0px 15px,
