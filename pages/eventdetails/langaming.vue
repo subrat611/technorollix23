@@ -20,131 +20,111 @@
         <p>{{ event.event_desc }}</p>
       </div>
 
-      <!-- event categories -->
-      <div class="detail-rules">
-        <h2>You can apply in any of the following games</h2>
-        <div class="flex justify-content-start">
-          <ul>
-            <li>Valorant</li>
-            <li>Clash Royal</li>
-            <li>Call of Duty</li>
-            <li>Taken</li>
-            <li>Free Fire MAX</li>
-          </ul>
-        </div>
-      </div>
-
       <!-- event theme -->
       <div class="detail-rules">
         <h2>{{ 'theme'.toUpperCase() }}</h2>
         <p>Online shooting and strategical game.</p>
       </div>
 
-      <!-- event rules and regulation -->
+      <!-- code Of Conduct For Lan Gaming 2022 -->
       <div class="detail-rules">
-        <h2>{{ 'Rules of the event'.toUpperCase() }}</h2>
-        <ul>
-          <li>
-            Each tournament has a ruleset that cannot be changed or modified.
-            Any changes made by Victory Up can only happen after a tournament is
-            finished. Users cannot ask for changes to the rules while a
-            tournament is ongoing, and they are a participant.
-          </li>
-          <li>
-            Times are set for tournaments and we ask you to not have a practice
-            games against another participant in any given tournament, inside
-            the tournament window. This can cause complications when results are
-            sent in.
-          </li>
-          <li>
-            We ask all users who enter our tournaments to make sure they will be
-            available during said tournament. If you know that you cannot make a
-            tournament, during the given times stated on the tournament card, we
-            ask you to refrain from entering the tournament.
-          </li>
-          <li>
-            Cheating is not permitted in any form, that will advantage yourself
-            or any participant using Lan Gaming 2022 website or other
-            properties. Any competitor or participant found cheating may be
-            disqualified immediately.
-          </li>
-          <li>
-            The obligation to behave in a professional and sportsmanlike manner
-            includes an obligation on the part of Players and Team Managers to
-            arrive on time and ready to complete for all games, matches and
-            tournaments. It also prohibits forfeiting a game or match without
-            reasonable cause.
-          </li>
-          <li>
-            While participating in anyone of our tournaments, online or offline,
-            users will conduct themselves properly in accordance with our rules
-            and regulations.
-          </li>
-          <li>
-            Be a good winner It's a great feeling to win a game or a contest,
-            and you should enjoy that feeling! But at the same time, don't rub
-            your opponent's nose in it. Think about the frustration you feel
-            when nothing works and a game ends in defeat - in that situation,
-            taunting can be tough to take.
-          </li>
-          <li>
-            Show empathy If you are angry, try to control it before directing
-            your anger at another player. There are no rights and wrongs when it
-            comes to feelings, and you will experience both anger and joy when
-            playing. However, there are rights and wrongs when it comes to how
-            emotions such as anger are expressed - think about how it feels when
-            another player takes their anger out on you. One rule to remember is
-            to treat people the same way online as you would offline.
-          </li>
-          <li>
-            If you are angry at a loss, do not take it out on your teammates or
-            find ways to pass the blame - try instead to look at the statistics
-            or the replay and consider how you could have played differently.
-          </li>
-        </ul>
-      </div>
-
-      <!-- rounds of event -->
-      <div class="detail-judg">
-        <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
-        <p>Knockout rounds will be conducted.</p>
-      </div>
-
-      <!-- Judgemental Criteria -->
-      <div class="detail-judg">
-        <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
-        <ul>
-          <li>Clarity in performance</li>
-          <li>Originality</li>
-          <li>Confidence</li>
-          <li>Message conveyed</li>
-        </ul>
-        <p>
-          Note <br />
-          1. Each parameter contains 10 marks.<br />
-          2. Initial round will be judged by in-house faculty. <br />
-          3. Final round will be judged by External judges as well as in-house
-          faculty. <br />
-          4. The parameter of judgment may change which will be intimated later.
-        </p>
+        <h2>Code Of Conduct For Lan Gaming 2022</h2>
+        <div class="flex justify-content-start">
+          <ul>
+            <li>
+              Each tournament has a ruleset that cannot be changed or modified.
+              Any changes made by Victory Up can only happen after a tournament
+              is finished. Users cannot ask for changes to the rules while a
+              tournament is ongoing, and they are a participant.
+            </li>
+            <li>
+              Times are set for tournaments and we ask you to not have a
+              practice games against another participant in any given
+              tournament, inside the tournament window. This can cause
+              complications when results are sent in.
+            </li>
+            <li>
+              We ask all users who enter our tournaments to make sure they will
+              be available during said tournament. If you know that you cannot
+              make a tournament, during the given times stated on the tournament
+              card, we ask you to refrain from entering the tournament.
+            </li>
+            <li>
+              Cheating is not permitted in any form, that will advantage
+              yourself or any participant using Lan Gaming 2022 website or other
+              properties. Any competitor or participant found cheating may be
+              disqualified immediately.
+            </li>
+            <li>
+              The obligation to behave in a professional and sportsmanlike
+              manner includes an obligation on the part of Players and Team
+              Managers to arrive on time and ready to complete for all games,
+              matches and tournaments. It also prohibits forfeiting a game or
+              match without reasonable cause.
+            </li>
+            <li>
+              While participating in anyone of our tournaments, online or
+              offline, users will conduct themselves properly in accordance with
+              our rules and regulations.
+            </li>
+            <li>
+              Be a good winner It's a great feeling to win a game or a contest,
+              and you should enjoy that feeling! But at the same time, don't rub
+              your opponent's nose in it. Think about the frustration you feel
+              when nothing works and a game ends in defeat - in that situation,
+              taunting can be tough to take.
+            </li>
+            <li>
+              Show empathy If you are angry, try to control it before directing
+              your anger at another player. There are no rights and wrongs when
+              it comes to feelings, and you will experience both anger and joy
+              when playing. However, there are rights and wrongs when it comes
+              to how emotions such as anger are expressed - think about how it
+              feels when another player takes their anger out on you. One rule
+              to remember is to treat people the same way online as you would
+              offline.
+            </li>
+            <li>
+              If you are angry at a loss, do not take it out on your teammates
+              or find ways to pass the blame - try instead to look at the
+              statistics or the replay and consider how you could have played
+              differently.
+            </li>
+            <li>Knockout rounds will be conducted.</li>
+          </ul>
+        </div>
       </div>
 
       <!-- prizes -->
       <div class="detail-judg">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
         <p>
-          1. First, Second and Third<br />
-          2. Certificate of appreciation for all the participants.
+          1. 1st prize - ₹5000 <br />
+          2. 2nd prize - ₹3000 <br />
+          3. Best duelist - ₹1000 <br />
+          4. Best initiater - ₹1000 <br />
+          5. Best sentinel - ₹1000 <br />
+          6. Best controller - ₹1000 <br />
         </p>
       </div>
 
       <!-- venue -->
-
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
         <p>
-          <b>C++ Lab , C Lab 11</b>
+          <b>C++ Lab</b> <br />
+          <b>C Lab 11</b>
         </p>
+      </div>
+
+      <!--  -->
+      <div class="detail-judg">
+        <h2>{{ '' }}</h2>
+        <ul>
+          <li>LAN Cables</li>
+          <li>Wi-Fi</li>
+          <li>Tables</li>
+        </ul>
       </div>
 
       <!-- contact details -->
@@ -164,7 +144,7 @@ export default {
         name: 'LAN GAMING',
         img: 'langaming.jpg',
         event_desc:
-          'OPJU brings you the platform of LAN GAMING to showcase your gaming talents and let the world celebrate your identity.',
+          'OPJU brings you the platform of LAN Gaming  Valorant 2023: Valorant is a 5v5 online shooting and strategical game.',
       },
     }
   },

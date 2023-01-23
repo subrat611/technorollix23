@@ -67,7 +67,7 @@ export default {
         {
           event_name: 'lan gaming',
           event_desc:
-            'OPJU brings you the platform of LAN GAMING to showcase your gaming talents and let the world celebrate your identity. You can apply in any of',
+            'OPJU brings you the platform of LAN Gaming  Valorant 2023: Valorant is a 5v5 online shooting and strategical game.',
           event_img: 'langaming.jpg',
         },
         {
