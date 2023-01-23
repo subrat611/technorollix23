@@ -108,6 +108,8 @@ export default {
               name: 'Rounak Agarwal',
               image: 'raunak.png',
               designation: 'ELECTRICAL',
+              call: '+919304043774',
+              mail: 'roun.ug20ee13@opju.ac.in',
             },
             {
               name: 'Bindu Sao',
