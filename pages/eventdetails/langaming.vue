@@ -124,7 +124,7 @@
 
       <!--  -->
       <div class="detail-judg">
-        <h2>{{ '' }}</h2>
+        <h2>{{ 'requirements from college'.toUpperCase() }}</h2>
         <ul>
           <li>LAN Cables</li>
           <li>Wi-Fi</li>
