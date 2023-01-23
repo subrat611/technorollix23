@@ -32,6 +32,9 @@
             >
           </li>
           <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/gallery">gallery</nuxt-link>
+          </li>
+          <li class="nav-item" @click="openMenu">
             <nuxt-link to="/team">contact us</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
@@ -39,9 +42,6 @@
           </li>
           <li class="nav-item" @click="openMenu">
             <nuxt-link to="/">sponsors</nuxt-link>
-          </li>
-          <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/gallery">gallery</nuxt-link>
           </li>
         </ul>
       </div>
