@@ -9,9 +9,9 @@
           >...read more</nuxt-link
         >
       </p>
-      <nuxt-link :to="`/eventdetails/` + eventName.replace(/\s/g, '')">
+      <a href="https://sites.google.com/view/opju-reg/home" target="_blank">
         <button>register</button>
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>

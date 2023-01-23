@@ -20,13 +20,28 @@
             <nuxt-link to="/commingsoon">schedule</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/team">team</nuxt-link>
+            <a
+              href="https://sites.google.com/view/opju-reg/home"
+              target="_blank"
+              >registration</a
+            >
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/gallery">gallery</nuxt-link>
+            <a href="https://forms.gle/WK62GKGoYydwGTCu6" target="_blank"
+              >accommodation</a
+            >
+          </li>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/team">contact us</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
             <nuxt-link to="/aboutus">about us</nuxt-link>
+          </li>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/">sponsors</nuxt-link>
+          </li>
+          <li class="nav-item" @click="openMenu">
+            <nuxt-link to="/gallery">gallery</nuxt-link>
           </li>
         </ul>
       </div>
@@ -194,9 +209,9 @@ export default {
         padding-top: 1.5rem;
 
         .nav-item {
-          padding: 1.5rem 0;
+          padding: 1rem 0;
           a {
-            font-size: 2.5rem;
+            font-size: 1.3rem;
           }
         }
       }
