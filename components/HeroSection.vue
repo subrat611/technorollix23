@@ -14,8 +14,8 @@
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
       <p class="techno-date">
-        MARCH 1<sup style="font-family: 'origin Tech'; font-size: 1rem">st</sup>
-        - 4<sup style="font-family: 'origin Tech'; font-size: 1rem">th</sup>
+        MARCH 1<sup style="font-family: 'origin Tech'; font-size: 0.9rem">st</sup>
+        - 4<sup style="font-family: 'origin Tech'; font-size: 0.9rem">th</sup>
       </p>
       <!-- <p class="reg-btn" @click="$router.push('register')">Register</p> -->
     </div>
