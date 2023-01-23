@@ -4,11 +4,13 @@
     <div v-show="!isLoad" class="wrapper">
       <nav-bar />
       <nav-bar-two />
+      <home-logo-top />
       <!-- <notify-add v-show="isShowNotif" @close-add="closeAdd" /> -->
       <hero-section />
       <moments-section />
       <junoon-section />
       <nav-bar-three />
+      <home-logo-bottom />
     </div>
   </div>
 </template>
