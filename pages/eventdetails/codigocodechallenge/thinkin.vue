@@ -17,7 +17,7 @@
 
       <!-- overview -->
       <div class="detail-info">
-        <h2>{{ 'About Think in UI/UX (designing)'.toUpperCase() }}</h2>
+        <h2>{{ 'About Think UI (designing)'.toUpperCase() }}</h2>
         <br />
         <p>Each round consist of 100 points.</p>
       </div>
@@ -111,7 +111,7 @@ export default {
   data() {
     return {
       event: {
-        name: 'Think in UI/UX (designing)',
+        name: 'Think UI (designing)',
         img: 'codigo.png',
         event_desc:
           'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',

@@ -71,7 +71,7 @@ export default {
         },
         {
           param: 'thinkin',
-          eventName: 'Think in UI/UX (designing)',
+          eventName: 'Think UI (designing)',
           img: 'thinkin.png',
           eventDesc:
             'The Codigo, Technorollix 23, OPJU is an event to test the strategy of comprehensive experience in Visual Designing of students.',
