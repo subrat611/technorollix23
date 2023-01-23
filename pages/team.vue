@@ -15,6 +15,7 @@
         </div>
       </div>
     </div>
+    <nav-bar-three />
   </div>
 </template>
 

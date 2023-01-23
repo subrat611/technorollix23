@@ -106,6 +106,8 @@
         </div>
       </div>
     </div>
+
+    <nav-bar-three />
   </div>
 </template>
 
@@ -123,6 +125,8 @@ export default {
 
   .about-container {
     color: #fff;
+    padding-bottom: 6rem;
+
     .image-container {
       position: relative;
       height: 350px;
