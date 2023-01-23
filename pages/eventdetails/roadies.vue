@@ -59,10 +59,12 @@
         <ul>
           <li>Form</li>
           <li>Interview</li>
-          <li>Fitness Round</li>
-          <li>Task 1</li>
-          <li>Task 2</li>
-          <li>The grand finale</li>
+          <li>Task 1: - Fitness Round - One round of college campus</li>
+          <li>Task 2: - Slippery surface and to bring tomato</li>
+          <li>Task 3: - Tug of war</li>
+          <li>Task 4: - Arm wrestling</li>
+          <li>Semi final</li>
+          <li>Final</li>
         </ul>
       </div>
 
