@@ -13,7 +13,10 @@
       <p class="techno-sub top--title">A National Level TechFest</p>
       <p class="techno-title">TECHNOROLLIX</p>
       <p class="techno-sub">2023</p>
-      <p class="techno-date">MARCH 1<sup>st</sup> - 4<sup>th</sup></p>
+      <p class="techno-date">
+        MARCH 1<sup style="font-family: 'origin Tech'; font-size: 1rem">st</sup>
+        - 4<sup style="font-family: 'origin Tech'; font-size: 1rem">th</sup>
+      </p>
       <!-- <p class="reg-btn" @click="$router.push('register')">Register</p> -->
     </div>
   </div>
@@ -96,7 +99,8 @@ export default {
       font-size: 5.6rem;
       font-family: 'origin Tech';
       text-shadow: rgba(91, 213, 247, 0.493) 0px 0px 15px,
-        rgba(91, 212, 247, 1) 0px 0px 15px, rgba(91, 213, 247, 0.61) 0px 0px 15px;
+        rgba(91, 212, 247, 1) 0px 0px 15px,
+        rgba(91, 213, 247, 0.61) 0px 0px 15px;
     }
 
     .techno-date {
