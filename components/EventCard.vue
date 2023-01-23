@@ -6,7 +6,7 @@
       <p class="card-desc">
         {{ eventDesc }}
         <nuxt-link :to="`/eventdetails/` + eventName.replace(/\s/g, '')"
-          >...more</nuxt-link
+          >...read more</nuxt-link
         >
       </p>
       <nuxt-link :to="`/eventdetails/` + eventName.replace(/\s/g, '')">
