@@ -90,9 +90,14 @@
               statistics or the replay and consider how you could have played
               differently.
             </li>
-            <li>Knockout rounds will be conducted.</li>
           </ul>
         </div>
+      </div>
+
+      <!-- rounds -->
+      <div class="detail-judg">
+        <h2>{{ 'rounds'.toUpperCase() }}</h2>
+        <p><b>Knockout rounds will be conducted.</b></p>
       </div>
 
       <!-- prizes -->
