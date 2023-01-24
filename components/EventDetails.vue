@@ -11,7 +11,7 @@ export default {
   name: 'EventDetails',
   props: {
     teams: {
-      type: Object,
+      type: Array,
       default: null,
     },
   },
