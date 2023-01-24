@@ -168,6 +168,7 @@ export default {
     .nav-items {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       padding: 0.5rem;
 
       .nav-item {

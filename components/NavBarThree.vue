@@ -24,14 +24,25 @@
               <nuxt-link to="/gallery">Gallery</nuxt-link>
             </li>
             <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/company/technorollix-opju/"
+                target="_blank"
+              >
+                <nuxt-img src="/linkedin.png" format="webp" width="35" />
+              </a>
+            </li>
+            <li class="nav-item">
               <nuxt-link to="/team">
                 <nuxt-img src="/pinterest.png" format="webp" width="35" />
               </nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/gallery">
+              <a
+                href="https://www.instagram.com/technorollix/?igshid=ZDdkNTZiNTM%3D"
+                target="_blank"
+              >
                 <nuxt-img src="/instagram.png" format="webp" width="35" />
-              </nuxt-link>
+              </a>
             </li>
             <li class="nav-item">
               <nuxt-link to="/aboutus">
@@ -182,6 +193,7 @@ export default {
     .nav-items {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       padding: 0.5rem;
 
       .nav-item {
