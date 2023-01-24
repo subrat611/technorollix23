@@ -214,6 +214,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -229,6 +230,28 @@ export default {
         img: 'ideathon.jpg',
         event_desc:
           'An Ideathon is a short, engaging brainstorming event where individuals from different backgrounds address some of the most pressing challenges of our time. Individuals and students having different skills and interests converge to diagnose predefined problems, identify the best opportunities and ideate the most viable solution.',
+        teams: [
+          {
+            img: 'arindam.png',
+            name: 'Arindam Chakraborty',
+            call: '9981257969',
+          },
+          {
+            img: 'nehapatel.png',
+            name: 'Neha Patel',
+            call: '9131286269',
+          },
+          {
+            img: 'ravinderkumar.png',
+            name: 'Ravinder Kumar',
+            call: '8770670706',
+          },
+          {
+            img: 'vishalpandey.png',
+            name: 'Vishal Pandey',
+            call: '6207005596',
+          },
+        ],
       },
     }
   },

@@ -83,6 +83,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -98,6 +99,20 @@ export default {
         img: 'quiz.jpg',
         event_desc:
           'Engrossed with fun and Quiz-mania to tackle puzzles, riddles, and memes. Brush up your memory in the Technology, and General knowledge, build up curiosity and get the way out!!',
+        teams: [
+          {
+            img: 'abhayraj.jpg',
+            name: 'Abhayraj Sharma',
+            call: '9109141410',
+            mail: 'abha.ug20met01@opju.ac.in',
+          },
+          {
+            img: 'Rounak.jpg',
+            name: 'Rounak Agarwal',
+            call: '9304043774',
+            mail: 'roun.ug20ee13@opju.ac.in',
+          },
+        ],
       },
     }
   },

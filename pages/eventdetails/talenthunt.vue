@@ -134,6 +134,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -149,6 +150,44 @@ export default {
         img: 'talenthunt.png',
         event_desc:
           'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity.',
+        teams: [
+          {
+            img: '',
+            name: 'Suhani Agrawal',
+            call: '9685026258',
+            mail: 'suha.bsc21ma12@opju.ac.in',
+          },
+          {
+            img: '',
+            name: 'Mimansa Kashyap',
+            call: '9399175434',
+            mail: 'mima.mba2127@opju.ac.in',
+          },
+          {
+            img: 'jayant.jpg',
+            name: 'Jayant Shekhar Singh',
+            call: '9123147552',
+            mail: 'jaya.bt21me23@opju.ac.in',
+          },
+          {
+            img: 'siddhika.jpg',
+            name: 'Siddhika Modi',
+            call: '7223831160',
+            mail: 'sidd.bba2183@opju.ac.in',
+          },
+          {
+            img: 'shubhjeet.jpg',
+            name: 'Shubhjeet Chawla',
+            call: '8269994015',
+            mail: 'sidd.bba2183@opju.ac.in',
+          },
+          {
+            img: 'divyansh.jpg',
+            name: 'Divyansh Sharma',
+            call: '7223043576',
+            mail: 'sidd.bba2183@opju.ac.in',
+          },
+        ],
       },
     }
   },
