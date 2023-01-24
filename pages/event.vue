@@ -32,7 +32,7 @@ export default {
           event_name: 'startup business plan',
           event_desc:
             'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed',
-          event_img: '',
+          event_img: 'startup.jpg',
         },
         {
           event_name: 'KalaKriti',
