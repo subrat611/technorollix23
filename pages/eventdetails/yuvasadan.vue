@@ -86,6 +86,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -101,6 +102,58 @@ export default {
         img: 'yuva.jpg',
         event_desc:
           'The Yuvasadan, Technorollix 23, OPJU is an event to test the leadership and debating qualities of participants, stretching across different world wide issues related topics. It is not just a test of knowledge but also critical thinking skills of students. It helps you to acquire better poise, speech delivery and public speaking skills.',
+        teams: [
+          {
+            img: 'aditi.jpeg',
+            name: 'Aditi Singh',
+            call: '7606909905',
+          },
+          {
+            img: '',
+            name: 'Mousami Sharma',
+            call: '8260196632',
+          },
+          {
+            img: '',
+            name: 'Palak Agrawal',
+            call: '8982177527',
+          },
+          {
+            img: '',
+            name: 'Tanu Singh',
+            call: '9179560545',
+          },
+          {
+            img: '',
+            name: 'Sakshi Tiwari',
+            call: '8602159266',
+          },
+          {
+            img: '',
+            name: 'Yashwardhan Poddar',
+            call: '7440788780',
+          },
+          {
+            img: '',
+            name: 'Pardeep Rout',
+            call: '9669747176',
+          },
+          {
+            img: '',
+            name: 'Ankur Singh',
+            call: '9031359990',
+          },
+          {
+            img: '',
+            name: 'Shoumya Shina',
+            call: '7091799799',
+          },
+          {
+            img: '',
+            name: 'Pragati Panda',
+            call: '7815084095',
+          },
+        ],
       },
     }
   },
