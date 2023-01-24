@@ -235,7 +235,7 @@ export default {
         //       designation: '',
         //     },
         //     {
-        //       name: 'Dr Nidhi Kobragade',
+        //       name: 'Dr Nidhi Khobragade',
         //       image: 'nidhi.png',
         //       designation: '',
         //     },
