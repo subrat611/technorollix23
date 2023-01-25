@@ -152,13 +152,13 @@ export default {
           'OPJU brings you the platform of TALENT HUNT to showcase your talents and let the world celebrate your identity.',
         teams: [
           {
-            img: '',
+            img: 'suhani.jpg',
             name: 'Suhani Agrawal',
             call: '9685026258',
             mail: 'suha.bsc21ma12@opju.ac.in',
           },
           {
-            img: '',
+            img: 'mimansa.png',
             name: 'Mimansa Kashyap',
             call: '9399175434',
             mail: 'mima.mba2127@opju.ac.in',
