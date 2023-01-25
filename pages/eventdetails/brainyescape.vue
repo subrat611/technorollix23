@@ -112,6 +112,12 @@ export default {
             call: '9304043774',
             mail: 'roun.ug20ee13@opju.ac.in',
           },
+          {
+            img: 'aditichandra.jpg',
+            name: 'Aditi Chandra',
+            call: '7223035555',
+            mail: 'adit.ug20bscph01@opju.ac.in',
+          },
         ],
       },
     }
