@@ -110,6 +110,7 @@ export default {
       font-weight: 500;
       font-size: 1.2rem;
       letter-spacing: 0.05rem;
+      text-align: center;
     }
 
     .contact-links {
