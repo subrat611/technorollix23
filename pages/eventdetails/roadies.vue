@@ -109,6 +109,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -124,6 +125,13 @@ export default {
         img: 'roadies.png',
         event_desc:
           'OPJU brings you the platform of ROADIES to showcase your talents and let the world celebrate your identity.',
+        teams: [
+          { img: 'pratik.jpg', name: 'Pratik Singh', call: '7004517121' },
+          { img: 'deveshpatel.jpg', name: 'Devesh Patel', call: '9669600098' },
+          { img: 'sv.jpg', name: 'S V Saishankar ', call: '7049268306' },
+          { img: 'ankitraj.jpg', name: 'Ankit Raj', call: '7004610158' },
+          { img: 'rishikasahu.jpg', name: 'Rishika Sahu', call: '8224099894' },
+        ],
       },
     }
   },
