@@ -117,7 +117,7 @@
 
 <script>
 export default {
-  name: 'LanGamingEventPage',
+  name: 'RoadiesEventPage',
   data() {
     return {
       event: {
