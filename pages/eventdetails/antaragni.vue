@@ -114,6 +114,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -129,6 +130,22 @@ export default {
         img: 'antaragni.jpg',
         event_desc:
           'This event is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping  and fusion etc.',
+        teams: [
+          {
+            img: '',
+            name: 'Ankit Patnayak',
+            call: '',
+          },
+          {
+            img: '',
+            name: 'Rishika Bansal',
+            call: '',
+          },
+          { img: '', name: 'Krashika Shukla', call: '' },
+          { img: '', name: 'Taslima Tandi', call: '' },
+          { img: '', name: 'Suraj Gupta', call: '' },
+          { img: '', name: 'Shruti Singh', call: '' },
+        ],
       },
     }
   },
