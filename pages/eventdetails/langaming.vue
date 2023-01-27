@@ -135,6 +135,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -150,6 +151,16 @@ export default {
         img: 'langaming.jpg',
         event_desc:
           'OPJU brings you the platform of LAN Gaming  Valorant 2023: Valorant is a 5v5 online shooting and strategical game.',
+        teams: [
+          {
+            img: 'ritikprasad.png',
+            name: 'Ritik Prasad',
+            call: '7479882167',
+            mail: 'riti.btl22cs07@opju.ac.in',
+          },
+          { img: '', name: 'Kunal Joshi', call: '6371104362' },
+          { img: '', name: 'Atul Kumar Singh', call: '9755305060' },
+        ],
       },
     }
   },
