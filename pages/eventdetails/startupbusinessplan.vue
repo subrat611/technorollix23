@@ -97,6 +97,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -112,6 +113,20 @@ export default {
         img: 'startup.jpg',
         event_desc:
           'The purpose of the event is to provide students with practical experience so they may present their Start-up plans in one of two categories—seed or early-stage. Based on the market opportunity and concept validity of the plan, judges will assess the seed category. Entrepreneurs in the early-stage category, who have more developed company models, will be judged. The best pitches will walk away with Cash Prizes and Mentoring Opportunities.',
+        teams: [
+          {
+            img: '',
+            name: 'Ms. Anoushka Sharma',
+            call: '8349239114',
+            mail: 'anus.mba2212@opju.ac.in',
+          },
+          {
+            img: '',
+            name: 'Mr. Akash Sinha',
+            call: '8092691900',
+            mail: 'akas.mba2105@opju.ac.in',
+          },
+        ],
       },
     }
   },
