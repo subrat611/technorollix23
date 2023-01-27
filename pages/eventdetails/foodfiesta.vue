@@ -122,6 +122,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -137,6 +138,15 @@ export default {
         img: 'foodfiesta.jpg',
         event_desc:
           'OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste.',
+        teams: [
+          { img: 'ayushgupta.jpg', name: 'Ayush Gupta', call: '7869108678' },
+          {
+            img: 'vaibhavgupta.jpg',
+            name: 'Vaibhav Gupta',
+            call: '8827902201',
+          },
+          { img: 'amnesh.jpg', name: 'Amnesh Ranjan Tiwari', call: '7000957608' },
+        ],
       },
     }
   },
