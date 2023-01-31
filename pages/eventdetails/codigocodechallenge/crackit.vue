@@ -94,9 +94,8 @@
       <!-- contact -->
       <div class="detail-contact">
         <h2>EVENT MANAGER</h2>
+        <event-details :teams="event.teams" />
       </div>
-
-      <!-- robo soccer -->
     </div>
   </div>
 </template>
@@ -111,6 +110,32 @@ export default {
         img: 'codigo.png',
         event_desc:
           'The Codigo, Technorollix 23, OPJU is an event to check your problem-solving skill, analysis skills, and thinking logically.',
+        teams: [
+          {
+            img: 'kundan.png',
+            name: 'Kundan Kumar',
+            call: '7024633704',
+            mail: 'kundan773599@gmail.com',
+          },
+          {
+            img: 'sourabhsingh.jpg',
+            name: 'Sourabh Singh',
+            call: '9630326630',
+            mail: 'sourabhsinghredmi@gmail.com',
+          },
+          {
+            img: 'swapnil.jpg',
+            name: 'Swapnil Singh',
+            call: '9752991064',
+            mail: 'singhswapnil060303@gmail.com',
+          },
+          {
+            img: 'vineet.jpg',
+            name: 'Vineet Singh',
+            call: '7000279655',
+            mail: 'singhvineet0713@gmail.com',
+          },
+        ],
       },
     }
   },
