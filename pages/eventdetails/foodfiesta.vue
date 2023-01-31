@@ -20,25 +20,11 @@
         <p>{{ event.event_desc }}</p>
       </div>
 
-      <!-- event categories -->
-      <!-- <div class="detail-rules">
-        <h2>You can apply in any of the following games</h2>
-        <div class="flex justify-content-start">
-          <ul>
-            <li>Valorant</li>
-            <li>Clash Royal</li>
-            <li>Call of Duty</li>
-            <li>Taken</li>
-            <li>Free Fire MAX</li>
-          </ul>
-        </div>
-      </div> -->
-
       <!-- event theme -->
       <div class="detail-rules">
         <h2>{{ 'theme'.toUpperCase() }}</h2>
         <p>
-          A recipe has no soul you as the cook must bring soul to the recipe.
+          A recipe has no soul you as the cook, must bring soul to the recipe.
         </p>
       </div>
 
@@ -46,31 +32,24 @@
       <div class="detail-rules">
         <h2>{{ 'Rules of the event'.toUpperCase() }}</h2>
         <ul>
-          <li>
-            It is a group event i.e. group wise registration only 2 members.
-          </li>
-          <li>
-            Registrations are allowed from other institute (outsider of OPJU)
-            registration fee per group 100rs.
-          </li>
-          <li>
-            UG and PG students (Age 18- below 30) allowed of colleges /
-            university.
-          </li>
-          <li>
-            Performance should be within the time limit which will be intimated
-            later.
-          </li>
-          <li>
-            Contents should not be offensive, politically driven, gender biased,
-            personal comments or any sensitive topic.
-          </li>
-          <li>No abusive language.</li>
-          <li>Costumes should be appropriate.</li>
+          <li>Teams will be of only two members.</li>
           <li>No entries without registration.</li>
-          <li>Decision of the jury will be final.</li>
-          <li>Participants should be cooperative to the team member.</li>
-          <li>Result will be announced on the same date.</li>
+          <li>
+            Participants (Diploma/UG/PG students) are allowed from outside OPJU.
+          </li>
+          <li>Participants should not bring any pre-cooked food.</li>
+          <li>
+            Cooking should be done within the time limit (intimated on the same
+            day).
+          </li>
+          <li>
+            Participants should bring their own items required for plating and
+            decoration (flowers, fruits, veggies etc.).
+          </li>
+          <li>
+            Winners (declared on the same day) will be selected by judges.
+          </li>
+          <li>Participants should bring their own white aprons.</li>
         </ul>
       </div>
 
@@ -78,8 +57,24 @@
       <div class="detail-judg">
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
         <p>
-          The number of rounds will be decided based on the entries. This will
-          be intimated later.
+          <b>1st Round:</b> Your dish with our ingredients. <br />
+          <b>2nd Round:</b> Our dish with our ingredients. <br /><br />
+          <b
+            >After the completion of first round, the highest scoring
+            competitors will enter in the second round.</b
+          >
+        </p>
+      </div>
+
+      <!-- note-->
+      <div class="detail-judg">
+        <p>
+          <b>Note:</b> <br />
+          1. A quiz competition (related to dish, nutritional level and hygiene)
+          will be held during the cooking period. Teams who will give more
+          correct answers will get extra ingredients for their recipes. <br />
+          2. In the 2nd round participants will pick one anonymous note of
+          recipes and cook accordingly in given time.
         </p>
       </div>
 
@@ -87,16 +82,15 @@
       <div class="detail-judg">
         <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
         <ul>
-          <li>Taste Preference</li>
-          <li>Plating</li>
-          <li>Confidence</li>
-          <li>Performance</li>
+          <li>Taste</li>
+          <li>Presentation</li>
+          <li>Cleanliness and Hygiene</li>
+          <li>Creativity</li>
+          <li>Minimum wastage of food materials</li>
         </ul>
         <p>
           Note <br />
           1. Each parameter contains 10 marks.<br />
-          2. The parameter of judgment may change which will be intimated later.
-          <br />
         </p>
       </div>
 
@@ -115,7 +109,7 @@
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
         <p>
-          <b>Cafeteria ground floor</b>
+          <b>Cafeteria ground floor (next to Hub G-05).</b>
         </p>
       </div>
 
@@ -137,7 +131,7 @@ export default {
         name: 'FOOD FIESTA',
         img: 'foodfiesta.jpg',
         event_desc:
-          'OPJU brings you an extraordinary platform “FOOD FIESTA” to showcase your talents and let the world know your taste.',
+          'Cooking is all about people. Food has a power to bring everyone together by exchanging the tastes, traditions, and cultures. OPJU brings an extraordinary platform to the students “FOOD FIESTA” to showcase their culinary knowledge and cooking skills. ',
         teams: [
           { img: 'ayushgupta.jpg', name: 'Ayush Gupta', call: '7869108678' },
           {
@@ -145,7 +139,11 @@ export default {
             name: 'Vaibhav Gupta',
             call: '8827902201',
           },
-          { img: 'amnesh.jpg', name: 'Amnesh Ranjan Tiwari', call: '7000957608' },
+          {
+            img: 'amnesh.jpg',
+            name: 'Amnesh Ranjan Tiwari',
+            call: '7000957608',
+          },
         ],
       },
     }
