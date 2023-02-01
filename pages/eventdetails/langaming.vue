@@ -103,21 +103,82 @@
       <!-- prizes -->
       <div class="detail-judg">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
-        <p>
-          1. 1st prize - ₹5000 <br />
-          2. 2nd prize - ₹3000 <br />
-          3. Best duelist - ₹1000 <br />
-          4. Best initiater - ₹1000 <br />
-          5. Best sentinel - ₹1000 <br />
-          6. Best controller - ₹1000 <br />
-        </p>
+        <ul class="prize-wrapper">
+          <li class="prize">
+            <nuxt-img
+              src="/prize1.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 5000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 3000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">
+              Best duelist <br />
+              Rs. 1000
+            </span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">
+              Best initiater <br />
+              Rs. 1000
+            </span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">
+              Best sentinel <br />
+              Rs. 1000
+            </span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">
+              Best controller <br />
+              Rs. 1000
+            </span>
+          </li>
+        </ul>
       </div>
 
       <!-- venue -->
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
         <p>
-          <b>C++ Lab</b> <br />
+          <b>C++ Lab</b>
+          &nbsp;
           <b>C Lab 11</b>
         </p>
       </div>
@@ -262,6 +323,25 @@ li {
         font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1.6rem;
+      }
+
+      .prize-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .prize {
+          width: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.03em;
+          }
+        }
       }
     }
 

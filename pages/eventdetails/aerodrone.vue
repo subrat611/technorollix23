@@ -79,12 +79,45 @@
       <!-- event prizes -->
       <div class="detail-rules">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
-        <ul>
-          <li>1 st - Rs. 5000</li>
-          <li>2 nd - Rs. 3000</li>
-          <li>3 rd - Rs. 2000</li>
-          <li>
-            Consolation Prize – Rs. 1000 (only for a single participant/group)
+        <ul class="prize-wrapper">
+          <li class="prize">
+            <nuxt-img
+              src="/prize1.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 5000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 3000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize3.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 2000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Consolation Prize</span>
+            <span style="text-align: center"
+              >Rs. 1000 (only for a single participant/group)</span
+            >
           </li>
         </ul>
       </div>
@@ -227,6 +260,25 @@ li {
         font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1.6rem;
+      }
+
+      .prize-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .prize {
+          width: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.03em;
+          }
+        }
       }
     }
 

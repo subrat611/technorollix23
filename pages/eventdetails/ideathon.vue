@@ -156,16 +156,66 @@
       <!-- prizes -->
       <div class="detail-judg">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
-        <p>
-          <b>From total participants there will be 6 prizes</b>
-          <br />
-          1. First Prize <br />
-          2. Second Prize <br />
-          3. Third Prize <br />
-          4. Best Feasible Idea Prize <br />
-          5. Best Innovative Idea Prize (Unique and Originality) <br />
-          6. Best Presentation Prize
-        </p>
+        <ul class="prize-wrapper">
+          <li class="prize">
+            <nuxt-img
+              src="/prize1.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>1<sup>st</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>2<sup>nd</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize3.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>3<sup>rd</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center"
+              >Best Feasible<br />Idea Prize</span
+            >
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center"
+              >Best Innovative Idea Prize<br />(Unique and Originality)</span
+            >
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Best Presentation Prize</span>
+          </li>
+        </ul>
       </div>
 
       <!-- venue -->
@@ -353,6 +403,25 @@ li {
         font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1.6rem;
+      }
+
+      .prize-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .prize {
+          width: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.03em;
+          }
+        }
       }
     }
 

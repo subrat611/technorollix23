@@ -78,11 +78,35 @@
       <!-- prizes -->
       <div class="detail-judg">
         <h2>{{ 'prizes'.toUpperCase() }}</h2>
-        <p>
-          1. First Prize - Rs. 15,000 <br />
-          2. Second Prize - Rs. 10,000 <br />
-          3. Third Prize - Rs. 5000 <br />
-        </p>
+        <ul class="prize-wrapper">
+          <li class="prize">
+            <nuxt-img
+              src="/prize1.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 15,000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 10,000</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize3.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>Rs. 5000</span>
+          </li>
+        </ul>
       </div>
 
       <!-- venue -->
@@ -228,6 +252,25 @@ li {
         font-size: 1.1rem;
         font-family: 'Roboto', sans-serif;
         line-height: 1.6rem;
+      }
+
+      .prize-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .prize {
+          width: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.03em;
+          }
+        }
       }
     }
 
