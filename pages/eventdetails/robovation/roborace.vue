@@ -178,7 +178,7 @@ export default {
     return {
       event: {
         name: 'robovation',
-        img: 'robovation.jpg',
+        img: 'robo-race.jpg',
         name_of_event_one: 'Robo Race',
         event_one_desc:
           'Design a wired/wireless manually controlled robot which should be able to travel on all the hurdles and complete the track in minimum amount of time.',

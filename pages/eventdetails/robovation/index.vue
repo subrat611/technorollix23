@@ -3,11 +3,11 @@
     <back-btn />
     <div class="card-wrapper">
       <div
-        v-for="({ eventName, eventDesc }, i) in events"
+        v-for="({ eventName, eventDesc, img }, i) in events"
         :key="i"
         class="card-container"
       >
-        <div class="card-img"><nuxt-img src="/event/robovation.jpg" /></div>
+        <div class="card-img"><nuxt-img :src="'/event/' + img" /></div>
         <div class="card-content">
           <p class="card-title">{{ eventName.toUpperCase() }}</p>
           <p class="card-desc">
@@ -36,16 +36,19 @@ export default {
           eventName: 'Robo Race',
           eventDesc:
             'Design a wired/wireless manually controlled robot which should be able to travel on all the',
+          img: 'robo-race.jpg',
         },
         {
           eventName: 'Robo Soccer',
           eventDesc:
             'Robo soccer is one of famous challenges of robovation in this event teams comes with single',
+          img: 'robo-soccor.jpg',
         },
         {
           eventName: 'Robo War',
           eventDesc:
             'Robo war is the most exciting challenge of this event It celebrates the sport of Robotic Combat through a contest',
+          img: 'robo-war.jpg',
         },
       ],
     }

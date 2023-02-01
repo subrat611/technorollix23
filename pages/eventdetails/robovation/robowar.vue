@@ -212,7 +212,7 @@ export default {
     return {
       event: {
         name: 'robovation',
-        img: 'robovation.jpg',
+        img: 'robo-war.jpg',
         name_of_event_two: 'Robo War',
         event_two_desc:
           'Robo war is the most exciting challenge of this event It celebrates the sport of Robotic Combat through a contest of battling machines. This game gives opportunity to youngsters to design, build and control combat robots to demonstrate their creativity, engineering skills and driving ability. The most rewarding part of designing bots is that student have fun, work together as a team.',

@@ -184,7 +184,7 @@ export default {
     return {
       event: {
         name: 'robovation',
-        img: 'robovation.jpg',
+        img: 'robo-soccor.jpg',
         name_of_event_two: 'Robo Soccer',
         event_two_desc:
           'Robo soccer is one of famous challenges of robovation in this event teams comes with single robot and chase ball around the big size of arena with the aim to kick more goals than the opponent.',
