@@ -49,29 +49,52 @@
       <!-- event topic (example) -->
       <div class="detail-rules">
         <h2>{{ 'TOPICS (FOR EXAMPLE)'.toUpperCase() }}</h2>
-        <ul>
-          <li>Impact of Workplace Diversity on Company Culture</li>
-          <li>How Financial Literacy impacts Investment Behavior</li>
-          <li>Environmental issues with their solution.</li>
-          <li>Big Data and Automation in Supply Chain Management</li>
-          <li>
-            Towards a Cleaner and Greener Environment with new technologies
-          </li>
-          <li>Conversion of waste material into useful material.</li>
-          <li>Agriculture, Food and Rural Development</li>
-          <li>Block chain and Cybersecurity</li>
-          <li>Augmented Reality</li>
-          <li>Clean And Green Technology</li>
-          <li>Fitness and Sports</li>
-          <li>MedTech/BioTech/HealthTech</li>
-          <li>Renewable/Sustainable Energy</li>
-          <li>Robotics and Drone</li>
-          <li>Smart Automation</li>
-          <li>Transport and Logistics</li>
-          <li>Disaster Management</li>
-          <li>Big Data Technology</li>
-          <li>Business management with AI</li>
-        </ul>
+        <table>
+          <tbody>
+            <tr>
+              <td>1. Impact of Workplace Diversity on Company Culture</td>
+              <td>2. How Financial Literacy impacts Investment Behavior</td>
+            </tr>
+            <tr>
+              <td>3. Environmental issues with their solution.</td>
+              <td>4. Big Data and Automation in Supply Chain Management</td>
+            </tr>
+            <tr>
+              <td>
+                5. Towards a Cleaner and Greener Environment with new
+                technologies
+              </td>
+              <td>6. Conversion of waste material into useful material.</td>
+            </tr>
+            <tr>
+              <td>7. Agriculture, Food and Rural Development</td>
+              <td>8. Block chain and Cybersecurity</td>
+            </tr>
+            <tr>
+              <td>9. Augmented Reality</td>
+              <td>10. Clean And Green Technology</td>
+            </tr>
+            <tr>
+              <td>11. Fitness and Sports</td>
+              <td>12. MedTech/BioTech/HealthTech</td>
+            </tr>
+            <tr>
+              <td>13. Renewable/Sustainable Energy</td>
+              <td>14. Robotics and Drone</td>
+            </tr>
+            <tr>
+              <td>15. Smart Automation</td>
+              <td>16. Transport and Logistics</td>
+            </tr>
+            <tr>
+              <td>17. Disaster Management</td>
+              <td>18. Big Data Technology</td>
+            </tr>
+            <tr>
+              <td>19. Business management with AI</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <!-- event rules and regulation -->
@@ -379,6 +402,21 @@ li {
     .detail-rules,
     .detail-judg {
       margin-top: 1.5rem;
+
+      table {
+        tbody {
+          tr {
+            td {
+              // margin: 0 1rem;
+              padding: 0.5rem 0.5rem 0.5rem 0;
+              font-size: 1rem;
+              word-break: break-all;
+              font-family: 'Roboto', sans-serif;
+              line-height: 1.4rem;
+            }
+          }
+        }
+      }
 
       h2 {
         padding: 1rem 0;
