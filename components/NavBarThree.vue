@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="nav-items-center">
-          <nuxt-img src="/technorollixlogo.png" class="logo" format="webp" />
+          <!-- <nuxt-img src="/technorollixlogo.png" class="logo" format="webp" /> -->
         </div>
         <div class="nav-items-right">
           <ul class="nav-items">

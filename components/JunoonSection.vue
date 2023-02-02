@@ -15,7 +15,7 @@
     </div>
     <div class="hero-text">
       <div>
-        <p class="title">Junoon</p>
+        <p class="title">GRAND DJ</p>
       </div>
       <!-- <div class="reg-btn">
         <span>Get ticket</span>
