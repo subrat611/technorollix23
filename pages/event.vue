@@ -13,6 +13,8 @@
           :event-desc="event.event_desc"
           :event-img="event.event_img"
           :index="i"
+          data-aos="fade-up"
+          data-aos-delay="100"
         />
       </div>
     </div>
@@ -145,10 +147,12 @@ export default {
     font-size: 3rem;
     letter-spacing: 0.02em;
     width: fit-content;
-    background: -webkit-linear-gradient(#b6b6b6, #e3e3e3e5);
+    background: -webkit-linear-gradient(#d6d6d6, #e3e3e3e5);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.466) 0px 0px 5px,
+      rgba(243, 243, 243, 0.836) 0px 0px 30px;
   }
 
   .event-lists {
