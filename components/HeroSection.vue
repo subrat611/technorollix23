@@ -19,7 +19,7 @@
       </div>
       <p class="techno-sub top--title">
         A National Level<br />
-        Tech-Cultural Fest
+        Techno-Cultural Fest
       </p>
       <div class="techno-title">
         <div class="prize-pool-wrapper">
