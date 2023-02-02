@@ -14,7 +14,7 @@
         <nuxt-img src="/prize-pool.png" height="110" />
         <div class="prize-pool-mob-text">
           <span>prize pool</span>
-          <span>3,00,000</span>
+          <span><b>₹</b> 3,00,000</span>
         </div>
       </div>
       <p class="techno-sub top--title">
