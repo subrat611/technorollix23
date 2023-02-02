@@ -203,7 +203,7 @@ export default {
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          font-size: 1.3rem;
+          font-size: 1.2rem;
           font-family: 'Montserrat', sans-serif;
           font-weight: 800;
           letter-spacing: 0.06em;
