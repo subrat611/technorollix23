@@ -18,6 +18,7 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.25.3",
     "gsap": "^3.11.3",
     "nuxt": "^2.15.8",
