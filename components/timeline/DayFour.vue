@@ -105,8 +105,18 @@ export default {
 
     .title {
       font-size: 1.5rem;
-      color: orangered;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 0.04em;
+      font-weight: 600;
+      text-shadow: rgb(10 50 61 / 52%) 0px 0px 15px,
+        rgb(91 213 247 / 62%) 0px 0px 15px,
+        rgba(91, 213, 247, 0.507) 0px 0px 15px;
       position: relative;
+
+      @media all and (max-width: '912px') {
+        font-size: 1.2rem;
+      }
     }
 
     p {
