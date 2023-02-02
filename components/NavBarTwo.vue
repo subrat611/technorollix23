@@ -11,7 +11,7 @@
               <nuxt-link to="/event">events</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/commingsoon">schedule</nuxt-link>
+              <nuxt-link to="/schedule">schedule</nuxt-link>
             </li>
           </ul>
         </div>
