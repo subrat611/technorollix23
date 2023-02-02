@@ -193,10 +193,6 @@ export default {
         rgb(91 213 247 / 62%) 0px 0px 15px,
         rgba(91, 213, 247, 0.507) 0px 0px 15px;
       position: relative;
-
-      @media all and (max-width: '912px') {
-        font-size: 1.2rem;
-      }
     }
 
     p {
