@@ -111,7 +111,7 @@ export default {
 
       option {
         background-color: #333;
-        color: rgb(252, 101, 63);
+        color: rgb(255, 255, 255);
       }
     }
   }
