@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Battle of Bands (Finale)</h3>
         <div class="info-img">
           <nuxt-img src="/event/battleofband.png" />
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Valedictory & Prize Distribution</h3>
         <p>Time: 6:30 PM</p>
         <p>Venue: OAT</p>

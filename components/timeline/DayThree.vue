@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">KalaKriti (Rangoli) + Photorollix (online)</h3>
         <div class="info-img">
           <nuxt-img src="/event/kalakriti.jpg" />
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Robo Race</h3>
         <div class="info-img">
           <nuxt-img src="/event/robo-race.jpg" />
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Brainy Escape</h3>
         <div class="info-img">
           <nuxt-img src="/event/quiz.jpg" />
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Codigo</h3>
         <div class="info-img">
           <nuxt-img src="/event/codigo.png" />
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Roadies</h3>
         <div class="info-img">
           <nuxt-img src="/event/roadies.png" />
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Food Fiesta (Finale)</h3>
         <div class="info-img">
           <nuxt-img src="/event/foodfiesta.jpg" />
@@ -61,7 +61,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">LAN Gaming</h3>
         <div class="info-img">
           <nuxt-img src="/event/langaming.jpg" />
@@ -71,7 +71,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Yuva Sadan (Finale)</h3>
         <div class="info-img">
           <nuxt-img src="/event/yuva.jpg" />
@@ -81,7 +81,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Aero Drone</h3>
         <div class="info-img">
           <nuxt-img src="/event/aeroshow.jpeg" />
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">DJ Night</h3>
         <p>Time: 7:00 PM</p>
         <p>Venue: University playground</p>

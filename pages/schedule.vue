@@ -13,10 +13,10 @@
         </select>
       </div>
       <div class="timeline">
-        <day-one v-show="dayone" />
-        <day-two v-show="daytwo" />
-        <day-three v-show="daythree" />
-        <day-four v-show="dayfour" />
+        <day-one v-if="dayone" />
+        <day-two v-if="daytwo" />
+        <day-three v-if="daythree" />
+        <day-four v-if="dayfour" />
       </div>
     </div>
     <nav-bar-three />

@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Tech-lab: Model Presentation</h3>
         <div class="info-img">
           <nuxt-img src="/event/techlab.jpg" />
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">
           KalaKriti (Exhibition, colour painting and glass painting)
         </h3>
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Ideathon</h3>
         <div class="info-img">
           <nuxt-img src="/event/ideathon.jpg" />
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Battle of Bands</h3>
         <div class="info-img">
           <nuxt-img src="/event/battleofband.png" />
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Roadies (Round-1)</h3>
         <div class="info-img">
           <nuxt-img src="/event/roadies.png" />
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Codigo</h3>
         <div class="info-img">
           <nuxt-img src="/event/codigo.png" />
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Talent Hunt</h3>
         <div class="info-img">
           <nuxt-img src="/event/talenthunt.png" />
@@ -73,17 +73,14 @@
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Inaugural function & Scholarship Distribution</h3>
-        <!-- <div class="info-img">
-          <nuxt-img src="/event/codigo.png" />
-        </div> -->
         <p>Time: 6:30 PM</p>
         <p>Venue: University playground</p>
       </div>
     </div>
     <div class="card">
-      <div class="info">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Aaghaaz</h3>
         <div class="info-img">
           <nuxt-img src="/event/aaghaaz.png" />
