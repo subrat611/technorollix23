@@ -11,6 +11,8 @@
             v-for="(member, i) in team.team"
             :key="i"
             :member="member"
+            data-aos="fade-up"
+            data-aos-delay="100"
           />
         </div>
       </div>
@@ -53,13 +55,128 @@ export default {
 
         // student conveners
         {
-          name: 'Student Conveners',
-          team: [],
+          name: 'Student Convenors',
+          team: [
+            {
+              name: 'Chirag Mishra',
+              image: '',
+              designation: 'MECHANICAL',
+              call: '+918871724185',
+            },
+            {
+              name: 'ADITYA SHEKHAR',
+              image: '',
+              designation: 'MECHANICAL',
+              call: '+917733954914',
+            },
+            {
+              name: 'RITISHA AGRAWAL',
+              image: '',
+              designation: 'EE',
+              call: '+917587230147',
+            },
+            {
+              name: 'SHIVAM PANDEY',
+              image: '',
+              designation: 'EE',
+              call: '+917000662948',
+            },
+            {
+              name: 'ABHINAV SHARMA',
+              image: '',
+              designation: 'CIVIL',
+              call: '+917477028878',
+            },
+            {
+              name: 'AANAND PATEL',
+              image: '',
+              designation: 'CIVIL',
+              call: '+916266819393',
+            },
+            {
+              name: 'SUSHANT MISHRA',
+              image: '',
+              designation: 'CSE',
+              call: '+917067718336',
+            },
+            {
+              name: 'SIMRELLA AGRAWAL',
+              image: '',
+              designation: 'CSE',
+              call: '+917489211170',
+            },
+            {
+              name: 'DEENDAYAL PRAJAPATI',
+              image: '',
+              designation: 'META',
+              call: '+917489559277',
+            },
+            {
+              name: 'ARJUN GUPTA',
+              image: '',
+              designation: 'META',
+              call: '+919630526890',
+            },
+            {
+              name: 'SHUBHAM KUAMR ADDI',
+              image: '',
+              designation: 'META',
+              call: '+919142716619',
+            },
+            {
+              name: 'AKHILESH',
+              image: '',
+              designation: 'META',
+              call: '+918789916216',
+            },
+            {
+              name: 'RITIKA SAINI',
+              image: '',
+              designation: 'SOS',
+              call: '+916264824855',
+            },
+            {
+              name: 'TANKESHWER PATEL',
+              image: '',
+              designation: 'SOS',
+              call: '+917803064829',
+            },
+            {
+              name: 'AASHTHA GUPTA',
+              image: '',
+              designation: 'SOS',
+              call: '+916267138484',
+            },
+            {
+              name: 'SHIVAM SHAW',
+              image: '',
+              designation: 'SOM (MBA)',
+              call: '+917278294467',
+            },
+            {
+              name: 'AASHISH KUMAR GUPTA',
+              image: '',
+              designation: 'SOM (BBA)',
+              call: '+919907499711',
+            },
+            {
+              name: 'VIPUL KUMAR',
+              image: '',
+              designation: 'SOM (MBA)',
+              call: '+917224898002',
+            },
+            {
+              name: 'MUSHKAN BERIWAL',
+              image: '',
+              designation: 'SOM (BCOM)',
+              call: '+917745924214',
+            },
+          ],
         },
 
         // student co-conveners
         {
-          name: 'Student Co-Conveners',
+          name: 'Student Co-Convenors',
           team: [
             {
               name: 'Manish Gupta',
@@ -152,7 +269,7 @@ export default {
 
         // faculty convenors
         {
-          name: 'Faculty Conveners',
+          name: 'Faculty Convenors',
           team: [
             {
               name: 'Dr Swati Verma',
@@ -179,7 +296,7 @@ export default {
 
         // faculty co-convenors
         {
-          name: 'Faculty Co-Conveners',
+          name: 'Faculty Co-Convenors',
           team: [
             {
               name: 'Dr Imran Ahmad Qadri',
@@ -337,12 +454,14 @@ export default {
   .team-wrapper {
     .team-card-container {
       .heading {
-        font-size: 1.5rem;
+        font-size: 2.1rem;
+        text-align: center;
       }
       .card {
         padding: 0;
         .card-title {
           text-align: center;
+            font-size: 1.8rem;
         }
         .members {
           justify-content: center;

@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div style="height: 400px">
     <div class="team-card">
       <nuxt-img :src="'/team/' + member.image" format="webp" loading="lazy" />
       <div class="overlay">
-        <p class="title">{{ member.name }}</p>
+        <p class="title">{{ member.name.toUpperCase() }}</p>
         <p class="desig">{{ member.designation }}</p>
       </div>
       <div class="overlay-hover">
         <div class="contact-links">
-          <a
+          <!-- <a
             v-if="member.call"
             :href="'tel:' + member.call"
             style="color: black"
@@ -28,6 +28,7 @@
                   stroke-width="32"
                 />
               </svg>
+              <span>{{ member.call }}</span>
             </div>
           </a>
           <a
@@ -64,8 +65,9 @@
                   d="M112 160l144 112 144-112"
                 />
               </svg>
+              <span>{{ member.mail }}</span>
             </div>
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
@@ -87,6 +89,7 @@
                 stroke-width="32"
               />
             </svg>
+            <span>{{ member.call }}</span>
           </div>
         </a>
         <a
@@ -123,6 +126,7 @@
                 d="M112 160l144 112 144-112"
               />
             </svg>
+            <span>{{ member.mail }}</span>
           </div>
         </a>
       </div>
@@ -144,31 +148,45 @@ export default {
 
 <style lang="scss" scoped>
 .contact-container-mobile {
-  display: none;
-  padding: 1rem 0;
+  // display: none;
+  padding: 0.5rem 0;
 
   .contact-links {
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
     .contact {
+      margin: 0.2rem 0;
       height: 35px;
-      width: 35px;
-      background: #fff;
+      // width: 35px;
+      width: 100%;
+      // background: #fff;
       border-radius: 12px;
-      padding: 1rem;
       position: relative;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
 
       svg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 25px;
-        height: 25px;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        color: #fff;
+      }
+
+      span {
+        font-size: 0.95rem;
+        color: #fff;
+        margin-left: 0.2rem;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.02em;
       }
     }
   }
@@ -211,26 +229,30 @@ export default {
     .contact-links {
       height: 100%;
       display: flex;
-      justify-content: space-evenly;
-      align-items: flex-end;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
       padding-bottom: 1.2rem;
 
       .contact {
-        height: 35px;
-        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
         background: #fff;
         border-radius: 12px;
-        padding: 1rem;
+        padding: 0.5rem;
         position: relative;
         cursor: pointer;
+        margin: 0.2rem 0;
 
         svg {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
           width: 25px;
           height: 25px;
+        }
+
+        span {
+          color: #000000;
         }
       }
     }
