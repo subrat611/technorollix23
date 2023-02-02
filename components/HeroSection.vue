@@ -10,11 +10,27 @@
       <nuxt-img src="hero-bg.png" format="webp" />
     </div>
     <div class="content">
+      <div class="prize-pool-mob-wrapper">
+        <nuxt-img src="/prize-pool.png" height="110" />
+        <div class="prize-pool-mob-text">
+          <span>prize pool</span>
+          <span>3,00,000</span>
+        </div>
+      </div>
       <p class="techno-sub top--title">
         A National Level<br />
-        TechCulturFest
+        Tech-Cultural Fest
       </p>
-      <p class="techno-title">TECHNOROLLIX</p>
+      <div class="techno-title">
+        <div class="prize-pool-wrapper">
+          <div class="prize-pool-board">
+            <p class="prize-pool-text--top">prize pool</p>
+            <span class="prize-pool-text--bottom">₹3,00,000</span>
+          </div>
+          <nuxt-img src="/person-holding-board.png" class="prize-pool-person" />
+        </div>
+        TECHNOROLLIX
+      </div>
       <p class="techno-sub">2023</p>
       <p class="techno-date">
         MARCH 1<sup style="font-family: 'origin Tech'; font-size: 0.9rem"
@@ -76,7 +92,32 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 0;
+
+    .prize-pool-mob-wrapper {
+      display: none;
+      align-items: center;
+      position: relative;
+
+      .prize-pool-mob-text {
+        position: absolute;
+        top: 60%;
+        right: -25%;
+        transform: translate(0, -50%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        span {
+          font-family: 'origin Tech';
+          font-size: 1.2rem;
+          color: #fff;
+          text-shadow: rgba(91, 213, 247, 0.493) 0px 0px 15px,
+            rgba(91, 212, 247, 1) 0px 0px 15px,
+            rgba(91, 213, 247, 0.61) 0px 0px 15px;
+        }
+      }
+    }
 
     .techno-title {
       font-size: 7rem;
@@ -87,6 +128,49 @@ export default {
       letter-spacing: 0.1em;
       text-shadow: rgb(255, 120, 239, 0.5) 0px 0px 15px,
         rgb(255, 120, 239, 0.5) 0px 0px 15px, rgb(255, 120, 239, 1) 0px 0px 15px;
+      position: relative;
+
+      .prize-pool-wrapper {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        .prize-pool-board {
+          position: absolute;
+          right: -10%;
+          top: -179%;
+          background: rgba(63, 194, 255, 0.11);
+          border: 1px solid #fff;
+          border-radius: 7px;
+          box-shadow: 0 4px 30px rgb(104 104 104 / 10%);
+          box-shadow: rgba(10, 50, 61, 0.521) 0px 0px 15px,
+            rgba(91, 213, 247, 0.555) 0px 0px 15px,
+            rgba(91, 213, 247, 0.5) 0px 0px 15px;
+          backdrop-filter: blur(3.3px);
+          z-index: 1;
+
+          .prize-pool-text--top,
+          .prize-pool-text--bottom {
+            display: block;
+            font-family: 'origin Tech';
+            font-size: 2rem;
+            letter-spacing: 0.11em;
+            padding: 1rem;
+            text-align: center;
+
+            text-shadow: rgba(132, 220, 207, 0.7) 0px 0px 10px,
+              rgba(7, 63, 55, 0.815) 0px 0px 10px;
+          }
+        }
+
+        .prize-pool-person {
+          position: absolute;
+          right: -10%;
+          bottom: 0;
+          height: 160px;
+        }
+      }
     }
 
     .techno-sub.top--title {
@@ -138,6 +222,23 @@ export default {
 
       &:hover {
         background: rgba(63, 194, 255, 0.19);
+      }
+    }
+  }
+}
+
+@media all and (max-width: '1231px') {
+  .hero-wrapper {
+    .content {
+      .prize-pool-mob-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+      .techno-title {
+        .prize-pool-wrapper {
+          display: none;
+        }
       }
     }
   }
