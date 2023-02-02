@@ -120,11 +120,13 @@ export default {
       font-size: 11rem;
       font-family: 'adobo';
       text-transform: uppercase;
+      text-align: center;
       letter-spacing: 0.08em;
       color: #ffffcb;
       z-index: 2;
       text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px,
         rgba(255, 247, 94, 1) 0px 0px 15px;
+
       &::selection {
         background: none;
       }
@@ -182,7 +184,6 @@ export default {
     }
 
     .hero-img {
-
       .jubin-img {
         img {
           object-position: center center;

@@ -1,7 +1,7 @@
 <template>
   <div class="home-logo-wrapper" :class="{ 'navbar-hidden': !showNavbar }">
     <div class="logo-container">
-      <nuxt-img src="/technorollixlogo.png" class="logo" format="webp" />
+      <!-- <nuxt-img src="/technorollixlogo.png" class="logo" format="webp" /> -->
     </div>
   </div>
 </template>
