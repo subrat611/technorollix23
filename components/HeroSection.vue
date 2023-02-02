@@ -140,6 +140,7 @@ export default {
           position: absolute;
           right: -10%;
           top: -179%;
+          font-family: 'origin Tech';
           background: rgba(63, 194, 255, 0.11);
           border: 1px solid #fff;
           border-radius: 7px;
@@ -149,6 +150,19 @@ export default {
             rgba(91, 213, 247, 0.5) 0px 0px 15px;
           backdrop-filter: blur(3.3px);
           z-index: 1;
+          animation: blink 1.3s linear infinite;
+
+          @keyframes blink {
+            0% {
+              opacity: 0;
+            }
+            50% {
+              opacity: 0.5;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
 
           .prize-pool-text--top,
           .prize-pool-text--bottom {
