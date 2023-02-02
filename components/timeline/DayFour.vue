@@ -54,7 +54,7 @@ export default {
   content: '';
   position: absolute;
   width: 50%;
-  border: solid orangered;
+  border: solid rgb(255, 86, 24);
 }
 
 /* Setting the border of top, bottom, left */
