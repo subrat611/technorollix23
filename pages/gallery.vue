@@ -6,152 +6,45 @@
       <h1 class="page-title">gallery</h1>
       <div class="gallery">
         <div class="gallery-img">
-          <nuxt-img
-            src="/1.JPG"
-            width="520"
-            height="320"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/2.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/1.JPG" />
+          <nuxt-img src="/2.JPG" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/3.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/4.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/3.JPG" />
+          <nuxt-img src="/4.JPG" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/5.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/6.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/5.JPG" />
+          <nuxt-img src="/6.JPG" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/7.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/8.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/7.JPG" />
+          <nuxt-img src="/8.JPG" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/9.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/10.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/9.JPG" />
+          <nuxt-img src="/10.JPG" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/11.JPG"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/12.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/11.JPG" />
+          <nuxt-img src="/12.jpg" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/13.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/14.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/13.jpg" />
+          <nuxt-img src="/14.jpg" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/15.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/16.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/15.jpg" />
+          <nuxt-img src="/16.jpg" />
         </div>
         <div class="gallery-img">
-          <nuxt-img
-            src="/17.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
-          <nuxt-img
-            src="/18.jpg"
-            width="550"
-            height="360"
-            format="webp"
-            loading="lazy"
-          />
+          <nuxt-img src="/17.jpg" />
+          <nuxt-img src="/18.jpg" />
         </div>
       </div>
     </div>
     <nav-bar />
+    <nav-bar-three />
   </div>
 </template>
 
@@ -175,11 +68,13 @@ export default {
   }
 
   .page-title {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5rem;
+    // position: fixed;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+    font-size: 4rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -194,13 +89,18 @@ export default {
   }
 
   .gallery {
-    padding: 2rem 0;
+    padding: 1rem 0;
+    margin-bottom: 5rem;
     .gallery-img {
-      height: 70vh;
+      height: 55vh;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       padding: 1.5rem 0 1rem 0;
 
+      img {
+        width: 550px;
+        height: 353px;
+      }
       img:nth-child(2) {
         align-self: flex-end;
         border-radius: 4px;

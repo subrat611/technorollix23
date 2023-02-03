@@ -1,13 +1,13 @@
 <template>
   <div class="hero-wrapper">
     <div class="bg-video">
-      <video
+      <!-- <video
         autoplay
         loop
         muted
         src="~/assets/videos/hero-bg-video1.mp4"
-      ></video>
-      <!-- <nuxt-img src="hero-bg.png" format="webp" /> -->
+      ></video> -->
+      <nuxt-img src="hero-bg.png" format="webp" />
     </div>
     <div class="content">
       <div class="prize-pool-mob-wrapper">
