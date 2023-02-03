@@ -11,7 +11,7 @@
     </div>
     <div class="content">
       <div class="prize-pool-mob-wrapper">
-        <nuxt-img src="/prize-pool.png" height="110" />
+        <nuxt-img src="/prize-pool.png" height="90" />
         <div class="prize-pool-mob-text">
           <span>prize pool</span>
           <span><b>₹</b> 3,00,000</span>
@@ -102,7 +102,7 @@ export default {
       .prize-pool-mob-text {
         position: absolute;
         top: 60%;
-        right: -25%;
+        right: -35%;
         transform: translate(0, -50%);
         display: flex;
         flex-direction: column;
@@ -110,7 +110,7 @@ export default {
 
         span {
           font-family: 'origin Tech';
-          font-size: 1.2rem;
+          font-size: 1.1rem;
           color: #fff;
           text-shadow: rgba(91, 213, 247, 0.493) 0px 0px 15px,
             rgba(91, 212, 247, 1) 0px 0px 15px,
