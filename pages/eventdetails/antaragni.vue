@@ -21,58 +21,50 @@
       </div>
 
       <!-- event categories -->
-      <!-- <div class="detail-rules">
+      <div class="detail-rules">
         <h2>You can apply in any of the following categories</h2>
         <div class="flex justify-content-start">
           <ul>
-            <li>Dancing</li>
+            <li>Dance (Solo and group)</li>
             <li>Singing</li>
-            <li>Mimicry</li>
-            <li>Short story telling</li>
-          </ul>
-          <ul class="ms-1">
-            <li>Stand up comedy</li>
-            <li>Drama and theater</li>
-            <li>Magic show</li>
-            <li>Instrument play</li>
+            <li>Rap Battle</li>
+            <li>Short Film Making</li>
+            <li>Fusion</li>
           </ul>
         </div>
-      </div> -->
+      </div>
 
       <!-- event theme -->
       <div class="detail-rules">
         <h2>{{ 'theme'.toUpperCase() }}</h2>
-        <p>Kala-E-Sham</p>
+        <p>The Fire Within</p>
       </div>
 
       <!-- event rules and regulation -->
       <div class="detail-rules">
         <h2>{{ 'Rules of the event'.toUpperCase() }}</h2>
         <ul>
-          <li>
-            Inappropriate or vulgar songs are not permitted for dancing or
-            singing.
-          </li>
+          <li>Inappropriate (vulgar) songs are not permitted for the dance.</li>
           <li>
             Every contestant should provide their tracks to the coordinators in
             advance for the smooth conduction of the event.
           </li>
           <li>
-            Overall judgment will be based on performance, decency, discipline
-            of contestants.
+            Overall judgement will be based upon performance, decency,
+            discipline of contestants.
           </li>
+          <li>Performers should bring their own props</li>
           <li>
-            The contestants have to strictly follow all the rules and
-            regulations of the event.
+            Contents should not be offensive, politically driven, gender biased,
+            personal comments or any sensitive topic.
           </li>
+          <li>Costumes should be appropriate.</li>
+          <li>No entries without registration.</li>
+          <li>Decision of the jury will be final.</li>
           <li>
-            Decision taken by the juries/faculty coordinators will be final.
+            The contestants should strictly follow all the rules and regulations
+            of the event.
           </li>
-          <li>
-            Only UG, PG and diploma students can participate. Students from
-            outside university are eligible.
-          </li>
-          <li>The elimination will be done after each round by the judges.</li>
         </ul>
       </div>
 
@@ -80,8 +72,9 @@
       <div class="detail-judg">
         <h2>{{ 'Rounds of the event'.toUpperCase() }}</h2>
         <p>
-          There will be 3 rounds from which 2 will be conducted in MP hall and
-          last round will be in the university ground at night.
+          The number of rounds will be decided based on the entries. This will
+          be intimated later. However, in final round 15- 20 individuals will be
+          given a chance to showcase their talent.
         </p>
       </div>
 
@@ -90,9 +83,13 @@
         <h2>{{ 'Judgemental Criteria'.toUpperCase() }}</h2>
         <ul>
           <li>
-            As per judges call (voice quality, stage presentation, nodes, pitch,
-            synchronization)
+            For singing, judgement will be based upon voice quality, music,
+            nodes, pitch, stage presentation, synchronization.
           </li>
+          <li>Theme</li>
+          <li>Energy level</li>
+          <li>Clarity in performance</li>
+          <li>Confidence</li>
         </ul>
       </div>
 
@@ -127,6 +124,18 @@
             />
             <span>3<sup>rd</sup> Prize</span>
           </li>
+          <li class="prize">
+            <nuxt-img
+              src="/certificate.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center"
+              >Certificate of appreciation<br />
+              for all the participants.</span
+            >
+          </li>
         </ul>
       </div>
 
@@ -157,22 +166,44 @@ export default {
         name: 'ANTARAGNI - GRAND-E-ROLLIX',
         img: 'antaragni.jpg',
         event_desc:
-          'This event is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping  and fusion etc.',
+          'ANTARAGNI  has been known for incorporating cultural excellence and opportunities.',
         teams: [
           {
-            img: '',
+            img: 'ankit.jpg',
             name: 'Ankit Patnayak',
-            call: '',
+            call: '6232518588',
+            mail: 'anki.ug20cse06@opju.ac.in',
           },
           {
-            img: '',
+            img: 'rishikabansal.jpg',
             name: 'Rishika Bansal',
-            call: '',
+            call: '7030630729',
+            mail: 'rish.ug20bscma12@opju.ac.in',
           },
-          { img: '', name: 'Krashika Shukla', call: '' },
-          { img: '', name: 'Taslima Tandi', call: '' },
-          { img: '', name: 'Suraj Gupta', call: '' },
-          { img: '', name: 'Shruti Singh', call: '' },
+          {
+            img: 'krashika.jpg',
+            name: 'Krashika Shukla',
+            call: '8269118713',
+            mail: 'kras.bsc21ma06@opju.ac.in',
+          },
+          {
+            img: 'taslimatandi.jpg',
+            name: 'Taslima Tandi',
+            call: '9337974219',
+            mail: 'tanditaslima@gmail.com',
+          },
+          {
+            img: 'suraj.jpg',
+            name: 'Suraj Gupta',
+            call: '8770299558',
+            mail: 'surajam2002@gmail.com',
+          },
+          {
+            img: 'shurutisingh.jpg',
+            name: 'Shuruti Singh',
+            call: '9770376585',
+            mail: 'shur.ug20cse47@opju.ac.in',
+          },
         ],
       },
     }

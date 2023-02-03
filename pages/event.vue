@@ -45,7 +45,7 @@ export default {
         {
           event_name: 'antaragni',
           event_desc:
-            'Antaragini (Grand- E- Rollix) is a platform where students get to showcase their talents like dancing, singing, short film-making , rapping and fusion',
+            'ANTARAGNI  has been known for incorporating cultural excellence and opportunities. You can apply in any of the following categories',
           event_img: 'antaragni.jpg',
         },
         {
