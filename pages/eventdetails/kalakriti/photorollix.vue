@@ -67,6 +67,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -81,7 +82,39 @@ export default {
         name: 'Photorollix',
         img: 'photorollix.jpg',
         event_desc:
-          'Photorollix is a recreational event where in participants are welcomed to openly participate here to show their "third eye handling Skill" as it is said,The picture that you took with your camera is the imagination you want to create with the reality. It will be the hall of fame which will show different beautiful moment Captured by the photographers. It will make you to re-live amazing moments again and again.',
+          'Photorollix is a recreational event where participants are welcomed to openly participate here to show their "third eye handling Skill" as it is said, the picture that you took with your camera is the imagination you want to create with reality. It will be the hall of fame which will show different beautiful moments captured by the photographers. It will make you to re-live amazing moments again and again.',
+        teams: [
+          {
+            img: 'chandandani.jpg',
+            name: 'Chandan dani',
+            call: '7978172727',
+            mail: 'Chandandani00@gamil.com',
+          },
+          {
+            img: 'anusuya.jpg',
+            name: 'Anusuya P.',
+            call: '9692745473',
+            mail: 'anus.ugmeta04@opju.ac.in',
+          },
+          {
+            img: 'simransahu.jpg',
+            name: 'Simran Sahu',
+            call: '',
+            mail: 'simr.bba2185@opju.ac.in',
+          },
+          {
+            img: 'sakshisingh.jpg',
+            name: 'Sakshi Singh',
+            call: '',
+            mail: 'saks.bba2169@opju.ac.in',
+          },
+          {
+            img: 'aaditya.jpg',
+            name: 'Aditya Agarwal',
+            call: '',
+            mail: 'adityaagrawal2240@gmail.com',
+          },
+        ],
       },
     }
   },

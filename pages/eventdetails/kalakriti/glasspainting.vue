@@ -75,6 +75,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -89,7 +90,39 @@ export default {
         name: 'Glass Painting',
         img: 'glasspainting.jpg',
         event_desc:
-          'Glass Painting Traditions of India is one of the most refined art forms, which emerged in the state of Gujarat in the beginning of the 18th century. Glass paintings are executed with oil and hard resin or with watercolor and gum on glass sheets.',
+          'Glass Painting Traditions of India is one of the most refined art forms which emerged in the state of Gujarat at the beginning of the 18th century. Glass paintings are executed with oil and hard resin or with watercolour and gum on glass sheets.',
+        teams: [
+          {
+            img: 'chandandani.jpg',
+            name: 'Chandan dani',
+            call: '7978172727',
+            mail: 'Chandandani00@gamil.com',
+          },
+          {
+            img: 'anusuya.jpg',
+            name: 'Anusuya P.',
+            call: '9692745473',
+            mail: 'anus.ugmeta04@opju.ac.in',
+          },
+          {
+            img: 'simransahu.jpg',
+            name: 'Simran Sahu',
+            call: '',
+            mail: 'simr.bba2185@opju.ac.in',
+          },
+          {
+            img: 'sakshisingh.jpg',
+            name: 'Sakshi Singh',
+            call: '',
+            mail: 'saks.bba2169@opju.ac.in',
+          },
+          {
+            img: 'aaditya.jpg',
+            name: 'Aditya Agarwal',
+            call: '',
+            mail: 'adityaagrawal2240@gmail.com',
+          },
+        ],
       },
     }
   },

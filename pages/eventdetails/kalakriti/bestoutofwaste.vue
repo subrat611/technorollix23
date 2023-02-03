@@ -70,6 +70,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -84,7 +85,39 @@ export default {
         name: 'Best Out of Waste',
         img: 'bestoutofwaste.jpg',
         event_desc:
-          'It is a holistic event where Creative and attractive DIYs items are to be made from the recycled & Up cycled Stuffs which will worth in using as decor and they are Environment friendly.',
+          'It is a holistic event where creative and attractive DIY items are to be made from recycled & up-cycled stuff which will be worth using as decor and they are Environment friendly.',
+        teams: [
+          {
+            img: 'chandandani.jpg',
+            name: 'Chandan dani',
+            call: '7978172727',
+            mail: 'Chandandani00@gamil.com',
+          },
+          {
+            img: 'anusuya.jpg',
+            name: 'Anusuya P.',
+            call: '9692745473',
+            mail: 'anus.ugmeta04@opju.ac.in',
+          },
+          {
+            img: 'simransahu.jpg',
+            name: 'Simran Sahu',
+            call: '',
+            mail: 'simr.bba2185@opju.ac.in',
+          },
+          {
+            img: 'sakshisingh.jpg',
+            name: 'Sakshi Singh',
+            call: '',
+            mail: 'saks.bba2169@opju.ac.in',
+          },
+          {
+            img: 'aaditya.jpg',
+            name: 'Aditya Agarwal',
+            call: '',
+            mail: 'adityaagrawal2240@gmail.com',
+          },
+        ],
       },
     }
   },

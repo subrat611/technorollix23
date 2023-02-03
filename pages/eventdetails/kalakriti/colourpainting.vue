@@ -79,6 +79,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -94,6 +95,38 @@ export default {
         img: 'colorpainting.jpg',
         event_desc:
           'In order to create, we draw from our inner well. This inner well, an artistic reservoir, is ideally like a well-stocked fish pond… If we don’t give some attention to upkeep, our well is apt to become depleted, stagnant, or blocked…As artists, we must learn to be self-nourishing. We must become alert enough to consciously replenish our creative resources as we draw on them — to restock the trout pond, Speak up…. Just Speak up on Canvas',
+        teams: [
+          {
+            img: 'chandandani.jpg',
+            name: 'Chandan dani',
+            call: '7978172727',
+            mail: 'Chandandani00@gamil.com',
+          },
+          {
+            img: 'anusuya.jpg',
+            name: 'Anusuya P.',
+            call: '9692745473',
+            mail: 'anus.ugmeta04@opju.ac.in',
+          },
+          {
+            img: 'simransahu.jpg',
+            name: 'Simran Sahu',
+            call: '',
+            mail: 'simr.bba2185@opju.ac.in',
+          },
+          {
+            img: 'sakshisingh.jpg',
+            name: 'Sakshi Singh',
+            call: '',
+            mail: 'saks.bba2169@opju.ac.in',
+          },
+          {
+            img: 'aaditya.jpg',
+            name: 'Aditya Agarwal',
+            call: '',
+            mail: 'adityaagrawal2240@gmail.com',
+          },
+        ],
       },
     }
   },

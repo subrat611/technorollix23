@@ -82,6 +82,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -96,7 +97,39 @@ export default {
         name: 'Drishyam (Decoration)',
         img: 'drishyam.jpg',
         event_desc:
-          'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition. Kalakriti is Presenting a Voyage through Different Cultures and Cultural Diversity of India. We are going to Showcase the Land of Cultural heritage, India whose versatility is Undeniable and unquestionable.',
+          'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great-grandmother of tradition. Kalakriti is Presenting a Voyage through Different Cultures and Cultural Diversity of India. We are going to Showcase the Land of Cultural heritage, India whose versatility is Undeniable and unquestionable.',
+        teams: [
+          {
+            img: 'chandandani.jpg',
+            name: 'Chandan dani',
+            call: '7978172727',
+            mail: 'Chandandani00@gamil.com',
+          },
+          {
+            img: 'anusuya.jpg',
+            name: 'Anusuya P.',
+            call: '9692745473',
+            mail: 'anus.ugmeta04@opju.ac.in',
+          },
+          {
+            img: 'simransahu.jpg',
+            name: 'Simran Sahu',
+            call: '',
+            mail: 'simr.bba2185@opju.ac.in',
+          },
+          {
+            img: 'sakshisingh.jpg',
+            name: 'Sakshi Singh',
+            call: '',
+            mail: 'saks.bba2169@opju.ac.in',
+          },
+          {
+            img: 'aaditya.jpg',
+            name: 'Aditya Agarwal',
+            call: '',
+            mail: 'adityaagrawal2240@gmail.com',
+          },
+        ],
       },
     }
   },

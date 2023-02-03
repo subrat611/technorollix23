@@ -55,28 +55,28 @@ export default {
           eventName: 'Drishyam (Decoration)',
           img: 'drishyam.jpg',
           eventDesc:
-            'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great grandmother of tradition.',
+            'India is, the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great-grandmother of tradition.',
         },
         {
           param: 'photorollix',
           eventName: 'Photorollix',
           img: 'photorollix.jpg',
           eventDesc:
-            'Photorollix is a recreational event where in participants are welcomed to openly participate here to show their " third eye handling Skill " as it is said, The picture that you took with your camera',
+            'Photorollix is a recreational event where participants are welcomed to openly participate here to show their "third eye handling Skill" as it is said, the picture that you took with your camera',
         },
         {
           param: 'bestoutofwaste',
           eventName: 'Best out of Waste',
           img: 'bestoutofwaste.jpg',
           eventDesc:
-            'It is a holistic event where Creative and attractive DIYs items are to be made from the recycled & Up cycled Stuffs which will worth in using as decor and they are Environment friendly.',
+            'It is a holistic event where creative and attractive DIY items are to be made from recycled & up-cycled stuff which will be worth using as decor and they are Environment friendly.',
         },
         {
           param: 'rangoli',
           eventName: 'Rangoli',
           img: 'rangoli.jpg',
           eventDesc:
-            'Rangoli is a very popular folk art that has several connotations across India. It is a spiritual distribution of colors Which represents the happiness, positivity and liveliness of a household',
+            'Rangoli is a very popular folk art that has several connotations across India. It is a spiritual distribution of colours which represents the happiness, positivity and liveliness of a household',
         },
         {
           param: 'colourpainting',
@@ -90,7 +90,7 @@ export default {
           eventName: 'Glass Painting',
           img: 'glasspainting.jpg',
           eventDesc:
-            'Glass Painting Traditions of India is one of the most refined art forms, which emerged in the state of Gujarat in the beginning of the 18th century. Glass paintings are executed with',
+            'Glass Painting Traditions of India is one of the most refined art forms which emerged in the state of Gujarat at the beginning of the 18th century. Glass paintings are executed with',
         },
       ],
     }
