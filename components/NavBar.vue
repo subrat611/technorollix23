@@ -44,6 +44,37 @@
             <nuxt-link to="/">sponsors</nuxt-link>
           </li>
         </ul>
+        <div class="nav-footer-links">
+          <div>
+            <a
+              href="https://www.linkedin.com/company/technorollix-opju/"
+              target="_blank"
+            >
+              <nuxt-img src="/linkedin.png" format="webp" width="35" />
+            </a>
+          </div>
+          <div>
+            <nuxt-link to="#">
+              <nuxt-img src="/pinterest.png" format="webp" width="35" />
+            </nuxt-link>
+          </div>
+          <div>
+            <a
+              href="https://www.instagram.com/technorollix/?igshid=ZDdkNTZiNTM%3D"
+              target="_blank"
+            >
+              <nuxt-img src="/instagram.png" format="webp" width="35" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.facebook.com/profile.php?id=100089736803136&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              <nuxt-img src="/facebook.png" format="webp" width="35" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -169,6 +200,13 @@ export default {
         }
       }
     }
+
+    .nav-footer-links {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
   }
 }
 
@@ -213,6 +251,15 @@ export default {
           a {
             font-size: 1.4rem;
           }
+        }
+      }
+
+      .nav-footer-links {
+        margin-top: 0.2rem;
+
+        img {
+          width: 30px;
+          height: 30px;
         }
       }
     }
