@@ -35,7 +35,7 @@ export default {
         {
           eventName: 'Robo Race',
           eventDesc:
-            'Design a wired/wireless manually controlled robot which should be able to travel on all the',
+            'Design a wireless or Bluetooth controlled robot which should be able to travel on all the',
           img: 'robo-race.jpg',
         },
         {
@@ -47,7 +47,7 @@ export default {
         {
           eventName: 'Robo War',
           eventDesc:
-            'Robo war is the most exciting challenge of this event It celebrates the sport of Robotic Combat through a contest',
+            'Robo war is the most exciting challenge of this event and main aim to move out opponent from the arena',
           img: 'robo-war.jpg',
         },
       ],

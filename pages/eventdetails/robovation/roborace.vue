@@ -17,18 +17,25 @@
             <p>{{ event.event_one_desc }}</p>
           </div>
         </div>
+      </div>
 
-        <h2>RULES AND ROUND OF THE ROBO RACE</h2>
+      <!-- event theme -->
+      <div class="detail-rules">
+        <h2>{{ 'theme'.toUpperCase() }}</h2>
+        <p>One Team. One Robot. Limitless Possibilities.</p>
       </div>
 
       <!-- info -->
-      <div class="detail-info">
-        <p>
-          Design a wireless control robot with specified dimensions that can
-          operate autonomously and travel through all track turns. The robot
-          that will complete the specified task in the least time will be the
-          winner and will not be allowed to skip any obstacles or hurdles.
-        </p>
+      <div class="detail-judg">
+        <h2>RULES AND ROUND OF THE ROBO RACE</h2>
+        <div>
+          <p>
+            Design a wireless control robot with specified dimensions that can
+            operate autonomously and travel through all track turns. The robot
+            that will complete the specified task in the least time will be the
+            winner and will not be allowed to skip any obstacles or hurdles.
+          </p>
+        </div>
       </div>
 
       <!-- spec -->
@@ -39,7 +46,7 @@
             The maximum dimension of the robot can be 30cm x 30cm x20 cm (l x b
             x h).
           </li>
-          <li>The robot may be wired and wireless.</li>
+          <li>The robot may be and wireless.</li>
           <li>Motor rpm specification 200rpm to 300 rpm.</li>
           <li>Maximum weight must not exceed 3 kg.</li>
           <li>
@@ -156,16 +163,25 @@
             poor score.
           </li>
           <li>
-            The length of the wire (for wired bots) should be long enough to
-            cover the whole track and wire should remain slack during the
-            complete run.
+            The length of the wire (for bots) should be long enough to cover the
+            whole track and wire should remain slack during the complete run.
           </li>
         </ul>
+      </div>
+
+      <!-- venue -->
+
+      <div class="detail-judg">
+        <h2>{{ 'venue'.toUpperCase() }}</h2>
+        <p>
+          <b>Basketball Ground</b>
+        </p>
       </div>
 
       <!-- contact -->
       <div class="detail-contact">
         <h2>EVENT MANAGER</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -181,7 +197,21 @@ export default {
         img: 'robo-race.jpg',
         name_of_event_one: 'Robo Race',
         event_one_desc:
-          'Design a wired/wireless manually controlled robot which should be able to travel on all the hurdles and complete the track in minimum amount of time.',
+          'Design a wireless or Bluetooth controlled robot which should be able to travel on all the hurdles and complete the track in minimum amount of time.',
+        teams: [
+          {
+            img: 'rishav.jpeg',
+            name: 'Rishav kumar',
+            call: '9580542886',
+            mail: 'rishabhkumarbasketball7573@gmail.com',
+          },
+          {
+            img: 'sushil.jpeg',
+            name: 'Sushil kumar',
+            call: '9113159596',
+            mail: 'sush.del21me05@opju.ac.in',
+          },
+        ],
       },
     }
   },
@@ -273,6 +303,7 @@ li {
     .detail-spec,
     .detail-power,
     .detail-rules,
+    .detail-judg,
     .detail-game-rules,
     .detail-round-one,
     .detail-round-two {
@@ -281,6 +312,18 @@ li {
       h2 {
         padding: 1rem 0;
         font-family: 'Roboto', sans-serif;
+      }
+
+      p {
+        margin: 0.5rem 0;
+        line-height: 1.4rem;
+        padding: 1rem 1rem;
+        background: rgba(63, 194, 255, 0.11);
+        border-radius: 7px;
+        box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border: 1px solid rgba(255, 217, 252, 0.2);
       }
 
       ul > li {

@@ -18,25 +18,32 @@
             <p>{{ event.event_two_desc }}</p>
           </div>
         </div>
+      </div>
 
-        <h2>RULES AND ROUND OF THE ROBO SOCCER</h2>
+      <!-- event theme -->
+      <div class="detail-rules">
+        <h2>{{ 'theme'.toUpperCase() }}</h2>
+        <p>One Team. One Robot. Limitless Possibilities.</p>
       </div>
 
       <!-- overview -->
-      <div class="detail-overview">
-        <h2>COMPETITION OVERVIEW</h2>
-        <p>
-          Robo soccer is one of famous challenges of robovation in this event
-          teams comes with single robot and chase ball around the big size of
-          arena with the aim to kick more goals than the opponent these games
-          give opportunity to youngsters to solve robotic challenges, built
-          creative bots while learning engineering technology. the most
-          rewarding part of designing bots is that student have fun, work
-          together as a team and robot specially design for robo soccer match.
-          the event is aimed at testing the flipping, kicking manueuvering
-          skills and the control of the robot. The event mainly consists of
-          <b>ROUND 1 AND ROUND 2</b>.
-        </p>
+      <div class="detail-judg">
+        <h2>RULES AND ROUND OF THE ROBO SOCCER</h2>
+        <div class="detail-info">
+          <h2>COMPETITION OVERVIEW</h2>
+          <p style="background: none; border: none">
+            Robo soccer is one of famous challenges of robovation in this event
+            teams comes with single robot and chase ball around the big size of
+            arena with the aim to kick more goals than the opponent these games
+            give opportunity to youngsters to solve robotic challenges, built
+            creative bots while learning engineering technology. the most
+            rewarding part of designing bots is that student have fun, work
+            together as a team and robot specially design for robo soccer match.
+            the event is aimed at testing the flipping, kicking manueuvering
+            skills and the control of the robot. The event mainly consists of
+            <b>ROUND 1 AND ROUND 2</b>.
+          </p>
+        </div>
       </div>
 
       <!-- ROUND 1(ELIMINATION) -->
@@ -101,7 +108,7 @@
         <ul>
           <li>The robot should fit inside a box of 30cm*30cm*20cm.</li>
           <li>Robot should not exceed 3 kg.</li>
-          <li>The robot can be wired, wireless.</li>
+          <li>The robot can be, wireless.</li>
           <li>
             The robot should be self-powered with supply not exceeding 12V (on
             board powersupply).
@@ -167,9 +174,19 @@
         </ul>
       </div>
 
+      <!-- venue -->
+
+      <div class="detail-judg">
+        <h2>{{ 'venue'.toUpperCase() }}</h2>
+        <p>
+          <b>Babuji Chauk</b>
+        </p>
+      </div>
+
       <!-- contact -->
       <div class="detail-contact">
         <h2>EVENT MANAGER</h2>
+        <event-details :teams="event.teams" />
       </div>
 
       <!-- robo soccer -->
@@ -188,6 +205,20 @@ export default {
         name_of_event_two: 'Robo Soccer',
         event_two_desc:
           'Robo soccer is one of famous challenges of robovation in this event teams comes with single robot and chase ball around the big size of arena with the aim to kick more goals than the opponent.',
+        teams: [
+          {
+            img: 'rishav.jpeg',
+            name: 'Rishav kumar',
+            call: '9580542886',
+            mail: 'rishabhkumarbasketball7573@gmail.com',
+          },
+          {
+            img: 'sushil.jpeg',
+            name: 'Sushil kumar',
+            call: '9113159596',
+            mail: 'sush.del21me05@opju.ac.in',
+          },
+        ],
       },
     }
   },
@@ -279,6 +310,7 @@ li {
     .detail-spec,
     .detail-power,
     .detail-rules,
+    .detail-judg,
     .detail-game-rules,
     .detail-round-one,
     .detail-round-two {
@@ -287,6 +319,18 @@ li {
       h2 {
         padding: 1rem 0;
         font-family: 'Roboto', sans-serif;
+      }
+
+      p {
+        margin: 0.5rem 0;
+        line-height: 1.4rem;
+        padding: 1rem 1rem;
+        background: rgba(63, 194, 255, 0.11);
+        border-radius: 7px;
+        box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border: 1px solid rgba(255, 217, 252, 0.2);
       }
 
       ul > li {

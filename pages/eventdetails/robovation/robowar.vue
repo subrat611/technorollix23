@@ -20,6 +20,14 @@
         </div>
       </div>
 
+      <!-- event theme -->
+      <div class="detail-rules">
+        <h2>{{ 'theme'.toUpperCase() }}</h2>
+        <div class="detail-info">
+          <p>One Team. One Robot. Limitless Possibilities.</p>
+        </div>
+      </div>
+
       <!-- field dimension -->
       <div class="detail-round-one">
         <h2>FIELD DIMENSION</h2>
@@ -195,9 +203,19 @@
         </ul>
       </div>
 
+      <!-- venue -->
+
+      <div class="detail-round-one">
+        <h2>{{ 'venue'.toUpperCase() }}</h2>
+        <div class="detail-info">
+          <p><b>Babuji Chauk</b></p>
+        </div>
+      </div>
+
       <!-- contact -->
       <div class="detail-contact">
         <h2>EVENT MANAGER</h2>
+        <event-details :teams="event.teams" />
       </div>
 
       <!-- robo soccer -->
@@ -215,7 +233,21 @@ export default {
         img: 'robo-war.jpg',
         name_of_event_two: 'Robo War',
         event_two_desc:
-          'Robo war is the most exciting challenge of this event It celebrates the sport of Robotic Combat through a contest of battling machines. This game gives opportunity to youngsters to design, build and control combat robots to demonstrate their creativity, engineering skills and driving ability. The most rewarding part of designing bots is that student have fun, work together as a team.',
+          'Robo war is the most exciting challenge of this event and main aim to move out opponent from the arena This game gives opportunity to youngsters to design, build and control combat robots to demonstrate their creativity, engineering skills and driving ability.',
+        teams: [
+          {
+            img: 'rishav.jpeg',
+            name: 'Rishav kumar',
+            call: '9580542886',
+            mail: 'rishabhkumarbasketball7573@gmail.com',
+          },
+          {
+            img: 'sushil.jpeg',
+            name: 'Sushil kumar',
+            call: '9113159596',
+            mail: 'sush.del21me05@opju.ac.in',
+          },
+        ],
       },
     }
   },
