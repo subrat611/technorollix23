@@ -32,7 +32,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/team">
+              <nuxt-link to="#">
                 <nuxt-img src="/pinterest.png" format="webp" width="35" />
               </nuxt-link>
             </li>
@@ -45,9 +45,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/aboutus">
+              <a
+                href="https://www.facebook.com/profile.php?id=100089736803136&mibextid=ZbWKwL"
+                target="_blank"
+              >
                 <nuxt-img src="/facebook.png" format="webp" width="35" />
-              </nuxt-link>
+              </a>
             </li>
           </ul>
         </div>
