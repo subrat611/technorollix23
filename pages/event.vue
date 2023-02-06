@@ -63,7 +63,7 @@ export default {
         {
           event_name: 'robovation',
           event_desc:
-            'Design a robot wire or wireless within the specified dimensions that can operated manually and can travel through all turns of the track',
+            'Design a robot wireless within the specified dimensions that can operated manually and can travel through all turns of the track',
           event_img: 'robovation.jpg',
         },
         {
