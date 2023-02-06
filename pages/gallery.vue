@@ -6,40 +6,40 @@
       <h1 class="page-title">gallery</h1>
       <div class="gallery">
         <div class="gallery-img">
-          <nuxt-img src="/1.JPG" loading="lazy" />
-          <nuxt-img src="/2.JPG" loading="lazy" />
+          <nuxt-img src="/1.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/2.JPG" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/3.JPG" loading="lazy" />
-          <nuxt-img src="/4.JPG" loading="lazy" />
+          <nuxt-img src="/3.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/4.JPG" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/5.JPG" loading="lazy" />
-          <nuxt-img src="/6.JPG" loading="lazy" />
+          <nuxt-img src="/5.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/6.JPG" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/7.JPG" loading="lazy" />
-          <nuxt-img src="/8.JPG" loading="lazy" />
+          <nuxt-img src="/7.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/8.JPG" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/9.JPG" loading="lazy" />
-          <nuxt-img src="/10.JPG" loading="lazy" />
+          <nuxt-img src="/9.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/10.JPG" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/11.JPG" loading="lazy" />
-          <nuxt-img src="/12.jpg" loading="lazy" />
+          <nuxt-img src="/11.JPG" loading="lazy" format="webp" />
+          <nuxt-img src="/12.jpg" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/13.jpg" loading="lazy" />
-          <nuxt-img src="/14.jpg" loading="lazy" />
+          <nuxt-img src="/13.jpg" loading="lazy" format="webp" />
+          <nuxt-img src="/14.jpg" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/15.jpg" loading="lazy" />
-          <nuxt-img src="/16.jpg" loading="lazy" />
+          <nuxt-img src="/15.jpg" loading="lazy" format="webp" />
+          <nuxt-img src="/16.jpg" loading="lazy" format="webp" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/17.jpg" loading="lazy" />
-          <nuxt-img src="/18.jpg" loading="lazy" />
+          <nuxt-img src="/17.jpg" loading="lazy" format="webp" />
+          <nuxt-img src="/18.jpg" loading="lazy" format="webp" />
         </div>
       </div>
     </div>
