@@ -6,40 +6,40 @@
       <h1 class="page-title">gallery</h1>
       <div class="gallery">
         <div class="gallery-img">
-          <nuxt-img src="/1.JPG" />
-          <nuxt-img src="/2.JPG" />
+          <nuxt-img src="/1.JPG" loading="lazy" />
+          <nuxt-img src="/2.JPG" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/3.JPG" />
-          <nuxt-img src="/4.JPG" />
+          <nuxt-img src="/3.JPG" loading="lazy" />
+          <nuxt-img src="/4.JPG" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/5.JPG" />
-          <nuxt-img src="/6.JPG" />
+          <nuxt-img src="/5.JPG" loading="lazy" />
+          <nuxt-img src="/6.JPG" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/7.JPG" />
-          <nuxt-img src="/8.JPG" />
+          <nuxt-img src="/7.JPG" loading="lazy" />
+          <nuxt-img src="/8.JPG" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/9.JPG" />
-          <nuxt-img src="/10.JPG" />
+          <nuxt-img src="/9.JPG" loading="lazy" />
+          <nuxt-img src="/10.JPG" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/11.JPG" />
-          <nuxt-img src="/12.jpg" />
+          <nuxt-img src="/11.JPG" loading="lazy" />
+          <nuxt-img src="/12.jpg" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/13.jpg" />
-          <nuxt-img src="/14.jpg" />
+          <nuxt-img src="/13.jpg" loading="lazy" />
+          <nuxt-img src="/14.jpg" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/15.jpg" />
-          <nuxt-img src="/16.jpg" />
+          <nuxt-img src="/15.jpg" loading="lazy" />
+          <nuxt-img src="/16.jpg" loading="lazy" />
         </div>
         <div class="gallery-img">
-          <nuxt-img src="/17.jpg" />
-          <nuxt-img src="/18.jpg" />
+          <nuxt-img src="/17.jpg" loading="lazy" />
+          <nuxt-img src="/18.jpg" loading="lazy" />
         </div>
       </div>
     </div>
@@ -100,6 +100,9 @@ export default {
       img {
         width: 550px;
         height: 353px;
+        border-radius: 7px;
+        // box-shadow: rgba(181, 181, 182, 0.384) 0px 8px 24px;
+        box-shadow: rgba(40, 31, 92, 0.685) 0px 48px 100px 0px;
       }
       img:nth-child(2) {
         align-self: flex-end;
