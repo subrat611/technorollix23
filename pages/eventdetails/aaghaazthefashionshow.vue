@@ -30,7 +30,9 @@
       <div class="detail-rules">
         <h2>{{ 'Rules and Regulation'.toUpperCase() }}</h2>
         <ul>
-          <li>All the participants should come half and hour before the how</li>
+          <li>
+            All the participants should come half and hour before the show
+          </li>
           <li>Students must be prepared with their attire.</li>
           <li>
             No students shall be allowed for direct participation in final
@@ -74,39 +76,12 @@
         <ul class="prize-wrapper">
           <li class="prize">
             <nuxt-img
-              src="/prize1.png"
-              format="webp"
-              width="130"
-              height="130"
-            />
-            <span>1<sup>st</sup> Prize</span>
-          </li>
-          <li class="prize">
-            <nuxt-img
-              src="/prize2.png"
-              format="webp"
-              width="130"
-              height="130"
-            />
-            <span>2<sup>nd</sup> Prize</span>
-          </li>
-          <li class="prize">
-            <nuxt-img
-              src="/prize3.png"
-              format="webp"
-              width="130"
-              height="130"
-            />
-            <span>3<sup>rd</sup> Prize</span>
-          </li>
-          <li class="prize">
-            <nuxt-img
               src="/prize-other2.png"
               format="webp"
               width="130"
               height="130"
             />
-            <span>Consolation Prize</span>
+            <span>MR & MRS AAGHAAZ</span>
           </li>
         </ul>
       </div>
@@ -114,7 +89,7 @@
       <!-- venue -->
       <div class="detail-judg">
         <h2>{{ 'venue'.toUpperCase() }}</h2>
-        <p>IN FRONT OF CHEMISTRY LAB (ROUND 1&ROUND 2)</p>
+        <p>IN FRONT OF CHEMISTRY LAB (ROUND 1 & ROUND 2)</p>
       </div>
 
       <!-- contact details -->
@@ -134,7 +109,34 @@ export default {
         name: 'Aaghaaz the fashion show',
         img: 'aaghaaz.png',
         event_desc:
-          'It is a form of self-expression and autonomy at a particular period and place and in a specific context of clothing, footwear, lifestyles, accessories, makeup, hairstyles and body posture',
+          "The fashion it's a form of self-expression and autonomy at a particular period and place and in a specific context of  clothing, footwear, lifestyles , accessories , makeup, hairstyles and body posture.",
+        team: [
+          {
+            img: '',
+            name: 'Rahul Shrivas',
+            call: '7770881289',
+          },
+          {
+            img: '',
+            name: 'Parth Singh Thakur',
+            call: '8889055521',
+          },
+          {
+            img: '',
+            name: 'Shubhangi  Bohidar',
+            call: '6260226147',
+          },
+          {
+            img: '',
+            name: 'Anurag Sikdar',
+            call: '9617663919',
+          },
+          {
+            img: '',
+            name: 'Harsh Sharma',
+            call: '7389258696',
+          },
+        ],
       },
     }
   },

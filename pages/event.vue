@@ -99,7 +99,7 @@ export default {
         {
           event_name: 'aaghaaz the fashion show',
           event_desc:
-            "Aaghaaz the fashion show it's a form of self-expression and autonomy at a particular period and place and in a specific context",
+            "The fashion it's a form of self-expression and autonomy at a particular period and place and in a specific context of  clothing, footwear, lifestyles",
           event_img: 'aaghaaz.png',
         },
         {
