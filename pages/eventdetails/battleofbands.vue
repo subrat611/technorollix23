@@ -99,6 +99,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -114,6 +115,48 @@ export default {
         img: 'battleofband.png',
         event_desc:
           "Battle of Bands is a competition between musical bands to show their talent and compete against each other. It's designed to bring college students together and inspire creativity, ingenuity, and personal growth through music. For the event, bands are given time slots to perform on stage. After the performance, judges score each band on criteria such as musicality and stage presence. ",
+        teams: [
+          {
+            img: 'charulata.png',
+            name: 'Charulata Chouhan',
+            call: '',
+          },
+          {
+            img: 'harsh-tiwari.png',
+            name: 'Harsh Tiwari',
+            call: '',
+          },
+          {
+            img: 'onkar-das.png',
+            name: 'Onkar Das Sharma',
+            call: '',
+          },
+          {
+            img: 'rishabh.png',
+            name: 'Rishabh Kashyap',
+            call: '',
+          },
+          {
+            img: 'sahil-rana.png',
+            name: 'Sahil Rana',
+            call: '',
+          },
+          {
+            img: 'suryakant.png',
+            name: 'Suryakant Balhal',
+            call: '',
+          },
+          {
+            img: 'upasana.png',
+            name: 'Upasana Kumari',
+            call: '',
+          },
+          {
+            img: 'yashwardhan-jaiswal.png',
+            name: 'Yashwardhan Jaiswal',
+            call: '',
+          },
+        ],
       },
     }
   },
