@@ -84,6 +84,7 @@
       <!-- contact details -->
       <div class="detail-contact">
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
+        <event-details :teams="event.teams" />
       </div>
     </div>
   </div>
@@ -99,6 +100,48 @@ export default {
         img: 'techlab.jpg',
         event_desc:
           'Tech lab is one of the most prestigious event of Technorollix,which is the biggest tech festival of central India.The event shows the creativity and potential of bright minds from different universities through their self-developed model.',
+        teams: [
+          {
+            img: 'soumya.png',
+            name: 'Soumya Mittal',
+            call: '9753721777',
+          },
+          {
+            img: 'kraman.png',
+            name: 'Kalyan Raman Korni',
+            call: '6260693650',
+          },
+          {
+            img: 'asimkumar.png',
+            name: 'Asim Kumar',
+            call: '9500636713',
+          },
+          {
+            img: 'sourabh-kumar-ojha.png',
+            name: 'Sourabh Kumar Ojha',
+            call: '9893493205',
+          },
+          {
+            img: 'awadesh.png',
+            name: 'Awadesh Patnaik',
+            call: '6260131614',
+          },
+          {
+            img: 'anshita-mehar.png',
+            name: 'Anshita Mehar',
+            call: '9179184350',
+          },
+          {
+            img: 'sandeep-singh.png',
+            name: 'Sandeep Singh',
+            call: '8676898925',
+          },
+          {
+            img: 'gyanesh-bhatt.png',
+            name: 'Gyanesh Bhatt',
+            call: '9835594986',
+          },
+        ],
       },
     }
   },
