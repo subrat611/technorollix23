@@ -77,7 +77,7 @@ export default {
             },
             {
               name: 'SHIVAM PANDEY',
-              image: '',
+              image: 'shivampandey.png',
               designation: 'EE',
               call: '+917000662948',
             },
@@ -88,8 +88,8 @@ export default {
               call: '+917477028878',
             },
             {
-              name: 'AANAND PATEL',
-              image: '',
+              name: 'ANAND PATEL',
+              image: 'anandpatel.png',
               designation: 'CIVIL',
               call: '+916266819393',
             },
@@ -101,9 +101,10 @@ export default {
             },
             {
               name: 'SIMRELLA AGRAWAL',
-              image: '',
+              image: 'simrellaagrawal.png',
               designation: 'CSE',
               call: '+917489211170',
+              mail: 'simsim44144@gmail.com',
             },
             {
               name: 'DEENDAYAL PRAJAPATI',
@@ -131,7 +132,7 @@ export default {
             },
             {
               name: 'RITIKA SAINI',
-              image: '',
+              image: 'ritikasaini.png',
               designation: 'SOS',
               call: '+916264824855',
             },
@@ -461,7 +462,7 @@ export default {
         padding: 0;
         .card-title {
           text-align: center;
-            font-size: 1.8rem;
+          font-size: 1.8rem;
         }
         .members {
           justify-content: center;
