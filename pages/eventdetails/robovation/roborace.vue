@@ -245,6 +245,18 @@ export default {
             call: '9113159596',
             mail: 'sush.del21me05@opju.ac.in',
           },
+          {
+            img: 'amankumar.jpeg',
+            name: 'Aman kumar',
+            call: '7070171324',
+            mail: '',
+          },
+          {
+            img: 'avin.jpg',
+            name: 'Avinash singh',
+            call: '7691953404',
+            mail: 'avin.bt21me15@opju.ac.in',
+          },
         ],
       },
     }
