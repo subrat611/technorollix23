@@ -147,6 +147,12 @@
         <h2>{{ 'Contact details'.toUpperCase() }}</h2>
         <event-details :teams="event.teams" />
       </div>
+
+      <div class="reg-btn">
+        <a href="https://sites.google.com/view/opju-reg/home" target="_blank">
+          <button>register</button>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -293,6 +299,47 @@ li {
 
     .detail-contact {
       margin-top: 1.5rem;
+    }
+
+    .reg-btn {
+      margin: 3rem 0;
+
+      button {
+        margin-top: 1rem;
+        width: fit-content;
+        padding: 1rem 1.5rem;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        border: none;
+        color: #fff;
+        text-transform: capitalize;
+        border-radius: 3px;
+        outline: none;
+        letter-spacing: 0.05em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+
+        background: rgba(63, 194, 255, 0.11);
+        border-radius: 7px;
+        box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border: 1px solid rgba(255, 217, 252, 0.2);
+        -webkit-backdrop-filter: blur(3.3px);
+
+        transition: all 200ms ease-out;
+
+        &:hover {
+          background: rgba(63, 194, 255, 0.212);
+          border-radius: 7px;
+          box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+          backdrop-filter: blur(3.3px);
+          -webkit-backdrop-filter: blur(3.3px);
+          border: 1px solid rgba(255, 217, 252, 0.2);
+          -webkit-backdrop-filter: blur(3.3px);
+        }
+      }
     }
   }
 }
