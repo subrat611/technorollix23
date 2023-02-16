@@ -29,27 +29,27 @@
           <nuxt-img src="/event/ideathon.jpg" />
         </div>
         <p>Time: 11:30 AM</p>
-        <p>Venue: EEE Seminar Hall FB-14, FB-05, FB-08, TB-10</p>
+        <p>Venue: EEE Seminar Hall FB-14, F-05</p>
       </div>
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Battle of Bands</h3>
-        <div class="info-img">
-          <nuxt-img src="/event/battleofband.png" />
-        </div>
-        <p>Time: 11:30 AM</p>
-        <p>Venue: OAT</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Roadies (Round-1)</h3>
+        <h3 class="title">Roadies (Round 1)</h3>
         <div class="info-img">
           <nuxt-img src="/event/roadies.png" />
         </div>
-        <p>Time: 12:30 PM</p>
+        <p>Time: 12:30 AM</p>
         <p>Venue: Bus Parking Area</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="title">Talent Hunt</h3>
+        <div class="info-img">
+          <nuxt-img src="/event/talenthunt.png" />
+        </div>
+        <p>Time: 2:00 PM</p>
+        <p>Venue: MP Hall</p>
       </div>
     </div>
     <div class="card">
@@ -64,12 +64,12 @@
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Talent Hunt</h3>
+        <h3 class="title">Battle Of Bands (Round-1)</h3>
         <div class="info-img">
-          <nuxt-img src="/event/talenthunt.png" />
+          <nuxt-img src="/event/battleofband.png" />
         </div>
-        <p>Time: 2:30 PM</p>
-        <p>Venue: MP Hall</p>
+        <p>Time: 3:00 PM</p>
+        <p>Venue: Behind MP Hall</p>
       </div>
     </div>
     <div class="card">

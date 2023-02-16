@@ -9,14 +9,14 @@
           <option value="1 march">1st March, 2023 (Wednesday)</option>
           <option value="2 march">2nd March, 2023 (Thursday)</option>
           <option value="3 march">3rd March, 2023 (Friday)</option>
-          <option value="4 march">4th March 2023 (Saturday)</option>
+          <!-- <option value="4 march">4th March 2023 (Saturday)</option> -->
         </select>
       </div>
       <div class="timeline">
         <day-one v-if="dayone" />
         <day-two v-if="daytwo" />
         <day-three v-if="daythree" />
-        <day-four v-if="dayfour" />
+        <!-- <day-four v-if="dayfour" /> -->
       </div>
     </div>
     <nav-bar-three />
@@ -24,14 +24,13 @@
 </template>
 
 <script>
-import DayFour from '~/components/timeline/DayFour.vue'
 import DayOne from '~/components/timeline/DayOne.vue'
-import DayThree from '~/components/timeline/DayThree.vue'
 import DayTwo from '~/components/timeline/DayTwo.vue'
+import DayThree from '~/components/timeline/DayThree.vue'
 
 export default {
   name: 'SchedulePage',
-  components: { DayOne, DayTwo, DayThree, DayFour },
+  components: { DayOne, DayTwo, DayThree },
   data() {
     return {
       dayone: true,

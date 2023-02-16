@@ -12,12 +12,24 @@
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">KalaKriti (Best out of waste)</h3>
+        <h3 class="title">Brainy Escape</h3>
+        <div class="info-img">
+          <nuxt-img src="/event/quiz.jpg" />
+        </div>
+        <p>Time: 10:30 AM</p>
+        <p>Venue: MP Hall</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="title">
+          KalaKriti (Best out of waste, Photorollix & Rangoli)
+        </h3>
         <div class="info-img">
           <nuxt-img src="/event/kalakriti.jpg" />
         </div>
         <p>Time: 11:00 AM</p>
-        <p>Venue: Library Lawn</p>
+        <p>Venue: Library Lawn & In Front Of The Chemistry Lab</p>
       </div>
     </div>
     <div class="card">
@@ -47,7 +59,7 @@
           <nuxt-img src="/event/langaming.jpg" />
         </div>
         <p>Time: 12:00 PM</p>
-        <p>Venue: C++ Lab</p>
+        <p>Venue: C++ Lab (S-09)</p>
       </div>
     </div>
     <div class="card">
@@ -62,7 +74,7 @@
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Roadies</h3>
+        <h3 class="title">Roadies (Round 2)</h3>
         <div class="info-img">
           <nuxt-img src="/event/roadies.png" />
         </div>
@@ -76,7 +88,7 @@
         <div class="info-img">
           <nuxt-img src="/event/startup.jpg" />
         </div>
-        <p>Time: 3:00 PM</p>
+        <p>Time: 2:30 PM</p>
         <p>Venue: Live Classroom</p>
       </div>
     </div>
@@ -86,8 +98,18 @@
         <div class="info-img">
           <nuxt-img src="/event/robo-soccor.jpg" />
         </div>
-        <p>Time: 3:30 PM</p>
+        <p>Time: 3:00 PM</p>
         <p>Venue: Babuji Chowk</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="title">Battle Of Bands (Finale)</h3>
+        <div class="info-img">
+          <nuxt-img src="/event/battleofband.png" />
+        </div>
+        <p>Time: 4:00 PM</p>
+        <p>Venue: University playground</p>
       </div>
     </div>
     <div class="card">

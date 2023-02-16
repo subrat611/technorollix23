@@ -2,16 +2,6 @@
   <div class="outer">
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">KalaKriti (Rangoli) + Photorollix (online)</h3>
-        <div class="info-img">
-          <nuxt-img src="/event/kalakriti.jpg" />
-        </div>
-        <p>Time: 10:00 AM</p>
-        <p>Venue: In front of the Chemistry lab</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info" data-aos="fade-up" data-aos-delay="100">
         <h3 class="title">Robo Race</h3>
         <div class="info-img">
           <nuxt-img src="/event/robo-race.jpg" />
@@ -32,21 +22,11 @@
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Codigo</h3>
-        <div class="info-img">
-          <nuxt-img src="/event/codigo.png" />
-        </div>
-        <p>Time: 11:00 AM</p>
-        <p>Venue: G-10</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">Roadies</h3>
+        <h3 class="title">Roadies (Round 3)</h3>
         <div class="info-img">
           <nuxt-img src="/event/roadies.png" />
         </div>
-        <p>Time: 11:30 PM</p>
+        <p>Time: 11:00 AM</p>
         <p>Venue: Bus Parking Area</p>
       </div>
     </div>
@@ -67,7 +47,7 @@
           <nuxt-img src="/event/langaming.jpg" />
         </div>
         <p>Time: 12:00 PM</p>
-        <p>Venue: C Lab 11</p>
+        <p>Venue: C Lab 11 (TB-07)</p>
       </div>
     </div>
     <div class="card">
@@ -76,7 +56,7 @@
         <div class="info-img">
           <nuxt-img src="/event/yuva.jpg" />
         </div>
-        <p>Time: 1:30 PM</p>
+        <p>Time: 2:00 PM</p>
         <p>Venue: MP Hall</p>
       </div>
     </div>
@@ -92,8 +72,17 @@
     </div>
     <div class="card">
       <div class="info" data-aos="fade-up" data-aos-delay="100">
-        <h3 class="title">DJ Night</h3>
-        <p>Time: 7:00 PM</p>
+        <h3 class="title">
+          Valedictory Function, Prize Distribution, Academic and Annual Awards
+        </h3>
+        <p>Time: 6:00 PM</p>
+        <p>Venue: OAT</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="info" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="title">Grand DJ Night (DJ PERISHA)</h3>
+        <p>Time: 8:00 PM</p>
         <p>Venue: University playground</p>
       </div>
     </div>
