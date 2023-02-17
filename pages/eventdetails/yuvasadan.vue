@@ -34,8 +34,8 @@
             2nd round will be the final round.
           </li>
           <li>
-            Each duel will be a knockout and will be replayed in several stages
-            as game progresses.
+            After all the debates are conducted in the first round, only the top
+            scorer teams will be selected for the final round.
           </li>
           <li>Each team will be given the topics prior to the rounds.</li>
           <li>
@@ -45,8 +45,7 @@
           <li>Language could be Hindi/English.</li>
           <li>
             If, due to certain circumstances, one team could not be present
-            during the debate, then the opposing team will be selected for the
-            next round.
+            during the debate, then that team will be disqualified.
           </li>
           <li>Participants must speak in parliamentary words only.</li>
           <li>Decision of the chairperson of the event is final.</li>
@@ -79,6 +78,69 @@
           <li>
             Presentation Style: Tone of voice, use of gestures, and level of
             enthusiasm are convincing to the audience.
+          </li>
+        </ul>
+      </div>
+
+      <!-- prizes -->
+      <div class="detail-judg">
+        <h2>{{ 'prizes'.toUpperCase() }}</h2>
+        <ul class="prize-wrapper">
+          <li class="prize">
+            <nuxt-img
+              src="/prize1.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>1<sup>st</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize2.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>2<sup>nd</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize3.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span>3<sup>rd</sup> Prize</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">Best Punch Line</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/prize-other.png"
+              format="webp"
+              width="130"
+              height="130"
+            />
+            <span style="text-align: center">Best Speaker</span>
+          </li>
+          <li class="prize">
+            <nuxt-img
+              src="/certificate.png"
+              format="webp"
+              width="90"
+              height="90"
+            />
+            <span style="text-align: center">
+              Certificate of appreciation<br />for all the participants
+            </span>
           </li>
         </ul>
       </div>
@@ -261,10 +323,29 @@ li {
         font-family: 'Roboto', sans-serif;
         line-height: 1.6rem;
       }
+
+      .prize-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .prize {
+          width: fit-content;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 0.03em;
+          }
+        }
+      }
     }
 
     .detail-contact {
-      margin-top: 1.5rem;
+      margin-top: 4rem;
     }
 
     .reg-btn {
