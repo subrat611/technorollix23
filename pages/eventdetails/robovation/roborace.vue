@@ -49,6 +49,7 @@
           <li>The robot may be and wireless.</li>
           <li>Motor rpm specification 200rpm to 300 rpm.</li>
           <li>Maximum weight must not exceed 3 kg.</li>
+          <li>Maximum 5 number of motors used.</li>
           <li>
             The participants will have to provide power supply on board (no
             additional power supply is accepted).

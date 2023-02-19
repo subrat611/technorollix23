@@ -108,6 +108,7 @@
         <ul>
           <li>The robot should fit inside a box of 30cm*30cm*20cm.</li>
           <li>Robot should not exceed 3 kg.</li>
+          <li>Maximum 5 number of motors used.</li>
           <li>The robot can be, wireless.</li>
           <li>
             The robot should be self-powered with supply not exceeding 12V (on
