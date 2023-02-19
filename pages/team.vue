@@ -59,15 +59,17 @@ export default {
           team: [
             {
               name: 'Chirag Mishra',
-              image: '',
+              image: 'chiragmishra.jpg',
               designation: 'MECHANICAL',
               call: '+918871724185',
+              mail: 'chiragmishra0501@gmail.com',
             },
             {
               name: 'ADITYA SHEKHAR',
-              image: '',
+              image: 'adityashekhar.jpeg',
               designation: 'MECHANICAL',
-              call: '+917733954914',
+              call: '+918529768326',
+              mail: 'Adityashekhar57@gmail.com ',
             },
             {
               name: 'RITISHA AGRAWAL',
@@ -143,16 +145,18 @@ export default {
               call: '+917803064829',
             },
             {
-              name: 'AASHTHA GUPTA',
-              image: '',
+              name: 'ASTHA GUPTA',
+              image: 'asthgupta.jpeg',
               designation: 'SOS',
               call: '+916267138484',
+              mail: 'asth.ug20bscch01@opju.ac.in',
             },
             {
               name: 'SHIVAM SHAW',
-              image: '',
+              image: 'shivamshaw.jpg',
               designation: 'SOM (MBA)',
               call: '+917278294467',
+              mail: 'shivamshaw034@gmail.com',
             },
             {
               name: 'AASHISH KUMAR GUPTA',
@@ -162,15 +166,28 @@ export default {
             },
             {
               name: 'VIPUL KUMAR',
-              image: '',
+              image: 'vipulkumar.jpg',
               designation: 'SOM (MBA)',
               call: '+917224898002',
+              mail: 'vipu.mba2163@opju.ac.in',
             },
             {
               name: 'MUSHKAN BERIWAL',
               image: '',
               designation: 'SOM (BCOM)',
               call: '+917745924214',
+            },
+            {
+              name: 'AYUSH PANDEY',
+              image: 'ayushpandey.jpg',
+              call: '+917974670576',
+              mail: 'Ayushpandey1310@gmail.com',
+            },
+            {
+              name: 'KALYANI',
+              image: 'kalyani.jpg',
+              call: '+918305216654',
+              mail: 'Sankhasingh777@gmail.com',
             },
           ],
         },
