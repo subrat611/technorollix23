@@ -7,15 +7,17 @@
       <div class="jubin-img">
         <img src="~/assets/img/jubin-guitar.jpg" alt="jubin-image" />
       </div>
-      <div class="shirely-img">
-        <img src="~/assets/img/shirely.jpg" alt="shirely-image" />
+      <div class="djperisha-img">
+        <nuxt-img src="djperisha.jpeg" format="webp" alt="djperisha" />
       </div>
       <div class="bg-blur"></div>
       <div class="bg-color"></div>
     </div>
     <div class="hero-text">
       <div>
-        <p class="title">GRAND DJ</p>
+        <!-- <p class="title">
+        </p> -->
+        <nuxt-img src="/SpiritLogo.png" format="webp" class="title" />
       </div>
       <!-- <div class="reg-btn">
         <span>Get ticket</span>
@@ -44,7 +46,7 @@ export default {
 
     .darshan-img,
     .jubin-img,
-    .shirely-img {
+    .djperisha-img {
       img {
         width: 100%;
         height: 100%;
@@ -53,9 +55,10 @@ export default {
       }
     }
 
-    .shirely-img {
+    .djperisha-img {
+      flex-basis: 60%;
       img {
-        object-position: 15% center;
+        object-position: center center;
       }
     }
 
@@ -127,6 +130,9 @@ export default {
       text-shadow: rgba(255, 247, 94, 1) 0px 0px 24px,
         rgba(255, 247, 94, 1) 0px 0px 15px;
 
+      height: 300px;
+      width: 500px;
+
       &::selection {
         background: none;
       }
@@ -173,7 +179,10 @@ export default {
     .hero-text {
       .title {
         font-size: 4.8rem;
+        width: 250px;
+        height: 150px;
       }
+
       .reg-btn {
         margin-top: 9rem;
 
@@ -184,15 +193,22 @@ export default {
     }
 
     .hero-img {
+
+      .darshan-img {
+        flex: 2;
+      }
+
       .jubin-img {
+        flex: 2;
         img {
           object-position: center center;
         }
       }
 
-      .shirely-img {
+      .djperisha-img {
+        flex: 2;
         img {
-          object-position: 30% center;
+          object-position: center center;
         }
       }
     }
