@@ -34,32 +34,32 @@
         <h2>{{ 'Rules and Regulation'.toUpperCase() }}</h2>
         <ul>
           <li>
-            The event will happen in 3 rounds and will be on 1st and 2nd of
-            March 2023.
+            The event will happen in 3 rounds and will be on 2nd and 3rd of
+            March 2023 at the MP Hall.
           </li>
           <li>
             The quiz will be conducted on 2 levels, Qualifiers and Finale.
           </li>
-          <li>No electronic devices or phones allowed.</li>
+          <li>
+            No electronic devices or phones allowed, all gadgets will be
+            submitted before the start of Quiz.
+          </li>
           <li>
             The results (for every level) will be decided on the basis of their
-            score.
+            scores.
           </li>
           <li>
             A team will consist of 3 members maximum. After 1st round only
-            remaining top 8 teams will qualifies for next rounds.
+            remaining top 8 teams will qualifies for 2nd Round.
           </li>
+          <li>The 5 teams that qualify will move to Final Round.</li>
           <li>There will be negative markings (as per the questions).</li>
           <li>
-            There would be (approx.) 20 questions and will be defined as per the
+            There would be (approx.) 25 questions and will be defined as per the
             levels.
           </li>
           <li>Participation Certificates for all participants.</li>
-          <li>Top winners will be awarded with gifts.</li>
-          <li>
-            There is no elimination after 2nd round and all teams qualify for
-            final round.
-          </li>
+          <li>Top winners will be awarded with gifts/prizes.</li>
         </ul>
       </div>
 
