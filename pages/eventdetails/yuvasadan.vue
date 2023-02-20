@@ -217,7 +217,7 @@ export default {
             call: '7091799799',
           },
           {
-            img: '',
+            img: 'pragatipanda.jpeg',
             name: 'Pragati Panda',
             call: '7815084095',
           },
