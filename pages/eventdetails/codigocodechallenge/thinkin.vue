@@ -84,6 +84,7 @@
             participating in the event but not to the teams that get
             disqualified due to disobeying any of the competition rules.
           </li>
+          <li>Only single entry allowed.</li>
         </ul>
       </div>
 

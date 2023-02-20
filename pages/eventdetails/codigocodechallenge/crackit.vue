@@ -37,10 +37,7 @@
       <div class="detail-round">
         <h2>Round 2 (Bug Finding or logic Based)</h2>
         <ul>
-          <li>
-            There will be 10 questions on 20 minutes of a time trial. The
-            participants have to perform in pairs.
-          </li>
+          <li>There will be 10 questions on 20 minutes of a time trial.</li>
         </ul>
       </div>
 
@@ -87,6 +84,10 @@
           <li>
             You can use any of the language from these four java , python ,c++
             and c.
+          </li>
+          <li>
+            If you are participating in the group then at a time you can only
+            choose only one member to perform a certain level.
           </li>
         </ul>
       </div>

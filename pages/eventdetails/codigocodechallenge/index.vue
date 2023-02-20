@@ -26,9 +26,7 @@
       <div class="details-wrapper">
         <h2>RULES AND REGULATIONS OF CODIGO</h2>
         <ul>
-          <li>
-            1. Participants have to bring their own laptops.
-          </li>
+          <li>1. Participants have to bring their own laptops.</li>
           <li>2. Sitting arrangement will be decided by event organizers.</li>
           <li>
             3. If due to any circumstances, one could not be present during the
@@ -38,8 +36,8 @@
             4. If any participant is found using Unfair means, necessary action
             as per the rules of the event shall be taken.
           </li>
-          <li>5. Both events will be held on the same day simultaneously.</li>
-          <li>6. No participants can take part in both the sub-events.</li>
+          <li>5. Both the event will be held on different day.</li>
+          <li>6. Participants can take part in both the sub event.</li>
           <li>7. After Every round point will be announced.</li>
           <li>
             8. Rules and Regulations may change without prior notice, by the
