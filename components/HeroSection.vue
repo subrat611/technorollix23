@@ -36,7 +36,7 @@
         MARCH 1<sup style="font-family: 'origin Tech'; font-size: 0.9rem"
           >st</sup
         >
-        - 4<sup style="font-family: 'origin Tech'; font-size: 0.9rem">th</sup>
+        - 3<sup style="font-family: 'origin Tech'; font-size: 0.9rem">rd</sup>
       </p>
       <!-- <p class="reg-btn" @click="$router.push('register')">Register</p> -->
     </div>
