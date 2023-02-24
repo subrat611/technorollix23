@@ -41,7 +41,7 @@
             <nuxt-link to="/aboutus">about us</nuxt-link>
           </li>
           <li class="nav-item" @click="openMenu">
-            <nuxt-link to="/">sponsors</nuxt-link>
+            <nuxt-link to="/sponsors">sponsors</nuxt-link>
           </li>
         </ul>
         <div class="nav-footer-links">

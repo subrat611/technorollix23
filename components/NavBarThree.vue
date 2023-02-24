@@ -11,7 +11,7 @@
               <nuxt-link to="/aboutus">about us</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link to="/commingsoon">sponsors</nuxt-link>
+              <nuxt-link to="/sponsors">sponsors</nuxt-link>
             </li>
           </ul>
         </div>
