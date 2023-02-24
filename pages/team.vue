@@ -189,6 +189,10 @@ export default {
               call: '+918305216654',
               mail: 'Sankhasingh777@gmail.com',
             },
+            {
+              name: 'Tankeshwar Patel',
+              image: 'tankeshwar.jpg',
+            },
           ],
         },
 
