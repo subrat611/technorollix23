@@ -89,7 +89,7 @@ export default {
 
       img {
         height: 300px;
-        width: 100%;
+        aspect-ratio: 1 / 1;
       }
 
       .sponsor-title {
