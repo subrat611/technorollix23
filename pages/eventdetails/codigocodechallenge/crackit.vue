@@ -76,10 +76,10 @@
           <li>
             No participant is allowed to leave the competition in the middle.
           </li>
-          <li>Round 1 and 4 is played individually.</li>
+          <li>Round 1, 2 and 4 is played individually.</li>
           <li>
-            Rounds 2 and 3 will be played in pairs and pairs will be decided by
-            the event organizers.
+            Rounds 3 will be played in pairs and pairs will be decided by the
+            event organizers.
           </li>
           <li>
             You can use any of the language from these four java , python ,c++
