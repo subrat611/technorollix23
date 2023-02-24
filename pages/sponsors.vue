@@ -36,8 +36,24 @@ export default {
           name: 'Antaragni',
         },
         {
-          img: 'sunil medical .png',
+          img: 'sunil medical.png',
           name: 'Antaragni',
+        },
+        {
+          img: 'BE1.jpeg',
+          name: 'Brainy Escape',
+        },
+        {
+          img: 'BE2.jpeg',
+          name: 'Brainy Escape',
+        },
+        {
+          img: 'Talent Hunt Sponsorship Bharat Cosmetic.jpg',
+          name: 'Talent Hunt',
+        },
+        {
+          img: 'Yuva sadan Vidyut.jpg',
+          name: 'Yuva Sadan',
         },
       ],
     }
@@ -76,26 +92,27 @@ export default {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 5rem;
+    padding-bottom: 8rem;
 
     .sponsors-card {
-      background-color: #e6e6e6;
+      background-color: #f0f0f0;
       border-radius: 4px;
       display: flex;
       flex-direction: column;
       //   justify-content: center;
       align-items: center;
       position: relative;
-      margin: 1rem 0;
+      margin: 2rem 0 5rem 0;
 
       img {
         height: 300px;
-        aspect-ratio: 1 / 1;
+        width: 100%;
       }
 
       .sponsor-title {
-        color: #000000;
+        color: #fdfdfd;
         position: absolute;
-        bottom: 10%;
+        bottom: -10%;
         font-size: 1.1rem;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -114,12 +131,27 @@ export default {
 
 @media all and (max-width: '912px') {
   .sponsors-container {
+    // padding: auto 1rem auto 1rem;
     .page-title {
       font-size: 2.5rem;
     }
 
     .sponsors-lists {
       margin-top: 1rem;
+
+      .sponsors-card {
+        width: 95%;
+
+        img {
+          height: 260px;
+          width: 100%;
+        }
+
+        .sponsor-title {
+          bottom: -18%;
+          text-align: center;
+        }
+      }
     }
 
     .event-lists {
