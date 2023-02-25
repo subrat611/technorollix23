@@ -55,6 +55,18 @@ export default {
           img: 'Yuva sadan Vidyut.jpg',
           name: 'Yuva Sadan',
         },
+        {
+          img: 'foodfiesta.png',
+          name: 'Food Fiesta',
+        },
+        {
+          img: 'foodfiesta2.jpeg',
+          name: 'Food Fiesta',
+        },
+        {
+          img: 'foodfiesta3.jpeg',
+          name: 'Food Fiesta',
+        },
       ],
     }
   },
