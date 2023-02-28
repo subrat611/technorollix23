@@ -41,11 +41,35 @@ export default {
         },
         {
           img: 'BE1.jpeg',
-          name: 'Brainy Escape',
+          name: 'KalaKriti',
         },
         {
           img: 'BE2.jpeg',
           name: 'Brainy Escape',
+        },
+        {
+          img: 'thebazar.jpeg',
+          name: 'Brainy Escape & KalaKriti',
+        },
+        {
+          img: 'balajicellcom.jpeg',
+          name: 'Brainy Escape',
+        },
+        {
+          img: 'colourplus.jpeg',
+          name: 'KalaKriti',
+        },
+        {
+          img: 'tulsidigital.jpeg',
+          name: 'KalaKriti',
+        },
+        {
+          img: 'ae.jpeg',
+          name: 'KalaKriti',
+        },
+        {
+          img: 'pradeepfancystore.jpeg',
+          name: 'KalaKriti',
         },
         {
           img: 'Talent Hunt Sponsorship Bharat Cosmetic.jpg',
